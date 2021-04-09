@@ -1,0 +1,16 @@
+section {
+    text-align: center;
+}
+
+section.cloud-providers {
+    margin-top: 5rem;
+}
+
+.provider-logo {
+    margin: 1.5rem;
+    display: inline-block;
+}
+
+p.legal {
+    font-size: 0.85rem;
+}

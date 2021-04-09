@@ -1,0 +1,208 @@
+/*
+ * Raining boxes design for showing features.
+ */
+
+.features {
+    position: relative;
+    overflow: visible;
+    max-width: 1152px;
+    left: 0%;
+    margin: 2rem auto 0;
+}
+
+@media (min-width: 992px) {
+    .features {
+        height: 65.8rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .feature {
+        position: absolute;
+    }
+}
+
+@media (max-width: 991px) {
+    .feature {
+        padding: 0 2rem 0 6rem;
+    }
+}
+
+.feature p:after {  /*triangle of speech bubble*/
+    content: " ";
+    position: absolute;
+    left: 2.5rem;
+    width: 0;
+    height: 0;
+    border-top: 1.5rem solid #d6f3d8;
+    border-right: 1.5rem solid transparent;
+    bottom: -1.5rem
+}
+
+.feature p {
+    text-align: left;
+    z-index: 2;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 1.4rem;
+    padding: 1rem;
+    line-height: 1.25;
+    font-style: italic;
+    color: var(--green);
+    background: rgb(203,239,206);
+    background: linear-gradient(30deg, rgba(203,239,206,1) 0%,rgba(255,255,255,1) 30%);
+    border-radius: 5px;
+}
+
+.feature .graybox {
+    position: relative;
+    left: -2.0rem;
+    width: 11.1rem;
+    height: 12.7rem;
+    background: url("../images/graybox.png") no-repeat 0 -9.25rem;
+    z-index: 1;
+}
+
+.feature .graybox:before { /*long line*/
+    content: " ";
+    position: absolute;
+    height: 1rem;
+    width: 125rem;
+    right: 97%;
+    top: -33.4375rem;
+    transform: skewY(30deg); /* Standard syntax */
+    background: rgb(122,189,255);
+    z-index: -1;
+}
+
+@media (min-width: 992px) {
+    .feature.feature1 {
+        left: 47%;
+        width: 23.75rem;
+    }
+}
+
+.feature.feature1 .graybox:before { /* Thick line */
+    height: 0.625rem;
+}
+
+@media (min-width: 992px) {
+    .feature.feature2 {
+        left: 60%;
+        top: 18.75rem;
+        width: 28.75rem;
+    }
+}
+
+.feature.feature2 .graybox {
+    background-size: 8.75rem;
+    background-position: 0 -7.2rem;
+    left: -1.25rem;
+    height: 10rem;
+}
+
+.feature.feature2 .graybox:before { /*long line*/
+    height: 0.44rem;
+    top: -33.75rem;
+}
+
+@media (min-width: 992px) {
+    .feature.feature3 {
+        left: 24.5%;
+        top: 20rem;
+        width: 22.5rem;
+    }
+}
+
+.feature.feature3 .graybox {
+    background-position: 0 -6.25rem;
+    background-size: 7.5rem;
+    left: -1.375rem;
+    height: 7.5rem;
+}
+
+.feature.feature3 .graybox:before { /*long line*/
+    height: 0.38rem;
+    top: -34.375rem;
+}
+
+.feature.small-feature {
+    z-index: 0;
+}
+
+.feature.small-feature .graybox:before { /*long line*/
+    height: 0.25rem;
+    top: -34.375rem;
+}
+
+.feature.small-feature .graybox {
+    background-size: 5.625rem;
+    left: -0.9375rem;
+    background-position: 0 -4.6875rem;
+    height: 6.25rem;
+}
+
+@media (min-width: 992px) {
+    .feature.feature4 {
+        left: 76%;
+        top: 33.75rem;
+        width: 12.5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .feature.feature5 {
+        left: 45%;
+        top: 40rem;
+        width: 17.5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .feature.feature6 {
+        left: 14%;
+        top: 45.625rem;
+        width: 17.5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .feature.feature7 {
+        left: 64%;
+        top: 50.625rem;
+        width: 22.5rem;
+    }
+}
+
+.feature.feature6 {
+    z-index: 2;
+}
+
+.line {
+    position: absolute;
+    height: 0.1875rem;
+    width: 125rem;
+    right: 128%;
+    transform: skewY(30deg); /* Standard syntax */
+    background: rgb(122,189,255);
+    z-index: 0;
+}
+
+@media (min-width: 992px) {
+    .line {
+        top: 35.875rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .line {
+        display: none;
+    }
+}
+
+.line:nth-last-of-type(2) {right: 103%;}
+.line:nth-last-of-type(3) {right: 82%;}
+.line:nth-last-of-type(4) {right: 98%;}
+.line:nth-last-of-type(5) {right: 53%;}
+.line:nth-last-of-type(6) {right: 35%;}
+.line:nth-last-of-type(7) {right: 20%;}

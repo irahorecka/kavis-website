@@ -1,0 +1,5 @@
+[project]
+name = kavis
+
+[servers.ghpages]
+target = ghpages://irahorecka/kavis-website

@@ -1,0 +1,132 @@
+body {
+    font-family: "LatoLatinWeb";
+    color: rgb(100,100,100);
+    background: rgb(255,255,255);
+}
+
+:root {
+    --primary-color: #368ee9;
+    --green: #3fc04b;
+    --grey: #848484;
+}
+
+/* Links */
+a {
+    color: rgb(45,144,233);
+    font-weight: bold;
+    transition: all 0.15s ease-out 0s;
+}
+
+a:hover {
+    color: rgb(23,113,207);
+}
+
+/* Buttons */
+.btn {
+    padding: 0.5rem 1.9rem;
+    font-weight: 700;
+    margin: 0.4rem;
+}
+
+.btn-primary {
+    background: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background: #206ab6;
+}
+
+.btn-secondary {
+    color: #fff !important;
+}
+
+/* A container for multiple buttons in a single row */
+.button-row {
+    text-align: center;
+}
+
+/* A paragraph that contains only a single image */
+p.image {
+    text-align: center;
+}
+
+/* Override bootstrap card style to remove border */
+.card {
+    border: none;
+}
+
+/*===== START Header =====*/
+
+.navbar {
+    box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.05);
+    min-height: 60px;
+    background-color: white;
+}
+
+.nav-item {
+    margin-right: 0.8rem;
+}
+
+#navbar-alts-dropdown {
+    font-size: 1.5rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+#navbar-alts-dropdown:after {
+    font-size: 1rem;
+}
+
+/*===== END Header =====*/
+
+/*===== START main =====*/
+main {
+    margin: 60px auto 0;
+    padding: 3rem 1rem;
+    max-width: 764px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(22,115,207);
+    font-style: italic;
+    font-size: 3rem;
+    font-family: "LatoLatinWebThin";
+    margin-bottom: 1.5rem;
+}
+
+h1 em {
+    font-family: "LatoLatinWeb";
+}
+
+/*===== END main =====*/
+
+/*===== START Footer =====*/
+
+body > footer nav {
+    border-top: 0.3rem dotted rgb(150,150,150);
+    padding: 3rem 0 6rem;
+    white-space: nowrap;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+}
+
+body > footer nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+body > footer nav ul li {
+    list-style: none;
+}
+
+body > footer nav ul li a {
+    color: rgb(64,196,75);
+}
+
+body > footer nav ul li a:hover {
+    color: rgb(47,153,56);
+}
+
+/*===== END Footer =====*/

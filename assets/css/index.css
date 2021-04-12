@@ -26,7 +26,7 @@ main section .container {
 }
 
 main section h1 {
-    color: var(--primary-color);
+    color: #0066AC;
     /* Override default h1 style meant for all pages */
     font-weight: bold;
     margin-top: 1.5rem;
@@ -43,8 +43,9 @@ main section:nth-child(even) {
 .section-privacy .blockquote::before {
     content: "»";
     position: absolute;
-    color: #dcf6de;
+    color: #FFBB00;
     left: -4%;
+    opacity: 0.5;
     top: 0;
     transform: scale(8);
     z-index: -1;
@@ -56,7 +57,7 @@ main section:nth-child(even) {
     max-width: 75%;
     position: relative;
     z-index: 1;
-    color: var(--green);
+    color: var(--black);
 }
 
 .section-privacy .blockquote-footer:before {
@@ -65,7 +66,7 @@ main section:nth-child(even) {
 
 .section-privacy .blockquote-footer {
     text-align: right;
-    color: var(--green);
+    color: #0066AC;
     font-weight: bold;
     font-size: 100%;
 }
@@ -74,7 +75,7 @@ main section:nth-child(even) {
 .section-features h1,
 .section-privacy .logo,
 .section-features .logo {
-    color: var(--green);
+    color: #0066AC;
 }
 
 .section-debian h1,
@@ -89,6 +90,10 @@ main section:nth-child(even) {
 
 .section-get h1 {
     font-size: 1.8em;
+}
+
+.logo-main {
+    padding-block: 2.0rem;
 }
 
 .logo-container {

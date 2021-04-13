@@ -1,0 +1,15 @@
+TODOs for Kavis Technology web project
+======================================
+Note: please update this document as requirements change and tasks are completed
+
+- [] build main logo
+- [] build icon logo
+- [] make body readable content a lektor contents object
+- [] update main page with content from Tony's powerpoint
+- [] disable rotation for mobile?
+- [] 
+- []
+- []
+- []
+- []
+- []

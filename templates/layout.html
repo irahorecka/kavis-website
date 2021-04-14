@@ -1,51 +1,15 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+{% extends "layout-header.html" %}
 
-  <title>Kavis Technology | {% block title %}{{ this.title }}{% endblock %}</title>
-
-  <!-- Favicon. Works with IE >= 11 and other GUI browsers -->
-  <link rel="icon" type="image/png"
-        href="{{ '/images/kavistech-icon-32px.png'|url }}"/>
-
-  <link rel="stylesheet"
-        href="{{ '/external/bootstrap-4.4.1/css/bootstrap.min.css'|url }}">
-  <link rel="stylesheet" href="{{ '/css/main.css'|url }}">
-  <link rel="stylesheet" href="{{ '/css/latolatinfonts.css'|url }}">
-
-  {% block page_css %}
-  {% endblock %}
-
-  <script defer src="{{ '/external/jquery-3.4.1.slim.min.js'|url }}"></script>
-  <script defer src="{{ '/external/bootstrap-4.4.1/js/bootstrap.min.js'|url }}"></script>
-
-  {% block page_js %}
-  {% endblock %}
-
-  <meta property="og:site_name" content="Kavis Technology" />
-  <meta property="og:title"
-        content="Kavis Technology - The High-Tech Outsourcing Partner" />
-  <meta property="og:description"
-        content="Kavis Technology provides one-stop service, including product development, contract manufacturing, on-site quality control, and logistics associated with international transactions." />
-  <meta property="og:image"
-        content="{{ '/images/kavistech-logo.png'|url }}" />
-  <meta property="og:secure_url"
-        content="{{ '/images/kavistech-logo.png'|url }}" />
-  <meta name="viewport"
-        content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet"
-        href="{{ '/css/fork-awesome/fork-awesome.min.css'|url }}">
-</head>
-
-
+{% block body %}
 <body>
   <header>
     {% block menu %}
       <nav class="navbar fixed-top navbar-expand-md navbar-light">
         <a class="navbar-brand d-block d-md-none" href="{{ '/'|url }}">
-          <img src="{{ '/images/kavistech-icon-32px.png'|url }}" class="img-responsive"
-               alt="Home">
+          <img src="{{ '/images/logos/kavistech-icon-32px.png'|url }}" class="img-responsive"
+              alt="Home">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#navbar-nav" aria-controls="navbar-nav"
@@ -56,8 +20,8 @@
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
               <a class="navbar-brand d-none d-md-block" href="{{ '/'|url }}">
-                <img src="{{ '/images/kavistech-icon-32px.png'|url }}"
-                     alt="Home">
+                <img src="{{ '/images/logos/kavistech-icon-32px.png'|url }}"
+                    alt="Home">
               </a>
             </li>
             <li class="nav-item">
@@ -94,3 +58,5 @@
   </footer>
 
 </body>
+
+{% endblock %}

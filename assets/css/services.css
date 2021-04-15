@@ -2,13 +2,19 @@ section {
     text-align: center;
 }
 
-section.cloud-providers {
+section.past-clients {
     margin-top: 5rem;
 }
 
-.provider-logo {
+.client-logo {
     margin: 1.5rem;
     display: inline-block;
+}
+
+div.legal {
+    max-width: 764px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 p.legal {

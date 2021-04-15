@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+
+{% block title %}{{ this.title }}{% endblock %}
+
+{% block page_css %}
+  <link rel="stylesheet" href="{{ '/css/index.css'|url }}">
+  <link rel="stylesheet" href="{{ '/css/services.css'|url }}">
+{% endblock %}
+
+{% block content %}
+
+  <section class="past-clients">
+    <h4>
+        We pride ourselves in successful partnerships
+    </h4>
+    <div class="container">
+      <!--
+        Source: https://www.kla-tencor.com/
+        License: Public Domain
+        Trademark: Fair use as the trademark is being used to identify the
+        service and not being used to indicate endorsement or sponsorship by
+        the trademark owner.
+      -->
+      <a href="https://www.kla-tencor.com/" class="client-logo"
+         title="KLA Tencor">
+        <img src="{{ '/images/logos/kla-tencor-logo.png'|asseturl }}" height="60px"/>
+      </a>
+      <div class="legal">
+        <p class="legal">
+            All product names, logos, and brands are the intellectual property of
+            their respective owners. The use of the logos is for informational
+            purposes and does not imply endorsement of Kavis Technology LLC
+            by the named organizations.
+        </p>
+      </div>
+    </div>
+  </section>
+  
+{% endblock %}

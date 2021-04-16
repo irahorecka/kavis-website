@@ -71,7 +71,8 @@ p.image {
 
 .mimic-nav-link {
     display: block;
-    padding: .5rem 1rem!important;
+    margin-right: 1rem;
+    padding: .5rem 0rem!important;
     font-size: 1.0rem!important;
 }
 
@@ -85,9 +86,26 @@ p.image {
     margin-right: 0.8rem;
 }
 
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+.navbar-light
+.navbar-nav
+.nav-link
+.active>.nav-link,
+.nav-link:focus,
+.nav-link:hover,
+.nav-link.active,
+.nav-link.show,
+.show>.nav-link {
     color: rgba(40,106,128,0.9)!important;
-    /* color: #286A80!important; */
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: var(--white);
+    background: rgb(22,115,207,1)!important;
+}
+
+::selection {
+    color: var(--white);
+    background: rgb(22,115,207,1)!important;
 }
 
 #navbar-alts-dropdown {

@@ -1,11 +1,12 @@
-_template: index.html
+_template: about.html
 ---
 title: About
 ---
 body:
 
+Founded in 2007, Kavis Technology is a contract manufacturing provider to the tech industry of Silicon Valley.
 We provide one-stop service, including product development, contract manufacturing, on-site quality control, and logistics associated with international transactions. We work with companies large and small, ranging from Fortune 500 companies to small startups.
 
-We do prototypes as well as production runs. All our contract manufacturers are ISO9001:2000 certified.
+Kavis Technology specializes in prototypes and production runs. Our contract manufacturers are ISO9001:2000 certified and offer high-quality services and materials while shrinking costs and boosting turnaround time.
 
-We provide services in product development in the filed of opto-mechanical engineering and design, finite-element-analysis (FEA), design optimization, optical ray-tracing, lab testing, etc.
+We specialize in product development in the filed of opto-mechanical engineering and design, finite-element-analysis (FEA), design optimization, optical ray-tracing, lab testing, etc.

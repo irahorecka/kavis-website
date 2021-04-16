@@ -1,0 +1,75 @@
+{% extends "layout.html" %}
+
+{% block title %}{{ this.title }}{% endblock %}
+
+{% block page_css %}
+  <link rel="stylesheet" href="{{ '/css/services.css'|url }}">
+{% endblock %}
+
+{% block heading %}
+  <h1>{{ this.title }}</h1>
+{% endblock %}
+
+{% block content %}
+    {{ this.body }}
+  <section id="partners" class="partners">
+    <h4>
+        Our clients include:
+    </h4>
+    <div class="container">
+      <!--
+        Source: https://www.kla-tencor.com/
+        License: Public Domain
+        Trademark: Fair use as the trademark is being used to identify the
+        service and not being used to indicate endorsement or sponsorship by
+        the trademark owner.
+      -->
+      <a href="https://www.kla-tencor.com/" class="client-logo"
+         title="KLA Tencor">
+        <img src="{{ '/images/logos/kla-tencor-logo.svg'|asseturl }}" width="120px"/>
+      </a>
+      <!--
+        Source: https://www.baidu.com/
+        License: Public Domain
+        Trademark: Fair use as the trademark is being used to identify the
+        service and not being used to indicate endorsement or sponsorship by
+        the trademark owner.
+      -->
+      <a href="https://www.baidu.com/" class="client-logo"
+         title="Baidu, Inc.">
+        <img src="{{ '/images/logos/baidu-logo.svg'|asseturl }}" width="120px"/>
+      </a>
+      <!--
+        Source: https://www.beckman.com/
+        License: Public Domain
+        Trademark: Fair use as the trademark is being used to identify the
+        service and not being used to indicate endorsement or sponsorship by
+        the trademark owner.
+      -->
+      <a href="https://www.beckman.com/" class="client-logo"
+         title="Beckman Coulter, Inc.">
+        <img src="{{ '/images/logos/beckman-coulter-logo.svg'|asseturl }}" width="120px"/>
+      </a>
+      <!--
+        Source: https://www.sanmina.com/
+        License: Public Domain
+        Trademark: Fair use as the trademark is being used to identify the
+        service and not being used to indicate endorsement or sponsorship by
+        the trademark owner.
+      -->
+      <a href="https://www.sanmina.com/" class="client-logo"
+         title="Sanmina Corporations">
+        <img src="{{ '/images/logos/sanmina-logo.svg'|asseturl }}" width="120px"/>
+      </a>
+      <div class="legal">
+        <p class="legal">
+            All product names, logos, and brands are the intellectual property of
+            their respective owners. The use of the logos is for informational
+            purposes and does not imply endorsement of Kavis Technology LLC
+            by the named organizations.
+        </p>
+      </div>
+    </div>    
+  </section>
+  
+{% endblock %}

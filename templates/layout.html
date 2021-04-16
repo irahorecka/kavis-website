@@ -1,11 +1,16 @@
-<!doctype html>
-<html lang="en">
-{% extends "layout-header.html" %}
+{% include "includes/head.html" %}
 
-{% block body %}
-<body>
+{% block page_css %}
+{% endblock %}
+
+{% block page_js %}
+{% endblock %}
+
+<body> 
   <header>
+
     {% block menu %}
+
       <nav class="navbar fixed-top navbar-expand-md navbar-light">
         <a class="navbar-brand d-block d-md-none" href="{{ '/'|url }}">
           <img src="{{ '/images/logos/kavistech-icon-32px.png'|url }}" class="img-responsive"
@@ -24,11 +29,22 @@
                     alt="Home">
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="{{ "/services"|url }}">Services</a>
+            <li class="nav-dropdown dropdown">
+              <a class="nav-link dropdown-toggle mimic-nav-link" href="#"
+                 id="navbar-alts-dropdown" role="button" data-toggle="dropdown"
+                 aria-haspopup="true" aria-expanded="false">
+                Services
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbar-alts-dropdown">
+                <a class="dropdown-item" href="{{ "/services#facilities"|url }}">Facilities</a>
+                <a class="dropdown-item" href="{{ "/services#hardware"|url }}">Hardware</a>
+              </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ "/"|url }}#about">About</a>
+              <a class="nav-link" href="{{ "/photos"|url }}">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ "/about"|url }}">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="{{ "/"|url }}#contact">Contact Us</a>
@@ -40,6 +56,7 @@
   </header>
 
   <main>
+
     {% block heading %}
     {% endblock %}
 
@@ -48,12 +65,6 @@
     {% endblock %}
   </main>
   
-  <footer class="page-footer font-small">
-    <div class="footer-copyright text-center py-3">
-      <h5>&copy; Copyright 2021 by Kavis Technology LLC</h5>
-    </div>
-  </footer>
+  {% include "includes/footer.html" %}
 
 </body>
-
-{% endblock %}

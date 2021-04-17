@@ -8,9 +8,6 @@
 
 <body> 
   <header>
-
-    {% block menu %}
-
       <nav class="navbar fixed-top navbar-expand-md navbar-light">
         <a class="navbar-brand d-block d-md-none" href="{{ '/'|url }}">
           <img src="{{ '/images/logos/kavistech-icon-32px.png'|url }}" class="img-responsive"
@@ -52,7 +49,6 @@
           </ul>
         </div>
       </nav>
-    {% endblock %}
   </header>
 
   <main>
@@ -61,8 +57,8 @@
     {% endblock %}
 
     {% block content %}
-      {{ this.body }}
     {% endblock %}
+
   </main>
   
   {% include "includes/footer.html" %}

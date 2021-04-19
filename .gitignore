@@ -130,3 +130,6 @@ dmypy.json
 
 # Remove DS_Store
 .DS_Store
+
+# VS Code interpreter env
+/.vscode

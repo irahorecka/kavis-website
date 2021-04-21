@@ -16,7 +16,7 @@ main section .container {
 }
 
 main section h1 {
-    color: #0066AC;
+    color: #0058AC;
     /* Override default h1 style meant for all pages */
     font-weight: bold;
     margin-top: 1.5rem;
@@ -32,7 +32,7 @@ main section:nth-child(even) {
 
 .section-services h1,
 .section-contact h1 {
-    color: #0066AC;
+    color: #0058AC;
 }
 
 .section-main h1,
@@ -92,7 +92,7 @@ main section:nth-child(even) {
 }
 
 .contact-info {
-    color: #0066AC;
+    color: #0058AC;
     font-family: "LatoLatinWebThin";
     font-style: italic;
     font-size: 1.6rem;

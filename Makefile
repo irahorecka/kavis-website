@@ -28,3 +28,8 @@ crop-null:
 ## E.g. $ make transparent IN=assets/images/kavistech-logo-full.png OUT=assets/images/test.png
 transparent:
 	convert $$IN -transparent white $$OUT;
+
+resize-600-400:
+## Removes white background from image.
+## E.g. $ make resize-600-400 IN=assets/images/photos/image06.jpeg     
+	convert $$IN -resize 600x400 -background black -gravity center -extent 600x400 $$IN

@@ -62,12 +62,12 @@ p.image {
 }
 
 .dropdown-item:hover {
-    color: rgba(35,56,100,1);
+    color: rgba(0,88,172,1);
 }
 
 .dropdown-item:active {
     color: var(--white);
-    background-color: rgba(35,56,100,1);
+    background-color: rgba(0,88,172,1);
 }
 
 .mimic-nav-link {
@@ -101,12 +101,12 @@ p.image {
 
 ::-moz-selection { /* Code for Firefox */
     color: var(--white);
-    background: rgb(31,56,100,1)!important;
+    background: rgb(0,88,172,1)!important;
 }
 
 ::selection {
     color: var(--white);
-    background: rgb(31,56,100,1)!important;
+    background: rgb(0,88,172,1)!important;
 }
 
 #navbar-alts-dropdown {

@@ -1,5 +1,56 @@
 {% extends "page.html" %}
 
+{% block page_css %}
+  <link rel="stylesheet" href="{{ '/css/photos.css'|url }}">
+{% endblock %}
+
 {% block content %}
-  {{ this.body }}
+  <section id="photos">
+    <div class="gallery" style="min-height: 800px;">
+      <ul>
+        <li class="col-md-4">
+          <div class="wrapper">
+            <a class="photo-link" href="#">
+              <img src="{{ '/images/photos/image01.jpeg'|url }}" alt="test">
+            </a>
+          </div>
+        </li>
+        <li class="col-md-4">
+          <div class="wrapper">
+            <a class="photo-link" href="#">
+              <img src="{{ '/images/photos/image02.jpeg'|url }}" alt="test">
+            </a>
+          </div>
+        </li>
+        <li class="col-md-4">
+          <div class="wrapper">
+            <a class="photo-link" href="#">
+              <img src="{{ '/images/photos/image03.jpeg'|url }}" alt="test">
+            </a>
+          </div>
+        </li>
+        <li class="col-md-4">
+          <div class="wrapper">
+            <a class="photo-link" href="#">
+              <img src="{{ '/images/photos/image04.jpeg'|url }}" alt="test">
+            </a>
+          </div>
+        </li>
+        <li class="col-md-4">
+          <div class="wrapper">
+            <a class="photo-link" href="#">
+              <img src="{{ '/images/photos/image05.jpeg'|url }}" alt="test">
+            </a>
+          </div>
+        </li>
+        <li class="col-md-4">
+          <div class="wrapper">
+            <a class="photo-link" href="#">
+              <img src="{{ '/images/photos/image06.jpeg'|url }}" alt="test">
+            </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
 {% endblock %}

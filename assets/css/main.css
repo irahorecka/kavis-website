@@ -134,7 +134,7 @@ h1 {
     font-style: italic;
     font-size: 3rem;
     font-family: "LatoLatinWebThin";
-    margin-bottom: 1.5rem;
+    margin-bottom: 3.5rem;
 }
 
 h1 em {
@@ -144,31 +144,5 @@ h1 em {
 /*===== END main =====*/
 
 /*===== START Footer =====*/
-
-body > footer nav {
-    border-top: 0.3rem dotted rgb(150,150,150);
-    padding: 3rem 0 6rem;
-    white-space: nowrap;
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
-}
-
-body > footer nav ul {
-    margin: 0;
-    padding: 0;
-}
-
-body > footer nav ul li {
-    list-style: none;
-}
-
-body > footer nav ul li a {
-    color: rgb(64,196,75);
-}
-
-body > footer nav ul li a:hover {
-    color: rgb(47,153,56);
-}
 
 /*===== END Footer =====*/

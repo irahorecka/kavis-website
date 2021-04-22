@@ -62,7 +62,7 @@ p.image {
 }
 
 .dropdown-item:hover {
-    color: rgba(0,88,172,1);
+    color: rgba(31,56,100,0.97);
 }
 
 .dropdown-item:active {

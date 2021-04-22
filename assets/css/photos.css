@@ -88,8 +88,10 @@ a.down-arrow {
 	font-weight: 500;
 }
 
-a.photo-link:hover img {
-	opacity: 0.75 !important;
+@media (hover: hover) and (pointer: fine) {
+  	a.photo-link:hover img {
+		opacity: 0.75 !important;
+	}
 }
 
 .gallery ul {

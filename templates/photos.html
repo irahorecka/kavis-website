@@ -13,14 +13,14 @@
         <li class="col-md-4">
           <div class="wrapper perfundo">
             <a class="photo-link perfundo__link" href="#{{ photo.name }}">
-              <img src="{{ '/images/' + photo.image|url }}"
+              <img src="{{ '../images/' + photo.image|url }}"
                    alt="{{ "Image: {photo_name}".format(photo_name=photo.name) }}">
             </a>
             <div id="{{ photo.name }}" class="perfundo__overlay">
               <figure class="perfundo__content perfundo__figure">
-                <img src="{{ '/images/' + photo.image|url }}"
+                <img src="{{ '../images/' + photo.image|url }}"
                    alt="{{ "Image: {photo_name}".format(photo_name=photo.name) }}">
-                  <div class="perfundo__image" style="background-image: {{ '/images/' + photo.image|url }};">
+                  <div class="perfundo__image" style="background-image: {{ '../images/' + photo.image|url }};">
                   </div>
               </figure>
               <a href="#perfundo-untarget" class="perfundo__close perfundo__control">Close</a>

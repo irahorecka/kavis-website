@@ -1,4 +1,4 @@
-{% extends "page.html" %}
+{% extends "layout.html" %}
 
 {% block page_css %}
   <link rel="stylesheet" href="{{ '/css/photos.css'|url }}">
@@ -6,8 +6,49 @@
 
 {% block content %}
 
+  <h1>Facilities</h1>
   <section id="photos">
-    <div class="gallery" style="min-height: 800px;">
+    <div class="gallery">
+      <ul>
+      {% for photo in this.pagination.items %}
+        <li class="col-md-4">
+          <div class="wrapper perfundo">
+            <a class="photo-link perfundo__link" href="#{{ photo.name }}">
+              <img src="{{ '../images/' + photo.image|url }}"
+                   alt="{{ "Image: {photo_name}".format(photo_name=photo.name) }}">
+            </a>
+            <div id="{{ photo.name }}" class="perfundo__overlay">
+              <figure class="perfundo__content perfundo__figure">
+                <img src="{{ '../images/' + photo.image|url }}"
+                   alt="{{ "Image: {photo_name}".format(photo_name=photo.name) }}">
+                  <div class="perfundo__image" style="background-image: {{ '../images/' + photo.image|url }};">
+                  </div>
+                  <section>
+                    <div class="container">
+                      <p class="image-description">{{ photo.description }}</p>
+                    </div>
+                  </section>
+              </figure>
+              <a href="#perfundo-untarget" class="perfundo__close perfundo__control">Close</a>
+              {% if loop.index != 1 %}
+                <!-- Don't show left arrow if first image -->
+                <a class="perfundo__prev perfundo__control bigger-link" href="#image0{{ loop.index - 1 }}">Prev</a>
+              {% endif %}
+              {% if loop.index != this.pagination.total %}
+                <!-- Don't show right arrow if last image -->
+                <a class="perfundo__next perfundo__control bigger-link" href="#image0{{ loop.index + 1 }}">Next</a>
+              {% endif %}
+            </div>
+          </div>
+        </li>
+      {% endfor %}
+      </ul>
+    </div>
+  </section>
+
+  <h1 style="padding-top: 64px;">Hardware</h1>
+  <section id="photos">
+    <div class="gallery">
       <ul>
       {% for photo in this.pagination.items %}
         <li class="col-md-4">

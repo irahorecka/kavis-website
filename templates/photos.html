@@ -10,7 +10,7 @@
   <section id="photos">
     <div id="gallery" class="gallery">
       {% for photo in this.pagination.items %}
-        <figure class="figure-photo" itemprop="associatedMedia">
+        <figure itemprop="associatedMedia">
           <!-- Main image when zoomed. Set fixed image dimension to 600x400 for now. -->
           <a class="a-photos" href="{{ '../images/' + photo.image|url }}" data-caption="{{ photo.description }}<br><em class='text-muted'>© Kavis Technology LLC</em>" data-width="600" data-height="400" itemprop="contentUrl">
             <!-- Image thumbnail -->
@@ -35,7 +35,6 @@
         <div class="pswp__top-bar">
           <div class="pswp__counter"></div>
           <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-          <button class="pswp__button pswp__button--share" title="Share"></button>
           <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
           <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
           <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->

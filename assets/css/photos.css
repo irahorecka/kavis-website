@@ -94,11 +94,6 @@ a.down-arrow {
 	}
 }
 
-.gallery ul {
-	padding: 0;
-	margin: 0;
-}
-
 .gallery img {
 	max-width: 100%;
 	height: auto;
@@ -106,12 +101,14 @@ a.down-arrow {
 	margin: 0;
 }
 
-.gallery ul li {
+.gallery figure {
 	margin: 0;
 	position: relative;
 	list-style: none;
-	float: left;
 	padding: 0;
+	display: inline-block;
+	width: 33.333%;
+	float: left;
 }
 
 .gallery .wrapper {
@@ -155,4 +152,10 @@ div.stats p {
 div.stats {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 	border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Ira's custom CSS */
+
+.figure-photo {
+	margin: 0rem;
 }

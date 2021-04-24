@@ -13,7 +13,7 @@ p {
 }
 
 main {
-	max-width: 1146px!important;
+	max-width: 1146px;
 }
 
 section {
@@ -109,6 +109,13 @@ a.down-arrow {
 	display: inline-block;
 	width: 33.333%;
 	float: left;
+}
+
+/* Allow full image view on mobile devices. */
+@media (max-width: 764px) {
+	.gallery figure {
+		width: 100%;
+	}	
 }
 
 .gallery .wrapper {

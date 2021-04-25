@@ -148,6 +148,14 @@ h1 em {
     font-family: "LatoLatinWeb";
 }
 
+/* Allow hover navbar for drop-downs */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-menu {
+    margin-top: 0px;
+}
+
 /*===== END main =====*/
 
 /*===== START Footer =====*/

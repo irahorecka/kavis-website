@@ -1,0 +1,30 @@
+/* Ira's homebrew CSS */
+
+main {
+    padding: 4rem 0;
+}
+
+h2 {
+    padding-bottom: 1rem;
+}
+
+h3 {
+    margin-bottom: 1rem;
+}
+
+.banner-img {
+    margin-top: 1.5rem;
+    margin-bottom: 3.0rem;
+} 
+
+.div-services {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0rem 1rem;
+    max-width: 764px;
+}
+
+.section-dummy {
+    padding: 0rem;
+    padding-bottom: 4rem;
+}

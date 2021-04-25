@@ -35,7 +35,7 @@ a {
 /* Allow full image view on mobile devices. */
 @media (max-width: 764px) {
 	.gallery figure {
-		width: 100%;
+		width: 50%;
 	}	
 }
 

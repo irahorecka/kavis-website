@@ -3,31 +3,6 @@ main {
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 0;
-    max-width: 100%;
-}
-
-main section {
-    text-align: center;
-    padding: 4rem 0;
-}
-
-main section .container {
-    max-width: 764px;
-}
-
-main section h1 {
-    color: #0058AC;
-    /* Override default h1 style meant for all pages */
-    font-weight: bold;
-    margin-top: 1.5rem;
-    margin-bottom: .5rem;
-    font-size: 2.5rem;
-    font-family: "LatoLatinWeb";
-    font-style: normal;
-}
-
-main section:nth-child(even) {
-    background: #f4f4f4;
 }
 
 .section-services h1,

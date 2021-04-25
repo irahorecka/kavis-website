@@ -6,11 +6,6 @@ section.partners {
     margin-top: 5rem;
 }
 
-.client-logo {
-    margin: 1.5rem 0;
-    display: inline-block;
-}
-
 div.legal {
     max-width: 764px;
     margin-left: auto;
@@ -19,6 +14,11 @@ div.legal {
 
 p.legal {
     font-size: 0.85rem;
+}
+
+.client-logo {
+    margin: 1.5rem 0;
+    display: inline-block;
 }
 
 /*===== START mobile =====*/

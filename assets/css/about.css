@@ -7,7 +7,7 @@ section.partners {
 }
 
 .client-logo {
-    margin: 1.5rem;
+    margin: 1.5rem 0;
     display: inline-block;
 }
 
@@ -20,3 +20,14 @@ div.legal {
 p.legal {
     font-size: 0.85rem;
 }
+
+/*===== START mobile =====*/
+
+@media (max-width: 765px) {
+    /* Two-col image gallery */
+	.client-logo {
+		width: 50%;      
+    }
+}
+
+/*===== END mobile =====*/

@@ -25,3 +25,14 @@ main section h1 {
 main section:nth-child(even) {
     background: #f4f4f4;
 }
+
+/*===== START mobile =====*/
+
+@media (max-width:764px) {
+    /* Smaller section h1 for mobile */
+    main section h1 {
+        font-size: 2rem;
+    }
+}
+
+/*===== END mobile =====*/

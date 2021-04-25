@@ -1,32 +1,4 @@
-{% extends "page.html" %}
-
-{% block page_css %}
-  <link rel="stylesheet" href="{{ '/css/photos.css'|url }}">
-{% endblock %}
-
-{% block page_js %}
-  <script defer src="{{ '/external/photoswipe-4.1.3/photoswipe.min.js'|url }}"></script> 
-  <script defer src="{{ '/external/photoswipe-4.1.3/photoswipe-ui-default.min.js'|url }}"></script> 
-{% endblock %}
-
-{% block content %}
-
-  <!-- Image gallery -->
-  <section id="photos">
-    <div id="gallery" class="gallery">
-      {% for photo in this.pagination.items %}
-        <figure itemprop="associatedMedia">
-          <!-- Main image when zoomed. Set fixed image dimension to 600x400 for now. -->
-          <a class="a-photos" href="{{ '../images/' + photo.image|url }}" data-caption="{{ photo.description }}<br><em class='text-muted'>© Kavis Technology LLC</em>" data-width="600" data-height="400" itemprop="contentUrl">
-            <!-- Image thumbnail -->
-            <img src="{{ '../images/' + photo.image|url }}" itemprop="thumbnail" alt="Image description">
-          </a>
-        </figure>
-      {% endfor %}
-    </div>
-  </section>
-  
-  <!-- Root element of PhotoSwipe -->
+<!-- Root element of PhotoSwipe -->
   <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="pswp__bg"></div>
     <div class="pswp__scroll-wrap">
@@ -102,5 +74,3 @@
 
     }(jQuery));
   </script>
-
-{% endblock %}

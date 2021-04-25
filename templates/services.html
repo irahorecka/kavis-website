@@ -1,5 +1,36 @@
 {% extends "page.html" %}
 
+{% block page_css %}
+  <link rel="stylesheet" href="{{ '/css/feed-layout.css'|url }}">
+  <link rel="stylesheet" href="{{ '/css/services.css'|url }}">
+{% endblock %}
+
 {% block content %}
-  {{ this.body }}
+  <div class="div-services">
+    {{ this.body }}
+  </div>
+  <section id="_" class="section-dummy">
+  </section>
+
+  <section id="facilities" class="section-facilities">
+    <div class="container">
+      <h2>Facilities</h2>
+      <p>We offer overseas facilities of exceptional standards. Our facilities are located in Beijing, China,
+      with end-to-end ISO1234:55 certified standards. We currently employ more than N employees.</p>
+      <img src="{{ '/images/semiconductor-services.png'|url }}" class="img-fluid screenshot rounded banner-img"
+           alt="Kavis Technology - Services/Facilities">
+      <h3>Beijing Site</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    </div>
+  </section>
+
+  <section id="hardware" class="section-hardware">
+    <div class="container">
+      <h2>Hardware</h2>
+      <p>This is the hardware section.</p>
+      <img src="{{ '/images/machining-services.png'|url }}" class="img-fluid screenshot rounded banner-img"
+           alt="Kavis Technology - Services/Hardware">
+    </div>
+  </section>
+
 {% endblock %}

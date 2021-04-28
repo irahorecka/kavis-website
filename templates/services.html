@@ -39,7 +39,7 @@
         {%- if photo.name.startswith('facilities') -%}
           <figure itemprop="associatedMedia">
             <!-- Main image when zoomed. Set fixed image dimension to 600x400 for now. -->
-            <a class="a-photos" href="{{ '../images/' + photo.image|url }}" data-caption="{{ photo.description }}<br><em class='text-muted'>© Kavis Technology LLC</em>" data-size="600x400" itemprop="contentUrl">
+            <a href="{{ '../images/' + photo.image|url }}" data-gallery="1" data-caption="{{ photo.description }}<br><em class='text-muted'>© Kavis Technology LLC</em>" data-size="600x400" itemprop="contentUrl">
               <!-- Image thumbnail -->
               <img style="padding: 1.5px;" src="{{ '../images/' + photo.image|url }}" itemprop="thumbnail" alt="Image description">
             </a>
@@ -63,7 +63,7 @@
         {%- if photo.name.startswith('hardware') -%}
           <figure itemprop="associatedMedia">
             <!-- Set fixed image dimension to 600x400 for now. -->
-            <a href="{{ '../images/' + photo.image|url }}" data-caption="{{ photo.description }}<br><em class='text-muted'>© Kavis Technology LLC</em>" data-size="600x400" itemprop="contentUrl">
+            <a href="{{ '../images/' + photo.image|url }}" data-gallery="2" data-caption="{{ photo.description }}<br><em class='text-muted'>© Kavis Technology LLC</em>" data-size="600x400" itemprop="contentUrl">
               <img style="padding: 1.5px;" src="{{ '../images/' + photo.image|url }}" itemprop="thumbnail" alt="Image description">
             </a>
           </figure>

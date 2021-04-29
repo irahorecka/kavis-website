@@ -35,7 +35,6 @@ a {
     padding: 0rem 1rem;
     padding-bottom: 4rem;
     max-width: 764px;
-    text-align: center;
 }
 
 /*===== START table =====*/
@@ -102,6 +101,7 @@ div.col-sm-6::before {
         margin: 1em;
         margin-bottom: 2em;
     }
+    
 }
 
 /*===== END mobile =====*/

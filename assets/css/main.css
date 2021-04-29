@@ -84,7 +84,7 @@ p.image {
 }
 
 #navbar {
-    transition: top 0.2s;
+    transition: top 0.15s;
 }
 
 .navbar {
@@ -160,21 +160,13 @@ h1 em {
     margin-top: 0px;
 }
 
-
-/*===== START mobile =====*/
-
-@media (min-width:764px) {
-    /* Give sections padding when routing by id */
-    span.anchor {
-        display: block;
-        height: 60px;
-        margin-top: -60px;
-        visibility: hidden;
-    }
+/* Give sections padding when routing by id */
+span.anchor {
+    display: block;
+    height: 60px;
+    margin-top: -60px;
+    visibility: hidden;
 }
-
-/*===== END mobile =====*/
-
 
 /* Allows for nice alternation of section color if misaligned */
 .section-dummy {

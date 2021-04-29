@@ -129,6 +129,13 @@ var initPhotoSwipeFromDOM = function (gallerySelector) {
 
 		items = parseThumbnailElements(galleryElement);
 
+    // Mobile HATES having history - it leads to a buggy touch experience
+    // Set history to true if desktop, else false
+    var history = true;
+    if (/Mobi|Android/i.test(navigator.userAgent)) {
+      history = false;
+    }
+
 		// define options (if needed)
 		options = {
 
@@ -149,8 +156,8 @@ var initPhotoSwipeFromDOM = function (gallerySelector) {
 			},
 
 			bgOpacity: 0.85,
-
 			showHideOpacity: true,
+      history: history,
 
 		};
 

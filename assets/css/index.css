@@ -19,8 +19,13 @@ main {
     color: #2E9A41;
 }
 
+.section-contact {
+    /* Provide more padding in landing page for copyright footer */
+    padding-bottom: 5rem;
+}
+
 .section-services .container {
-    margin-bottom: -4.0rem;
+    margin-bottom: -4rem;
 }
 
 .logo-main {
@@ -38,20 +43,45 @@ main {
 /* Ira's homebrew stuff */
 /* Contacts */
 
-.btn-contact {
+.btn-main {
     border: 2px solid transparent;
     border-radius: 0.66em 3px 0.66em 3px;
-    background-color: var(--grey);
+    color: white;
     display: block;
     font-size: 1.0em;
     font-weight: 500;
     letter-spacing: 1px;
-    margin: 1.0em 0;
-    padding: 0.4em 1em;
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+.btn-contact {
+    background-color: var(--grey);
+    margin: 1.0em 0;
+    padding: 0.4em 1em;
     width: 100%;
+}
+.btn-contact:focus,
+.btn-contact:hover,
+.btn-contact:active {
+    background-color: transparent;
+    border-color: var(--grey);
+    color: var(--grey);
+}
+
+.btn-learn-more {
+    background-color: #0058AC;
+    margin: auto;
+    padding: 0.2em 1em;
+    width: 33.33333%;
+}
+.btn-learn-more:focus,
+.btn-learn-more:hover,
+.btn-learn-more:active {
+    background-color: transparent;
+    border-color: #0058AC;
+    color: #0058AC;
 }
 
 .contact-addr {
@@ -92,6 +122,10 @@ main {
     /* Disable logo display in contact section for mobile */
     .contact-logo {
        display:none;
+    }
+    /* Don't allow two-lined text */
+    .btn-learn-more{
+        width: 66.66666%;
     }
 }
 

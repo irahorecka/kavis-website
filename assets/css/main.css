@@ -1,7 +1,9 @@
 body {
-    font-family: "LatoLatinWeb";
-    color: rgb(100,100,100);
     background: rgb(255,255,255);
+    color: rgb(100,100,100);
+    font-family: "LatoLatinWeb";
+    min-height: 95vh;
+    position: relative;
 }
 
 :root {
@@ -135,8 +137,8 @@ p.image {
 
 main {
     margin: 60px auto 0;
-    padding: 3rem 1rem;
     max-width: 764px;
+    padding: 3rem 1rem;
 }
 
 h1 {
@@ -176,5 +178,12 @@ span.anchor {
 /*===== END main =====*/
 
 /*===== START Footer =====*/
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
 
 /*===== END Footer =====*/

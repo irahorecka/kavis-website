@@ -1,0 +1,38 @@
+[
+    {
+        "desc": "CNC machining center",
+        "quant": "13",
+        "specs": "1000 x 600 x 600mm, 12000rpm",
+        "num-axis": "3"
+    },
+    {
+        "desc": "CNC machining center",
+        "quant": "1",
+        "specs": "1000 x 600 x 600mm, 12000rpm",
+        "num-axis": "4"
+    },
+    {
+        "desc": "Conventional milling machine",
+        "quant": "5",
+        "specs": "1000 x 600 x 600mm, 8500rpm",
+        "num-axis": "3"
+    },
+    {
+        "desc": "CNC lathes",
+        "quant": "8",
+        "specs": "Diam. 800 x 1000mm",
+        "num-axis": "3"
+    },
+    {
+        "desc": "Wire EDM machine",
+        "quant": "4",
+        "specs": "400 x 300 x 400mm",
+        "num-axis": "2"
+    },
+    {
+        "desc": "Plunge EDM machine",
+        "quant": "1",
+        "specs": "400 x 300 x 400mm",
+        "num-axis": "3"
+    }
+]

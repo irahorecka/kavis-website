@@ -1,3 +1,8 @@
+## Deploys website to github pages
+deploy:
+	lektor build;
+	lektor deploy;
+
 ## Crops images with whitespace to have 10px whitespace around core image content.
 ## E.g. $ make crop-10px IN=assets/images/kavistech-logo-full.png OUT=assets/images/test.png
 crop-10px:

@@ -53,16 +53,16 @@
           <div class="modal-body">
             <table id="table" class="table-striped"
               data-toggle="table"
-              data-height="399"
+              data-height="560"
               data-url="{{ '/json/services-facilities.json'|url }}"
               data-mobile-responsive="true"
               data-check-on-init="true">
               <thead>
                 <tr class=".mobile-table-col-header">
-                  <th id="table-desc" data-field="desc">Description</th>
-                  <th id="table-quant" data-field="quant">Quantity</th>
-                  <th id="table-specs" data-field="specs">Specifications</th>
-                  <th id="table-num-axis" data-field="num-axis">No. Axis</th>
+                  <th data-field="desc">Description</th>
+                  <th data-field="quant">Quantity</th>
+                  <th data-field="specs">Specifications</th>
+                  <th data-field="num-axis">No. Axis</th>
                 </tr>
               </thead>
             </table>
@@ -123,18 +123,13 @@
         $table.bootstrapTable('refreshOptions', {
           theadClasses: "thead-light"
         })
-        $(this).find('.modal-dialog').css({width:'auto',
-                               height:'auto',
-                              'max-height':'100%'});
-        
       })
     })
 
-    // Rename column for mobile
+    // Adjust modal table col name and window height for mobile
     if (/Mobi|Android/i.test(navigator.userAgent)) {
-      document.getElementById("table-desc").innerHTML = "Description";
-      document.getElementById("table-quant").innerHTML = "Quantity";
-      document.getElementById("table-specs").innerHTML = "Specs";
+      document.querySelectorAll('[data-field="specs"]')[0].innerHTML = "Specs";
+      document.getElementsByTagName("TABLE")[0].setAttribute("data-height", "400");
     }
   </script>
 

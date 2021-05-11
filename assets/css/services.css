@@ -101,7 +101,10 @@ div.col-sm-6::before {
         margin: 1em;
         margin-bottom: 2em;
     }
-    
+    /* Show smaller table column headers */
+    .desktop-table-col-header {
+        display: none;
+    }
 }
 
 /*===== END mobile =====*/
@@ -115,6 +118,13 @@ div.col-sm-6::before {
 		text-decoration: none;
 		color: inherit;
 	}
+    /* Show larger table column headers */
+    .mobile-table-col-header {
+        display: none;
+    }
+    .modal-dialog {
+        max-width: 80%; /* New width for default modal */
+    }
 }
 
 /*===== END desktop =====*/

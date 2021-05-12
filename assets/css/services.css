@@ -27,7 +27,7 @@ a {
 .banner-img {
     margin-top: 1.5rem;
     margin-bottom: 3.0rem;
-} 
+}
 
 .div-services {
     margin-right: auto;
@@ -123,7 +123,8 @@ div.col-sm-6::before {
         display: none;
     }
     .modal-dialog {
-        max-width: 80%; /* New width for default modal */
+        width: 80%; /* New width for default modal */
+        max-width: 1000px;
     }
 }
 

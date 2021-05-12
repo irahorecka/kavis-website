@@ -36,11 +36,10 @@
           <div class="col-sm-6">Laser Curring & Welding</div>
           <div class="col-sm-6">EDM</div>
       </div>
+      <div style="margin: 2.5rem 0;">
+        <a class="btn btn-main btn-info" href="" data-toggle="modal" data-target="#modalTable">View equipment</a>
+      </div>
     </div>
-
-    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalTable">
-      Launch modal table
-    </button>
     <div id="modalTable" class="modal fade" tabindex="-1" role="dialog">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -53,7 +52,7 @@
           <div class="modal-body">
             <table id="table" class="table-striped"
               data-toggle="table"
-              data-height="560"
+              data-height="499"
               data-url="{{ '/json/services-facilities.json'|url }}"
               data-mobile-responsive="true"
               data-check-on-init="true">
@@ -124,6 +123,9 @@
           theadClasses: "thead-light"
         })
       })
+      $('body').on('hidden.bs.modal', '.modal', function() {
+        $('.btn').blur();
+      }); 
     })
 
     // Adjust modal table col name and window height for mobile

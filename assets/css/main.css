@@ -48,6 +48,40 @@ img {
     color: #fff !important;
 }
 
+/* Ira's homebrew CSS */
+
+.btn-main {
+    border: 2px solid transparent;
+    border-radius: 0.66em 3px 0.66em 3px;
+    color: white;
+    display: block;
+    font-size: 1.0em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.btn-main:focus,
+.btn-main:hover,
+.btn-main:active {
+    box-shadow: none !important;
+}
+
+.btn-info {
+    background-color: #0058AC;
+    margin: auto;
+    padding: 0.2em 1em;
+    width: 33.33333%;
+}
+.btn-info:focus,
+.btn-info:hover,
+.btn-info:active {
+    background-color: transparent !important;
+    border-color: #0058AC !important;
+    color: #0058AC !important;
+}
+
 /* A container for multiple buttons in a single row */
 .button-row {
     text-align: center;
@@ -187,3 +221,14 @@ footer {
 }
 
 /*===== END Footer =====*/
+
+/*===== START mobile =====*/
+
+@media (max-width:764px) {
+    /* Don't allow two-lined text */
+    .btn-info{
+        width: 66.66666%;
+    }
+}
+
+/*===== END mobile =====*/

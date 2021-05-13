@@ -13,7 +13,7 @@ def parse_filenames(path):
                 extension = file.split(".")[-1]
                 os.rename(
                     file,
-                    os.path.join(path, f"{dir_name}_{f'{file_count:02}.{extension}'}"),
+                    os.path.join(path, f"{dir_name}-{f'{file_count:02}.{extension}'}"),
                 )
                 file_count += 1
 

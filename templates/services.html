@@ -3,14 +3,14 @@
 {%- block page_css -%}
   <link rel="stylesheet" href="{{ '/css/feed-layout.css'|url }}">
   <link rel="stylesheet" href="{{ '/css/services.css'|url }}">
-  <link href="https://unpkg.com/bootstrap-table@1.18.3/dist/bootstrap-table.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/external/bootstrap-table-1.18.3/bootstrap-table.min.css'|url }}">
 {% endblock %}
 
 {% block page_js %}
   <script defer src="{{ '/external/photoswipe-4.1.3/photoswipe.min.js'|url }}"></script> 
   <script defer src="{{ '/external/photoswipe-4.1.3/photoswipe-ui-default.min.js'|url }}"></script>
-  <script src="https://unpkg.com/bootstrap-table@1.18.3/dist/bootstrap-table.min.js"></script>
-  <script src="https://unpkg.com/bootstrap-table@1.18.3/dist/extensions/mobile/bootstrap-table-mobile.min.js"></script>
+  <script defer src="{{ '/external/bootstrap-table-1.18.3/bootstrap-table.min.js'|url }}"></script>
+  <script defer src="{{ '/external/bootstrap-table-1.18.3/bootstrap-table-mobile.min.js'|url }}"></script>
 {%- endblock -%}
 
 {% block content %}
@@ -36,20 +36,21 @@
           <div class="col-sm-6">Laser Curring & Welding</div>
           <div class="col-sm-6">EDM</div>
       </div>
-      <div style="margin: 2.5rem 0;">
-        <a class="btn btn-main btn-info" href="" data-toggle="modal" data-target="#modalTable">View equipment</a>
+      <div style="margin: 2.5rem 0 2.0rem 0;">
+        <a class="btn btn-main btn-info" href="" data-toggle="modal" data-target="#modalTable">View equipments sheet</a>
       </div>
     </div>
     <div id="modalTable" class="modal fade" tabindex="-1" role="dialog">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Modal table</h5>
+            <h5 class="modal-title">In-House Equipments & Tools</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
+          <!-- data-height is for desktop - view mobile data-height at bottom of file -->
             <table id="table" class="table-striped"
               data-toggle="table"
               data-height="560"
@@ -58,8 +59,8 @@
               data-check-on-init="true">
               <thead>
                 <tr class=".mobile-table-col-header">
-                  <th data-field="desc">Description</th>
-                  <th data-field="quant">Quantity</th>
+                  <th data-field="desc" data-sortable="true">Description</th>
+                  <th data-field="quant" data-sortable="true">Quantity</th>
                   <th data-field="specs">Specifications</th>
                   <th data-field="num-axis">No. Axis</th>
                 </tr>
@@ -67,7 +68,7 @@
             </table>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary btn-main btn-close-modal" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
@@ -131,7 +132,7 @@
     // Adjust modal table col name and window height for mobile
     if (/Mobi|Android/i.test(navigator.userAgent)) {
       document.querySelectorAll('[data-field="specs"]')[0].innerHTML = "Specs";
-      document.getElementsByTagName("TABLE")[0].setAttribute("data-height", "400");
+      document.getElementsByTagName("TABLE")[0].setAttribute("data-height", "449");
     }
   </script>
 

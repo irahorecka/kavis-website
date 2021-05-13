@@ -56,6 +56,30 @@ a {
 
 /*===== START table =====*/
 
+/* Non-modal table */
+p.table-header {
+    margin-top: 3rem;
+    margin-bottom: 1.6rem;
+    color: rgb(0,88,172,1);    
+    font-size: 1.3rem;
+}
+
+div.table-content {
+    margin: 2em;
+    text-align: left;
+}
+
+/* For check mark icon */
+div.col-sm-6::before {
+    content: "\f00c";
+    font-family: 'ForkAwesome';
+    font-size: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    padding: 0 10px 0 0;
+}
+
+/* Modal table */
 th {
     /* #0058AC in RGBA */
     background-color: rgba(0, 71, 138, 0.25) !important;

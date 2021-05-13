@@ -34,5 +34,65 @@
         "quant": "1",
         "specs": "400 x 300 x 400mm",
         "num-axis": "3"
+    },
+    {
+        "desc": "Bench drill press",
+        "quant": "8",
+        "specs": "-",
+        "num-axis": "1"
+    },
+    {
+        "desc": "Bench tapping machine",
+        "quant": "1",
+        "specs": "-",
+        "num-axis": "1"
+    },
+    {
+        "desc": "Flat surface grinder",
+        "quant": "1",
+        "specs": "500 x 1000mm",
+        "num-axis": "3"
+    },
+    {
+        "desc": "Cylindrical grinder",
+        "quant": "1",
+        "specs": "Diam. 800 x 500mm",
+        "num-axis": "2"
+    },
+    {
+        "desc": "NC lapping machine",
+        "quant": "2",
+        "specs": "Diam 200mm disk",
+        "num-axis": "1"
+    },
+    {
+        "desc": "CMM",
+        "quant": "1",
+        "specs": "2+L/300 - Resolution 1μm",
+        "num-axis": "3"
+    },
+    {
+        "desc": "2D optical CNC measuring machine",
+        "quant": "1",
+        "specs": "2+L/300 - Resolution 1μM",
+        "num-axis": "3"
+    },
+    {
+        "desc": "Dial gauge",
+        "quant": "1",
+        "specs": "Mahr 0.01μM",
+        "num-axis": "-"
+    },
+    {
+        "desc": "Dial gauge",
+        "quant": "1",
+        "specs": "TESA 0.1μM",
+        "num-axis": "-"
+    },
+    {
+        "desc": "Plannar interferometer",
+        "quant": "1",
+        "specs": "Diam. 500mm",
+        "num-axis": "-"
     }
 ]

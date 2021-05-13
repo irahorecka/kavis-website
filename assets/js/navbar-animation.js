@@ -4,7 +4,7 @@ window.onload = function () {
 
     window.onscroll = function () {
         var currentScrollPos = window.pageYOffset;
-        if (prevScrollPos > currentScrollPos && prevScrollPos - currentScrollPos > 5 || // main - scrolling up AND must be at rate > 3px per read
+        if (prevScrollPos > currentScrollPos && prevScrollPos - currentScrollPos > 6 || // main - scrolling up AND must be at rate > 6px per read
           prevScrollPos === 0 || // top of page
           prevScrollPos === currentScrollPos || // no movement between mouse down
           currentScrollPos - prevScrollPos > 1200 || // a big page jump, i.e. route by id

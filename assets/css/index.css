@@ -41,20 +41,28 @@ main {
 }
 
 /* Ira's homebrew stuff */
-/* Contacts */
+/* Images */
+img.screenshot {
+    margin-top: 1.5rem;
+}
 
-.btn-contact {
+p.learn-more {
+    margin-top: 2.5rem;
+}
+
+/* Contacts */
+#bootstrap-overrides .btn-contact {
     background-color: var(--grey);
     margin: 1.0em 0;
     padding: 0.4em 1em;
     width: 100%;
 }
-.btn-contact:focus,
-.btn-contact:hover,
-.btn-contact:active {
-    background-color: transparent !important;
-    border-color: var(--grey) !important;
-    color: var(--grey) !important;
+#bootstrap-overrides .btn-contact:focus,
+#bootstrap-overrides .btn-contact:hover,
+#bootstrap-overrides .btn-contact:active {
+    background-color: transparent;
+    border-color: var(--grey);
+    color: var(--grey);
 }
 
 .contact-addr {

@@ -62,24 +62,24 @@ img {
     text-transform: uppercase;
     text-decoration: none;
 }
-.btn-main:focus,
-.btn-main:hover,
-.btn-main:active {
-    box-shadow: none !important;
+#bootstrap-overrides .btn-main:focus,
+#bootstrap-overrides .btn-main:hover,
+#bootstrap-overrides .btn-main:active {
+    box-shadow: none;
 }
 
-.btn-info {
+#bootstrap-overrides .btn-info {
     background-color: #0058AC;
     margin: auto;
     padding: 0.2em 1em;
     width: 33.33333%;
 }
-.btn-info:focus,
-.btn-info:hover,
-.btn-info:active {
-    background-color: transparent !important;
-    border-color: #0058AC !important;
-    color: #0058AC !important;
+#bootstrap-overrides .btn-info:focus,
+#bootstrap-overrides .btn-info:hover,
+#bootstrap-overrides .btn-info:active {
+    background-color: transparent;
+    border-color: #0058AC;
+    color: #0058AC;
 }
 
 /* A container for multiple buttons in a single row */
@@ -220,13 +220,17 @@ footer {
     height: 2.5rem;
 }
 
+.copyright {
+    font-size: 0.8rem;
+}
+
 /*===== END Footer =====*/
 
 /*===== START mobile =====*/
 
 @media (max-width:764px) {
     /* Don't allow two-lined text */
-    .btn-info{
+    #bootstrap-overrides .btn-info{
         width: 66.66666%;
     }
 }

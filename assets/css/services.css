@@ -61,6 +61,10 @@ th {
     background-color: rgba(0, 71, 138, 0.25) !important;
 }
 
+.open-table {
+    margin: 2.5rem 0 2.0rem 0;
+}
+
 .fixed-table-container .table thead th {
     /* Give sort icon some padding on right */
     padding-right: 8px !important;
@@ -82,6 +86,10 @@ th {
 /*===== END table =====*/
 
 /*===== START gallery =====*/
+
+img.thumbnail {
+    padding: 1.5px !important;
+}
 
 .gallery {
     max-width: 764px;

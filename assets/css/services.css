@@ -150,7 +150,7 @@ div.col-sm-6::before {
         display: none;
     }
     /* Display to 80% width to accommodate larger text */
-    .btn-info {
+    #bootstrap-overrides .btn-info {
         width: 80%;
     }
 }

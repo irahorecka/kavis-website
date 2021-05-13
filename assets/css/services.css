@@ -153,6 +153,11 @@ div.col-sm-6::before {
     #bootstrap-overrides .btn-info {
         width: 80%;
     }
+    /* Left justify row values (modal table) */
+    #bootstrap-overrides .fixed-table-container .table tbody tr .card-view .card-view-value {
+        text-align: left;
+        padding-left: 1.5rem;
+    }
 }
 
 /*===== END mobile =====*/

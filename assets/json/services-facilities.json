@@ -74,19 +74,19 @@
     {
         "desc": "2D optical CNC measuring machine",
         "quant": "1",
-        "specs": "2+L/300 - Resolution 1μM",
+        "specs": "2+L/300 - Resolution 1μm",
         "num-axis": "3"
     },
     {
         "desc": "Dial gauge",
         "quant": "1",
-        "specs": "Mahr 0.01μM",
+        "specs": "Mahr 0.01μm",
         "num-axis": "-"
     },
     {
         "desc": "Dial gauge",
         "quant": "1",
-        "specs": "TESA 0.1μM",
+        "specs": "TESA 0.1μm",
         "num-axis": "-"
     },
     {

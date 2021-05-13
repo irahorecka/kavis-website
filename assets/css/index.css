@@ -52,9 +52,9 @@ main {
 .btn-contact:focus,
 .btn-contact:hover,
 .btn-contact:active {
-    background-color: transparent;
-    border-color: var(--grey);
-    color: var(--grey);
+    background-color: transparent !important;
+    border-color: var(--grey) !important;
+    color: var(--grey) !important;
 }
 
 .contact-addr {

@@ -36,7 +36,7 @@ p.legal {
 @media (max-width: 765px) {
     /* Two-col image gallery */
 	.client-logo {
-		width: 50%;      
+		width: 50%;
     }
     .copyright-spacing {
         visibility: visible;

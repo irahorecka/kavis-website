@@ -7,7 +7,7 @@ Note: please update this document as requirements change and tasks are completed
 - [] make body readable content a lektor contents object
 - [] update main page with content from Tony's powerpoint
 - [] disable rotation for mobile?
-- [] 
+- []
 - []
 - []
 - []

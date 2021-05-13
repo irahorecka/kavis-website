@@ -28,7 +28,7 @@
         industry of North America, specializing in semiconductors and optics.
       </p>
       <img src="{{ '/images/semiconductor-index.png'|url }}" class="img-fluid screenshot rounded"
-           alt="Kavis Techology - Stock Photo", style="margin-top: 1.5rem;">
+           alt="Kavis Techology - Stock Photo">
     </div>
   </section>
 
@@ -40,7 +40,7 @@
           we offer full ISO and US-MIL compliant materials
           and procedures, from start to finish.
       </p>
-      <p style="margin-top: 2.5rem;">
+      <p class="learn-more">
         <a class="btn btn-main btn-info" href="{{ "/services"|url }}">learn more</a>
       </p>
       <div class="logo-container">
@@ -106,5 +106,12 @@
       </div>
     </div>
   </section>
+
+  <script>
+    // Remove :focus from .btn-contact on click
+    $('body').on('click', '.btn-contact', function() {
+      $('.btn-contact').blur();
+    });
+  </script>
 
 {% endblock %}

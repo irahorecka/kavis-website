@@ -50,6 +50,26 @@ p.learn-more {
     margin-top: 2.5rem;
 }
 
+/* Main banner */
+.banner-desktop-content {
+    color: var(--white);
+    top: -270px;
+    /* Eliminate whitespace created by moving top */
+    margin-bottom: -270px;
+    margin-left: 420px;
+}
+.banner-desktop-content li {
+	list-style: none;
+	line-height: 1.6em;
+    padding-left: 1rem;
+	text-align: left;
+	font-size: 1.4rem;
+}
+.banner-desktop-content li:hover {
+	list-style: disc;
+	color: var(--white);
+}
+
 /* Contacts */
 #bootstrap-overrides .btn-contact {
     background-color: var(--grey);
@@ -108,6 +128,9 @@ p.learn-more {
     .btn-learn-more{
         width: 66.66666%;
     }
+    .banner-desktop {
+        display: none;
+    }
 }
 
 /*===== END mobile =====*/
@@ -118,6 +141,9 @@ p.learn-more {
     .contact-logo {
         margin: 1.0em 0;
         margin-top: 1.5rem;
+    }
+    .banner-mobile {
+        display: none;
     }
 }
 

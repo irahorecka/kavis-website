@@ -81,7 +81,7 @@ a.desktop-href:hover {
 
 /* Non-modal table for mobile */
 div.table-content {
-    margin: 2em 3em 0 3em;
+    margin: 2em 2em 0 2em;
 }
 
 div.col-sm-6 {
@@ -93,7 +93,7 @@ div.col-sm-6::before {
 }
 
 a.mobile-href {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-weight: normal;
 }
 
@@ -143,6 +143,13 @@ a.mobile-href {
 
 /*===== START mobile =====*/
 
+/* Landscape mobile */
+@media (max-width:824px) {
+    .banner-desktop {
+        display: none;
+    }
+}
+/* Default mobile threshold */
 @media (max-width:764px) {
     .logo-main {
         margin-block-start: -0.5rem;
@@ -155,8 +162,16 @@ a.mobile-href {
     .btn-learn-more{
         width: 66.66666%;
     }
-    .banner-desktop {
-        display: none;
+}
+/* Small mobile - prevent word wrap */
+@media (max-width:375px) {
+    a.mobile-href {
+        font-size: 1.3rem;
+    }
+}
+@media (max-width:320px) {
+    a.mobile-href {
+        font-size: 1.1rem;
     }
 }
 
@@ -164,13 +179,17 @@ a.mobile-href {
 
 /*===== START desktop =====*/
 
- @media (min-width:765px) {
+/* Landscape mobile exceeded */
+@media (min-width:825px) {
+    .banner-mobile {
+        display: none;
+    }
+}
+/* Default desktop threshold */
+@media (min-width:765px) {
     .contact-logo {
         margin: 1.0em 0;
         margin-top: 1.5rem;
-    }
-    .banner-mobile {
-        display: none;
     }
 }
 

@@ -27,30 +27,11 @@
         Streamline your hardware outsourcing with Kavis Technology. We work closely with the tech
         industry of North America, specializing in semiconductors and optics.
       </p>
-      <div class="container">
-        <div class="row banner-desktop">
-          <img src="{{ '/images/photos/landing-page/landing-page-01-desktop.jpg'|url }}" class="img-fluid screenshot rounded"
-              alt="Kavis Techology - Stock Photo">
-          <div class="col-md-5 banner-desktop-content">
-            <ul>
-              <li>CNC</li>
-              <li>EDM</li>
-              <li>3D Printing</li>
-              <li>Sheet Metal</li>
-              <li>Laser Cutting</li>
-              <li>Laser Welding</li>
-              <li>Cleanroom Assembly</li>
-            </ul>
-          </div>
-        </div>
-        <div class="row banner-mobile">
-          <div class="col-md-6">
-            <img src="{{ '/images/photos/landing-page/landing-page-01-mobile.jpg'|url }}" class="img-fluid screenshot rounded"
-                  alt="Kavis Techology - Stock Photo">
-          </div>
-        </div>
-      </div>
-    </div>
+
+      {% include "includes/index-banner-desktop.html" %}
+
+      {% include "includes/index-banner-mobile.html" %}
+
   </section>
 
   <section id="services" class="section-services">

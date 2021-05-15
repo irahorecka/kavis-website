@@ -26,6 +26,27 @@ main section:nth-child(even) {
     background: #f4f4f4;
 }
 
+/*===== START table =====*/
+
+/* Non-modal table */
+
+div.table-content {
+    margin: 2em;
+    text-align: left;
+}
+
+/* Default is check mark icon */
+div.col-sm-6::before {
+    content: "\f00c";
+    font-family: 'ForkAwesome';
+    font-size: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    padding: 0 10px 0 0;
+}
+
+/*===== END table =====*/
+
 /*===== START mobile =====*/
 
 @media (max-width:764px) {

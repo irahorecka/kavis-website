@@ -51,23 +51,49 @@ p.learn-more {
 }
 
 /* Main banner */
-.banner-desktop-content {
+.banner-desktop-list {
     color: var(--white);
-    top: -270px;
+    top: -275px;
     /* Eliminate whitespace created by moving top */
-    margin-bottom: -270px;
-    margin-left: 420px;
+    margin-bottom: -275px;
+    margin-left: 450px;
 }
-.banner-desktop-content li {
+.banner-desktop-list li {
 	list-style: none;
 	line-height: 1.6em;
     padding-left: 1rem;
 	text-align: left;
 	font-size: 1.4rem;
 }
-.banner-desktop-content li:hover {
+.banner-desktop-list li:hover {
 	list-style: disc;
 	color: var(--white);
+}
+
+/* Banner links for desktop */
+a.desktop-href {
+    color: var(--white);
+    font-weight: normal;
+}
+a.desktop-href:hover {
+    text-decoration: none;
+}
+
+/* Non-modal table for mobile */
+div.table-content {
+    margin: 2em 0 0 0;
+}
+
+div.col-sm-6 {
+    padding-bottom: 2px;
+}
+div.col-sm-6::before {
+    content: "\f054";
+    padding: 0 20px 0 0;
+}
+
+a.mobile-href {
+    font-weight: normal;
 }
 
 /* Contacts */

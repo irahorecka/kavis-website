@@ -64,21 +64,6 @@ p.table-header {
     font-size: 1.3rem;
 }
 
-div.table-content {
-    margin: 2em;
-    text-align: left;
-}
-
-/* For check mark icon */
-div.col-sm-6::before {
-    content: "\f00c";
-    font-family: 'ForkAwesome';
-    font-size: normal;
-    font-style: normal;
-    text-decoration: inherit;
-    padding: 0 10px 0 0;
-}
-
 /* Modal table */
 .open-table {
     margin: 2.5rem 0 2.0rem 0;

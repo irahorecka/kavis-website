@@ -50,6 +50,68 @@ p.learn-more {
     margin-top: 2.5rem;
 }
 
+/* Begin desktop banner */
+.banner-desktop-list {
+    color: var(--white);
+    top: -285px;
+    /* Eliminate whitespace created by moving top */
+    margin-bottom: -285px;
+    margin-left: 450px;
+}
+.banner-desktop-list p {
+    font-size: 1.6rem;
+    margin-bottom: 0.2em;
+    text-decoration: underline;
+}
+.banner-desktop-list li {
+	list-style: none;
+	line-height: 1.5em;
+    padding-left: 1rem;
+	text-align: left;
+	font-size: 1.3rem;
+}
+.banner-desktop-list li:hover {
+	list-style: disc;
+	color: var(--white);
+}
+
+a.desktop-href {
+    color: var(--white);
+    font-weight: normal;
+}
+a.desktop-href:hover {
+    text-decoration: none;
+}
+
+/* Begin mobile banner */
+div.table-content-head {
+    margin: 2em 0 -0.5em 0;
+}
+
+.banner-mobile p {
+    font-size: 1.6rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* Non-modal table for mobile */
+div.table-content {
+    margin: 2em 2em 0 2em;
+}
+
+div.col-content {
+    padding-bottom: 2px
+}
+div.col-content::before {
+    content: "\f054";
+    padding: 0 20px 0 0;
+}
+
+a.mobile-href {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
 /* Contacts */
 #bootstrap-overrides .btn-contact {
     background-color: var(--grey);
@@ -96,6 +158,13 @@ p.learn-more {
 
 /*===== START mobile =====*/
 
+/* Landscape mobile */
+@media (max-width:824px) {
+    .banner-desktop {
+        display: none;
+    }
+}
+/* Default mobile threshold */
 @media (max-width:764px) {
     .logo-main {
         margin-block-start: -0.5rem;
@@ -109,12 +178,30 @@ p.learn-more {
         width: 66.66666%;
     }
 }
+/* Small mobile - prevent word wrap */
+@media (max-width:375px) {
+    a.mobile-href {
+        font-size: 1.3rem;
+    }
+}
+@media (max-width:320px) {
+    a.mobile-href {
+        font-size: 1.1rem;
+    }
+}
 
 /*===== END mobile =====*/
 
 /*===== START desktop =====*/
 
- @media (min-width:765px) {
+/* Landscape mobile exceeded */
+@media (min-width:825px) {
+    .banner-mobile {
+        display: none;
+    }
+}
+/* Default desktop threshold */
+@media (min-width:765px) {
     .contact-logo {
         margin: 1.0em 0;
         margin-top: 1.5rem;

@@ -81,11 +81,11 @@ a.desktop-href:hover {
 
 /* Non-modal table for mobile */
 div.table-content {
-    margin: 2em 0 0 0;
+    margin: 2em 3em 0 3em;
 }
 
 div.col-sm-6 {
-    padding-bottom: 2px;
+    padding-bottom: 2px
 }
 div.col-sm-6::before {
     content: "\f054";
@@ -93,6 +93,7 @@ div.col-sm-6::before {
 }
 
 a.mobile-href {
+    font-size: 1.4rem;
     font-weight: normal;
 }
 

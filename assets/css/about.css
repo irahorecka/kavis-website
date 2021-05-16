@@ -21,21 +21,12 @@ p.legal {
     display: inline-block;
 }
 
-/* Add spacing for copyright logo in mobile */
-.copyright-spacing {
-    visibility: hidden;
-    padding: 1rem 0;
-}
-
 /*===== START mobile =====*/
 
 @media (max-width: 765px) {
     /* Two-col image gallery */
 	.client-logo {
 		width: 50%;
-    }
-    .copyright-spacing {
-        visibility: visible;
     }
 }
 

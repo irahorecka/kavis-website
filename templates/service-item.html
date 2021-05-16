@@ -13,8 +13,8 @@
 
 {% block content %}
     {{ this.body }}
-    <div class="padding"></div>
-    <div class="container gallery my-gallery">
+    <div class="margin-top"></div>
+    <div class="container gallery multi-gallery">
     {%- for image in this.gallery.blocks -%}
         <figure itemprop="associatedMedia">
             <!-- Main image when zoomed. Set fixed image dimension to 600x400 for now. -->
@@ -31,6 +31,7 @@
         </figure>
     {%- endfor -%}
     </div>
+    <div class="copyright-spacing"></div>
 
     {% include "includes/photoswipe-root.html" %}
 

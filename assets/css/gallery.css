@@ -3,6 +3,7 @@
 .gallery {
     max-width: 764px;
     margin: auto;
+	overflow: hidden;
 }
 
 .gallery img {
@@ -22,4 +23,34 @@
 	float: left;
 }
 
+/*
+NOTE: .multi-gallery is a necessary class defined in js/photoswipe-multi-gallery.js
+DO NOT REMOVE
+*/
+
 /*===== END gallery =====*/
+
+
+/*===== START mobile =====*/
+
+@media (max-width: 765px) {
+    /* Two-col image gallery */
+	.gallery figure {
+		width: 50%;
+    }
+}
+
+/*===== END mobile =====*/
+
+/*===== START desktop =====*/
+
+@media (min-width: 764px) {
+    /* Hover effect image gallery */
+	.gallery figure:hover {
+		opacity: 0.75 !important;
+		text-decoration: none;
+		color: inherit;
+	}
+}
+
+/*===== END desktop =====*/

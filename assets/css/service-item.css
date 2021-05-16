@@ -1,3 +1,9 @@
-div.padding {
-    padding: 2rem 0;
+div.margin-top {
+    margin-top: 5rem;
+}
+
+/* Allow image gallery to be flush* - esp. for mobile */
+.container {
+    padding-left: 0;
+    padding-right: 0;
 }

@@ -1,0 +1,25 @@
+/*===== START gallery =====*/
+
+.gallery {
+    max-width: 764px;
+    margin: auto;
+}
+
+.gallery img {
+	height: auto;
+	margin: 0;
+    max-width: 100%;
+    padding: 1.5px;
+}
+
+.gallery figure {
+	margin: 0;
+	position: relative;
+	list-style: none;
+	padding: 0;
+	display: inline-block;
+	width: 33.3333%;
+	float: left;
+}
+
+/*===== END gallery =====*/

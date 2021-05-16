@@ -75,7 +75,7 @@ p.learn-more {
 	color: var(--white);
 }
 
-.banner-desktop-list li.hover {
+.banner-desktop-list li.hover-init {
     list-style: disc;
 	color: var(--white);
 }
@@ -104,10 +104,10 @@ div.table-content {
     margin: 2em 2em 0 2em;
 }
 
-div.col-content {
+div.col-sm-6 {
     padding-bottom: 2px
 }
-div.col-content::before {
+div.col-sm-6::before {
     content: "\f054";
     padding: 0 20px 0 0;
 }

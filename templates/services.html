@@ -20,7 +20,7 @@
   </div>
 
   <span id="facilities" class="anchor"></span>
-  <section class="section-facilities">
+  <section>
     <div class="container">
       <h2>Facilities</h2>
       <p>We offer overseas facilities of exceptional standards. Our facilities are located in Beijing, China,
@@ -74,7 +74,7 @@
         </div>
       </div>
     </div>
-    <div class="container gallery my-gallery">
+    <div class="container gallery">
     {%- for image in this.gallery.blocks -%}
       {% if image.tag == 'facilities' %}
         <figure itemprop="associatedMedia">
@@ -97,8 +97,8 @@
   </section>
 
   <span id="hardware" class="anchor"></span>
-  <section class="section-dummy"></section>
-  <section class="section-hardware">
+  <section class="section-dummy"></section>  <!-- for proper alternation of background colors -->
+  <section>
     <div class="container">
       <h2>Hardware</h2>
       <p>This is the hardware section.</p>
@@ -106,7 +106,7 @@
            alt="Kavis Technology - Services/Hardware">
     </div>
 
-    <div class="container gallery my-gallery">
+    <div class="container gallery">
     {%- for image in this.gallery.blocks -%}
       {% if image.tag == 'hardware' %}
         <figure itemprop="associatedMedia">

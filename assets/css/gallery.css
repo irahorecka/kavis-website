@@ -3,6 +3,7 @@
 .gallery {
     max-width: 764px;
     margin: auto;
+	overflow: hidden;
 }
 
 .gallery img {
@@ -23,3 +24,28 @@
 }
 
 /*===== END gallery =====*/
+
+
+/*===== START mobile =====*/
+
+@media (max-width: 765px) {
+    /* Two-col image gallery */
+	.gallery figure {
+		width: 50%;
+    }
+}
+
+/*===== END mobile =====*/
+
+/*===== START desktop =====*/
+
+@media (min-width: 764px) {
+    /* Hover effect image gallery */
+	.gallery figure:hover {
+		opacity: 0.75 !important;
+		text-decoration: none;
+		color: inherit;
+	}
+}
+
+/*===== END desktop =====*/

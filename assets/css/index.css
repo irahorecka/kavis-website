@@ -75,6 +75,11 @@ p.learn-more {
 	color: var(--white);
 }
 
+.banner-desktop-list li.hover {
+    list-style: disc;
+	color: var(--white);
+}
+
 a.desktop-href {
     color: var(--white);
     font-weight: normal;

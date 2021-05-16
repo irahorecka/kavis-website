@@ -14,74 +14,95 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu
 ----
 tag: facilities
 ----
-url: photos/facilities-01.jpeg
+thumbnail_url: photos/thumbnail/landing-page/landing-page-01.jpeg
+----
+url: photos/landing-page/landing-page-01.jpeg
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
 tag: facilities
 ----
-url: photos/facilities-02.jpeg
+thumbnail_url: photos/thumbnail/landing-page/landing-page-02.jpeg
+----
+url: photos/landing-page/landing-page-02.jpeg
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
 tag: facilities
 ----
-url: photos/facilities-03.jpeg
+thumbnail_url: photos/thumbnail/landing-page/landing-page-03.jpeg
+----
+url: photos/landing-page/landing-page-03.jpeg
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
 tag: facilities
 ----
-url: photos/facilities-04.jpeg
+thumbnail_url: photos/thumbnail/landing-page/landing-page-04.jpeg
+----
+url: photos/landing-page/landing-page-04.jpeg
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
 tag: facilities
 ----
-url: photos/facilities-05.jpeg
+thumbnail_url: photos/thumbnail/landing-page/landing-page-05.jpeg
+----
+url: photos/landing-page/landing-page-05.jpeg
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
 tag: facilities
 ----
-url: photos/facilities-06.jpeg
+thumbnail_url: photos/thumbnail/landing-page/landing-page-06.jpeg
+----
+url: photos/landing-page/landing-page-06.jpeg
 
-#### hardwares ####
-hardwares:
-
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
 tag: hardware
 ----
-url: photos/hardware-01.jpeg
+thumbnail_url: photos/thumbnail/landing-page/landing-page-01.jpeg
+----
+url: photos/landing-page/landing-page-01.jpeg
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
 tag: hardware
 ----
-url: photos/hardware-02.jpeg
+thumbnail_url: photos/thumbnail/landing-page/landing-page-02.jpeg
+----
+url: photos/landing-page/landing-page-02.jpeg
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
 tag: hardware
 ----
-url: photos/hardware-03.jpeg
+thumbnail_url: photos/thumbnail/landing-page/landing-page-03.jpeg
+----
+url: photos/landing-page/landing-page-03.jpeg
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
 tag: hardware
 ----
-url: photos/hardware-04.jpeg
+thumbnail_url: photos/thumbnail/landing-page/landing-page-04.jpeg
+----
+url: photos/landing-page/landing-page-04.jpeg
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
 tag: hardware
 ----
-url: photos/hardware-05.jpeg
+thumbnail_url: photos/thumbnail/landing-page/landing-page-05.jpeg
+----
+url: photos/landing-page/landing-page-05.jpeg
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
 tag: hardware
 ----
-url: photos/hardware-06.jpeg
+thumbnail_url: photos/thumbnail/landing-page/landing-page-06.jpeg
+----
+url: photos/landing-page/landing-page-06.jpeg

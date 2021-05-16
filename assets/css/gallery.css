@@ -23,6 +23,11 @@
 	float: left;
 }
 
+/*
+NOTE: .multi-gallery is a necessary class defined in js/photoswipe-multi-gallery.js
+DO NOT REMOVE
+*/
+
 /*===== END gallery =====*/
 
 

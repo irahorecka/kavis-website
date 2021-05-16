@@ -28,9 +28,9 @@
         industry of North America, specializing in semiconductors and optics.
       </p>
 
-      {% include "includes/index-banner-desktop.html" %}
+      {% include "includes/index/banner-desktop.html" %}
 
-      {% include "includes/index-banner-mobile.html" %}
+      {% include "includes/index/banner-mobile.html" %}
 
   </section>
 
@@ -110,6 +110,10 @@
   </section>
 
   <script>
+    // Hover first list item in banner on page load
+    $(".banner-desktop-list li").on("mouseover mouseout", function(e) {
+      $(".banner-desktop-list li.hover").removeClass('hover');
+    });
     // Remove :focus from .btn-contact on click
     $('body').on('click', '.btn-contact', function() {
       $('.btn-contact').blur();

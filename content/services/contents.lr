@@ -6,3 +6,105 @@ body:
 
 We offer a suite of services. We specialize in outsourcing of custom hardware manufacturing overseas.
 We have over a decade of experience in optimizing high quality materials for a low price.
+---
+gallery:
+
+#### image ####
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----
+tag: facilities
+----
+thumbnail_url: photos/thumbnail/landing-page/landing-page-01.jpeg
+----
+url: photos/landing-page/landing-page-01.jpeg
+#### image ####
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----
+tag: facilities
+----
+thumbnail_url: photos/thumbnail/landing-page/landing-page-02.jpeg
+----
+url: photos/landing-page/landing-page-02.jpeg
+#### image ####
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----
+tag: facilities
+----
+thumbnail_url: photos/thumbnail/landing-page/landing-page-03.jpeg
+----
+url: photos/landing-page/landing-page-03.jpeg
+#### image ####
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----
+tag: facilities
+----
+thumbnail_url: photos/thumbnail/landing-page/landing-page-04.jpeg
+----
+url: photos/landing-page/landing-page-04.jpeg
+#### image ####
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----
+tag: facilities
+----
+thumbnail_url: photos/thumbnail/landing-page/landing-page-05.jpeg
+----
+url: photos/landing-page/landing-page-05.jpeg
+#### image ####
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----
+tag: facilities
+----
+thumbnail_url: photos/thumbnail/landing-page/landing-page-06.jpeg
+----
+url: photos/landing-page/landing-page-06.jpeg
+
+
+
+#### image ####
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----
+tag: hardware
+----
+thumbnail_url: photos/thumbnail/cnc/cnc-01.jpeg
+----
+url: photos/cnc/cnc-01.jpeg
+#### image ####
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----
+tag: hardware
+----
+thumbnail_url: photos/thumbnail/cnc/cnc-02.jpeg
+----
+url: photos/cnc/cnc-02.jpeg
+#### image ####
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----
+tag: hardware
+----
+thumbnail_url: photos/thumbnail/cnc/cnc-03.jpeg
+----
+url: photos/cnc/cnc-03.jpeg
+#### image ####
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----
+tag: hardware
+----
+thumbnail_url: photos/thumbnail/cnc/cnc-04.jpeg
+----
+url: photos/cnc/cnc-04.jpeg
+#### image ####
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----
+tag: hardware
+----
+thumbnail_url: photos/thumbnail/cnc/cnc-05.jpeg
+----
+url: photos/cnc/cnc-05.jpeg
+#### image ####
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----
+tag: hardware
+----
+thumbnail_url: photos/thumbnail/cnc/cnc-06.jpeg
+----
+url: photos/cnc/cnc-06.jpeg

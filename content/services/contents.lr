@@ -7,7 +7,7 @@ body:
 We offer a suite of services. We specialize in outsourcing of custom hardware manufacturing overseas.
 We have over a decade of experience in optimizing high quality materials for a low price.
 ---
-facilities:
+gallery:
 
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -52,24 +52,36 @@ hardwares:
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
+tag: hardware
+----
 url: photos/hardware-01.jpeg
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----
+tag: hardware
 ----
 url: photos/hardware-02.jpeg
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
+tag: hardware
+----
 url: photos/hardware-03.jpeg
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----
+tag: hardware
 ----
 url: photos/hardware-04.jpeg
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
+tag: hardware
+----
 url: photos/hardware-05.jpeg
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----
+tag: hardware
 ----
 url: photos/hardware-06.jpeg

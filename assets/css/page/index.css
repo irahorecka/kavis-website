@@ -104,10 +104,10 @@ div.table-content {
     margin: 2em 2em 0 2em;
 }
 
-div.col-sm-6 {
+div.col-fa {
     padding-bottom: 2px
 }
-div.col-sm-6::before {
+div.col-fa::before {
     content: "\f054";
     padding: 0 20px 0 0;
 }

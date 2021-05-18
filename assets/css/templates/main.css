@@ -12,6 +12,11 @@ body {
     --grey: #848484;
 }
 
+/* Paragraphs */
+p {
+    font-size: 1.1rem;
+}
+
 /* Links */
 a {
     color: rgb(45,144,233);

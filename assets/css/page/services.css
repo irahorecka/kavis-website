@@ -69,6 +69,10 @@ div.table-content {
     margin-bottom: 3rem;
 }
 
+div.stacked-tables {
+    margin-bottom: 2rem;
+}
+
 .col-fa {
     font-size: 1.05rem;
 }

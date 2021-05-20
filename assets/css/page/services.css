@@ -65,9 +65,21 @@ p.table-header {
     font-size: 1.35rem;
 }
 
+div.table-content {
+    margin-bottom: 3rem;
+}
+
+div.stacked-tables {
+    margin-bottom: 2rem;
+}
+
+.col-fa {
+    font-size: 1.05rem;
+}
+
 /* Modal table */
 .open-table {
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
@@ -101,9 +113,13 @@ p.table-header {
 	.gallery figure {
 		width: 50%;
     }
-    /* No side margin on mobile */
+    /* Margin adjustments for list items table */
     div.table-content {
         margin: 1.6em 1em 2em 1em;
+    }
+    /* Keep list items at 1rem */
+    .col-fa {
+        font-size: 1rem;
     }
     /* Show smaller table column headers */
     .desktop-table-col-header {

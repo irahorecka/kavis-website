@@ -49,8 +49,8 @@ div.table-content {
     text-align: left;
 }
 
-/* Default is check mark icon */
-div.col-sm-6::before {
+/* Default fork-awesome icon is check mark icon */
+div.col-fa::before {
     content: "\f00c";
     font-family: 'ForkAwesome';
     font-size: normal;

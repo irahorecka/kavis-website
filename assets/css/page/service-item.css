@@ -7,3 +7,13 @@ div.margin-top {
     padding-left: 0;
     padding-right: 0;
 }
+
+h3 {
+    text-align: center;
+    color: rgb(0,88,172);
+    font-style: italic;
+    font-size: 2rem;
+    font-family: "LatoLatinWebThin";
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}

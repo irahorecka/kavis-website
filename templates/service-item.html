@@ -1,38 +1,80 @@
 {% extends "page.html" %}
 
 {% block page_css %}
+  <link rel="stylesheet" href="{{ '/external/photoswipe-4.1.3/photoswipe.css'|url }}">
+  <link rel="stylesheet" href="{{ '/external/photoswipe-4.1.3/default-skin/default-skin.css'|url }}">
   <link rel="stylesheet" href="{{ '/css/templates/page.css'|url }}">
   <link rel="stylesheet" href="{{ '/css/templates/gallery.css'|url }}">
   <link rel="stylesheet" href="{{ '/css/page/service-item.css'|url }}">
 {% endblock %}
 
 {% block page_js %}
+<script defer src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
   <script defer src="{{ '/external/photoswipe-4.1.3/photoswipe.min.js'|url }}"></script>
   <script defer src="{{ '/external/photoswipe-4.1.3/photoswipe-ui-default.min.js'|url }}"></script>
+  <script defer src="{{ '/js/photoswipe-carousel.js'|url }}"></script>
 {%- endblock -%}
 
 {% block content %}
     {{ this.body }}
+
     <div class="margin-top"></div>
-    <div class="container gallery multi-gallery">
-    {%- for image in this.gallery.blocks -%}
-        <figure itemprop="associatedMedia">
-            <!-- Main image when zoomed. Set fixed image dimension to 600x400 for now. -->
-            <a href="{{ '../../images/' + image.url|url }}" data-med="{{ '../images/' + image.url|url }}"
-                data-caption="{{ image.description }}<br><em class='text-muted'>© Kavis Technology LLC</em>"
-                data-size="800x600"
-                data-med-size="800x600"
-                itemprop="contentUrl">
-                <!-- Image thumbnail -->
-                <img class="thumbnail" src="{{ '../../images/' + image.thumbnail_url|url }}"
+    <div>
+      <div class="gallery my-gallery slider-main">
+        {%- for image in this.gallery.blocks -%}
+          <figure itemprop="associatedMedia" class="main">
+              <!-- Main image when zoomed. Set fixed image dimension to 600x400 for now. -->
+              <a href="{{ '../../images/' + image.url|url }}" data-med="{{ '../images/' + image.url|url }}"
+                  data-caption="{{ image.description }}<br><em class='text-muted'>© Kavis Technology LLC</em>"
+                  data-size="1200x900"
+                  data-med-size="800x600"
+                  itemprop="contentUrl">
+                  <!-- Image thumbnail -->
+                  <img class="thumbnail" src="{{ '../../images/' + image.thumbnail_url|url }}"
+                  itemprop="thumbnail"
+                  alt="{{ image.description }}">
+              </a>
+          </figure>
+      {%- endfor -%}
+      </div>
+
+      <div class="my-gallery slider-nav">
+        {%- for image in this.gallery.blocks -%}
+          <figure itemprop="associatedMedia" class="nav">
+            <img class="thumbnail" src="{{ '../../images/' + image.thumbnail_url|url }}"
                 itemprop="thumbnail"
                 alt="{{ image.description }}">
-            </a>
-        </figure>
-    {%- endfor -%}
+          </figure>
+        {%- endfor -%}
+      </div>
+
     </div>
     <div class="copyright-spacing"></div>
 
     {% include "includes/photoswipe-root.html" %}
+
+<script>
+  // For gallery slideshow
+  $(document).ready(function() {
+    $('.slider-main').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      fade: false,
+      asNavFor: '.slider-nav',
+      accessibility: false,
+      speed: 300
+    });
+    $('.slider-nav').slick({
+      slidesToShow: {{this.gallery.blocks|length}},
+      slidesToScroll: 1,
+      asNavFor: '.slider-main',
+      dots: true,
+      focusOnSelect: true,
+      accessibility: false,
+      speed: 1
+    });
+  });
+</script>
 
 {% endblock %}

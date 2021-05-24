@@ -2,6 +2,16 @@ main {
     padding: 4rem 1rem;
 }
 
+div.margin-top {
+    margin-top: 5rem;
+}
+
+/* Allow image gallery to be flush* - esp. for mobile */
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 /* Add spacing for copyright logo in mobile */
 .copyright-spacing {
     visibility: hidden;

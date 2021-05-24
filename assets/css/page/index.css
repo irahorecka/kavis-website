@@ -64,20 +64,13 @@ p.learn-more {
     text-decoration: underline;
 }
 .banner-desktop-list li {
-	list-style: none;
 	line-height: 1.5em;
     padding-left: 1rem;
 	text-align: left;
 	font-size: 1.3rem;
 }
 .banner-desktop-list li:hover {
-	list-style: disc;
-	color: var(--white);
-}
-
-.banner-desktop-list li.hover-init {
-    list-style: disc;
-	color: var(--white);
+	text-decoration: underline;
 }
 
 a.desktop-href {

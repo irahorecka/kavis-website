@@ -1,13 +1,3 @@
-div.margin-top {
-    margin-top: 5rem;
-}
-
-/* Allow image gallery to be flush* - esp. for mobile */
-.container {
-    padding-left: 0;
-    padding-right: 0;
-}
-
 h3 {
     text-align: center;
     color: rgb(0,88,172);
@@ -17,3 +7,81 @@ h3 {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
+/*===== START gallery =====*/
+
+/* For Photoswipe carousel */
+
+.my-gallery img {
+    width: 100%;
+    height: auto;
+
+}
+
+.my-gallery figure {
+    display: block;
+    float: left;
+    width: 150px;
+}
+
+figure.main {
+    margin-bottom: 5px;
+}
+figure.nav {
+    margin-right: 5px;
+}
+
+img.my-gallery {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.my-gallery {
+    max-width: 764px;
+    margin: 0 auto;
+}
+
+.photoSwipeOpen .slick-track {
+    transition: none !important;
+}
+
+
+img.slider-nav {
+    max-width: 200px;
+    display: block;
+}
+
+.slider-nav .slick-track {
+    transform: none !important;
+}
+
+
+.slider-nav .slick-current {
+    border-bottom: 2px solid red;
+}
+
+.slider-main {
+    figure a {
+        display: block;
+        height: 0;
+        overflow: hidden;
+        padding-bottom: 100%;
+        position: relative;
+        text-align: center;
+    }
+
+    figure img {
+        display: inline-block;
+        height: auto;
+        left: 50%;
+        max-height: 100%;
+        max-width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: auto;
+    }
+}
+
+/*===== END gallery =====*/

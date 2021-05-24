@@ -1,0 +1,8 @@
+@media (min-width: 764px) {
+    /* Hover effect image gallery */
+	.gallery figure:hover {
+		opacity: 0.75 !important;
+		text-decoration: none;
+		color: inherit;
+	}
+}

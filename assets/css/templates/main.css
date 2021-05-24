@@ -105,23 +105,16 @@ p.image {
 /*===== START Header =====*/
 
 .dropdown-item {
-    color: rgba(0,0,0,0.5);
+    color: rgb(0,88,172);
 }
 
 .dropdown-item:hover {
-    color: rgba(31,56,100,0.97);
+    color: rgb(23,113,207);
 }
 
 .dropdown-item:active {
     color: var(--white);
-    background-color: rgba(0,88,172,1);
-}
-
-.mimic-nav-link {
-    display: block;
-    margin-right: 1rem;
-    padding: .5rem 0rem!important;
-    font-size: 1.0rem!important;
+    background-color: rgb(0,88,172);
 }
 
 #navbar {
@@ -138,6 +131,16 @@ p.image {
     margin-right: 0.8rem;
 }
 
+.nav-link {
+    margin-top: 0.05rem;
+}
+
+.navbar-light
+.navbar-nav
+.nav-link {
+    color: rgb(0,88,172);
+}
+
 .navbar-light
 .navbar-nav
 .nav-link
@@ -147,26 +150,26 @@ p.image {
 .nav-link.active,
 .nav-link.show,
 .show>.nav-link {
-    color: rgba(31,56,100,0.9)!important;
+    color: rgb(23,113,207)!important;
 }
 
 ::-moz-selection { /* Code for Firefox */
     color: var(--white);
-    background: rgb(0,88,172,1)!important;
+    background: rgb(0,88,172)!important;
 }
 
 ::selection {
     color: var(--white);
-    background: rgb(0,88,172,1)!important;
+    background: rgb(0,88,172)!important;
 }
 
-#navbar-alts-dropdown {
-    font-size: 1.5rem;
-    padding-top: 0.2rem;
-    padding-bottom: 0.2rem;
+#bootstrap-overrides #navbar-alts-dropdown {
+    display: block;
+    padding: .5rem 0rem;
+    font-size: 1rem;
 }
 
-#navbar-alts-dropdown:after {
+#bootstrap-overrides #navbar-alts-dropdown:after {
     font-size: 1rem;
 }
 

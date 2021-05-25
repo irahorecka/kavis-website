@@ -239,6 +239,15 @@ footer {
     .dropdown-menu {
         border-color: white;
     }
+    /* Disable underline offset to avoid offset lag on mobile */
+    .active>.nav-link,
+    .nav-link:focus,
+    .nav-link:hover,
+    .nav-link.active,
+    .nav-link.show,
+    .show>.nav-link {
+        text-underline-offset: 0;
+    }
 }
 
 /*===== END mobile =====*/

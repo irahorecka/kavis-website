@@ -7,16 +7,16 @@ main {
 
 .section-services h1,
 .section-contact h1 {
-    color: #0058AC;
+    color: var(--kavis-blue);
 }
 
 .section-main h1,
 .section-privacy h1 {
-    color: #767171
+    color: var(--grey)
 }
 
 .section-privacy .logo {
-    color: #2E9A41;
+    color: var(--green);
 }
 
 .section-contact {
@@ -58,19 +58,22 @@ p.learn-more {
     margin-bottom: -285px;
     margin-left: 450px;
 }
-.banner-desktop-list p {
-    font-size: 1.6rem;
-    margin-bottom: 0.2em;
-    text-decoration: underline;
-}
 .banner-desktop-list li {
 	line-height: 1.5em;
     padding-left: 1rem;
 	text-align: left;
 	font-size: 1.3rem;
 }
-.banner-desktop-list li:hover {
-	text-decoration: underline;
+.banner-desktop-list li:hover,
+.banner-desktop-list p {
+    text-decoration: underline;
+    text-underline-offset: 0.2rem;
+    text-decoration-thickness: 1.5px;
+}
+.banner-desktop-list p {
+	font-size: 1.6rem;
+    margin-bottom: 0.2em;
+    text-decoration-thickness: 2px;
 }
 
 a.desktop-href {

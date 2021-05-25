@@ -30,14 +30,10 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
       // create slide object
       item = {
         src: linkEl.getAttribute('href'),
+        title: linkEl.getAttribute('data-caption'),
         w: parseInt(size[0], 10),
         h: parseInt(size[1], 10)
       };
-
-      if (figureEl.children.length > 1) {
-        // <figcaption> content
-        item.title = figureEl.children[1].innerHTML;
-      }
 
       if (linkEl.children.length > 0) {
         // <img> thumbnail element, retrieving thumbnail url

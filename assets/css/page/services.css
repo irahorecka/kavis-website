@@ -61,7 +61,7 @@ p.container-desc {
 
 /* Non-modal table */
 p.table-header {
-    color: rgb(0,88,172,1);
+    color: var(--kavis-blue);
     font-size: 1.35rem;
 }
 

@@ -203,8 +203,7 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
       var curr = gallery.currItem;
       var index2 = curr.el.dataset.slickIndex;
       $('.slider-main').slick('slickGoTo', index2);
-      $('.slider-main').slick("slickSetOption", 'speed', 300, true);
-      $('.slider-main').slick("slickSetOption", 'waitForAnimate', true, false);
+      $('.slider-main').slick("slickSetOption", 'waitForAnimate', false, false);
 
     });
 

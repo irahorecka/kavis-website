@@ -14,9 +14,9 @@ crop-app-icon:
 	convert $$IN -bordercolor white -border 60x60 -trim temp.png && convert temp.png -bordercolor white -border 60x60 $$OUT;
 	rm temp.png;
 
-## Crops images with whitespace to have 80x175px whitespace around core image content.
+## Crops images with whitespace to have 80x75px whitespace around core image content.
 crop-small-banner:
-	convert $$IN -bordercolor white -border 10x10 -trim temp.png && convert temp.png -bordercolor white -border 80x175 $$OUT;
+	convert $$IN -bordercolor white -border 10x10 -trim temp.png && convert temp.png -bordercolor white -border 80x75 $$OUT;
 	rm temp.png;
 
 ## Crops images with whitespace to have 320x75px whitespace around core image content.

@@ -11,6 +11,8 @@ body {
     font-family: "LatoLatinWeb";
     min-height: 95vh;
     position: relative;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 p {
@@ -113,24 +115,29 @@ p.image {
     background-color: white;
 }
 
-.navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+#bootstrap-overrides .navbar-brand {
+    padding-left: 0.25rem;
 }
 
 #bootstrap-overrides .navbar-toggler {
     border-color: transparent;
+    padding-right: 0.25rem;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
 }
 
 .nav-link {
     margin-top: 0.05rem;
 }
 
-.nav-padding-right {
+.nav-border-right {
     border-right: 1px solid white;
     padding-right: 16px;
 }
 
-.nav-padding-left {
+.nav-border-left {
     border-left: 1px solid white;
     padding-left: 16px;
 }
@@ -206,6 +213,16 @@ h1 em {
     background: var(--kavis-blue);
 }
 
+/* Default fork-awesome icon is check mark icon */
+.col-fa::before {
+    content: "\f00c";
+    font-family: 'ForkAwesome';
+    font-size: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    padding: 0 10px 0 0;
+}
+
 /*===== END main =====*/
 
 /*===== START Footer =====*/
@@ -230,9 +247,13 @@ footer {
     #bootstrap-overrides .btn-info{
         width: 66.66666%;
     }
+    .hide-mobile {
+        display: none;
+    }
+
     /* Hide forced vertical navbar item bars in desktop */
-    .nav-padding-right,
-    .nav-padding-left {
+    .nav-border-right,
+    .nav-border-left {
         border: 0;
         padding: 0;
     }

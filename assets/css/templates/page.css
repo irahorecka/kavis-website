@@ -14,8 +14,7 @@ div.margin-top {
 
 /* Add spacing for copyright logo in mobile */
 .copyright-spacing {
-    visibility: hidden;
-    padding: 1rem 0;
+    height: 10rem;
 }
 
 /*===== START mobile =====*/

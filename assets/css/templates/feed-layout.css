@@ -49,16 +49,6 @@ div.table-content {
     text-align: left;
 }
 
-/* Default fork-awesome icon is check mark icon */
-div.col-fa::before {
-    content: "\f00c";
-    font-family: 'ForkAwesome';
-    font-size: normal;
-    font-style: normal;
-    text-decoration: inherit;
-    padding: 0 10px 0 0;
-}
-
 /*===== END table =====*/
 
 /*===== START mobile =====*/

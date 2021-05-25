@@ -21,6 +21,11 @@ p.legal {
     display: inline-block;
 }
 
+/* Add spacing for copyright logo in mobile */
+.copyright-spacing {
+    height: 2rem;
+}
+
 /*===== START mobile =====*/
 
 @media (max-width: 765px) {

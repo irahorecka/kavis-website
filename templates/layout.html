@@ -35,11 +35,11 @@
   {%- block page_js -%}
   {% endblock %}
 
-  <meta property="og:site_name" content="Kavis Technology" />
+  <meta property="og:site_name" content="Kavis Technology LLC" />
   <meta property="og:title"
-        content="Kavis Technology - The High-Tech Outsourcing Partner" />
+        content="Kavis Technology LLC - The High-Tech Outsourcing Partner" />
   <meta property="og:description"
-        content="Kavis Technology provides one-stop service, including product development, contract manufacturing, on-site quality control, and logistics associated with international transactions." />
+        content="Kavis Technology LLC provides one-stop service, including product development, contract manufacturing, on-site quality control, and logistics associated with international transactions." />
   <meta property="og:image"
         content="{{ "/images/kavistech-logo.png"|url }}" />
   <meta property="og:secure_url"
@@ -69,17 +69,18 @@
             </a>
           </li>
           <li class="nav-item" href="#top" data-toggle="collapse" data-target=".navbar-collapse.show">
-            <a class="nav-link" href="{{ "/"|url }}">Home</a>
+            <a class="nav-link" href="{{ "/"|url }}">
+                <div class="nav-padding-right">Home</div>
+            </a>
           </li>
           <li class="nav-item" href="#top" data-toggle="collapse" data-target=".navbar-collapse.show">
-            <a class="nav-link" href="{{ "/"|url }}">Products</a>
+            <a class="nav-link" href="{{ "/"|url }}">
+            <div class="nav-padding-right">Products</div></a>
           </li>
           <li class="nav-item nav-dropdown dropdown" href="#top" data-toggle="collapse" data-target=".navbar-collapse.show">
             <a class="nav-link dropdown-toggle" href="{{ "/services"|url }}"
                 id="navbar-alts-dropdown" role="button"
-                aria-haspopup="true" aria-expanded="false">
-              Services
-            </a>
+                aria-haspopup="true" aria-expanded="false">Services</a>
             <div class="dropdown-menu" aria-labelledby="navbar-alts-dropdown">
               <a class="dropdown-item" href="{{ "/services/#facilities"|url }}">Facilities</a>
               <a class="dropdown-item" href="{{ "/services/#hardware"|url }}">Hardware</a>
@@ -94,10 +95,16 @@
             </div>
           </li>
           <li class="nav-item" href="#top" data-toggle="collapse" data-target=".navbar-collapse.show">
-            <a class="nav-link" href="{{ "/photos"|url }}">Photo Gallery</a>
+            <a class="nav-link" href="{{ "/photos"|url }}">
+              <div class="nav-padding-left nav-padding-right">Photo Gallery</div>
+            </a>
           </li>
           <li class="nav-item" href="#top" data-toggle="collapse" data-target=".navbar-collapse.show">
-            <a class="nav-link" href="{{ "/about"|url }}">About Us</a>
+            <a class="nav-link" href="{{ "/about"|url }}">
+              <div class="nav-padding-right">
+              About Us
+              </div>
+            </a>
           </li>
           <li class="nav-item" href="#top" data-toggle="collapse" data-target=".navbar-collapse.show">
             <a class="nav-link" href="{{ "/"|url }}#contact">Contact Us</a>

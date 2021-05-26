@@ -130,6 +130,8 @@ p.image {
 
 .nav-link {
     margin-top: 0.05rem;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 0.5rem;
 }
 
 .nav-border-right {
@@ -154,8 +156,6 @@ p.image {
 .nav-link.show,
 .show>.nav-link {
     text-decoration: underline;
-    text-decoration-thickness: 1.5px;
-    text-underline-offset: 0.5rem;
 }
 
 /* Dropdown menu */
@@ -251,6 +251,9 @@ footer {
         display: none;
     }
 
+    .nav-link {
+        text-underline-offset: 0.2rem;
+    }
     /* Hide forced vertical navbar item bars in desktop */
     .nav-border-right,
     .nav-border-left {
@@ -259,15 +262,6 @@ footer {
     }
     .dropdown-menu {
         border-color: white;
-    }
-    /* Disable underline offset to avoid offset lag on mobile */
-    .active>.nav-link,
-    .nav-link:focus,
-    .nav-link:hover,
-    .nav-link.active,
-    .nav-link.show,
-    .show>.nav-link {
-        text-underline-offset: 0;
     }
 }
 

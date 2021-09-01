@@ -26,14 +26,6 @@ main section:nth-child(even) {
     background: #f4f4f4;
 }
 
-/* Give sections padding when routing by id */
-span.anchor {
-    display: block;
-    height: 60px;
-    margin-top: -60px;
-    visibility: hidden;
-}
-
 /* Allows for nice alternation of section color if misaligned */
 .section-dummy {
     padding: 0rem;

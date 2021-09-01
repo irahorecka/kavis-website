@@ -217,6 +217,14 @@ h1 em {
     background: var(--kavis-blue);
 }
 
+/* Give sections padding when routing by id */
+span.anchor {
+    display: block;
+    height: 60px;
+    margin-top: -60px;
+    visibility: hidden;
+}
+
 /* Default fork-awesome icon is check mark icon */
 .col-fa::before {
     content: "\f00c";

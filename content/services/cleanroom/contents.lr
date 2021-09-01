@@ -3,7 +3,7 @@ _template: service-item.html
 title: Cleanroom Assembly
 ---
 body:
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  View more photos <a href="{{ "/photos"|url }}#cleanroom">here</a>.
 ---
 gallery:
 
@@ -25,21 +25,3 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu
 thumbnail_url: photos/thumbnail/edm/edm-09.jpeg
 ----
 url: photos/edm/edm-09.jpeg
-#### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-----
-thumbnail_url: photos/thumbnail/edm/edm-10.jpeg
-----
-url: photos/edm/edm-10.jpeg
-#### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-----
-thumbnail_url: photos/thumbnail/edm/edm-11.jpeg
-----
-url: photos/edm/edm-11.jpeg
-#### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-----
-thumbnail_url: photos/thumbnail/edm/edm-12.jpeg
-----
-url: photos/edm/edm-12.jpeg

@@ -3,7 +3,7 @@ _template: service-item.html
 title: CNC
 ---
 body:
-Kavis Tech's CNC machining offers multi-axis milling and turning as well as sink and wire EDM, laser engraving, surface grinding, and more. Our facilities house a suite of advanced equipment to achieve our customer's project requirements.
+Kavis Tech's CNC machining offers multi-axis milling and turning as well as sink and wire EDM, laser engraving, surface grinding, and more. Our facilities house a suite of advanced equipment to achieve our customer's project requirements.  View more photos <a href="{{ "/photos"|url }}#cnc">here</a>.
 <p>We ensure complete regulatory compliance of all raw materials, using analytical machines to guarantee high standards of quality.</p>
 <h3>Why CNC?</h3>
 <p>Being a substractive manufacturing process, CNC machining is the ideal candidate for fast prototyping of complex end-use parts with high tolerances. We offer further processing with additional treatments such as plating, anodizing, polishing, and painting.</p>
@@ -28,57 +28,3 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu
 thumbnail_url: photos/thumbnail/cnc/cnc-03.jpeg
 ----
 url: photos/cnc/cnc-03.jpeg
-#### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-----
-thumbnail_url: photos/thumbnail/cnc/cnc-04.jpeg
-----
-url: photos/cnc/cnc-04.jpeg
-#### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-----
-thumbnail_url: photos/thumbnail/cnc/cnc-05.jpeg
-----
-url: photos/cnc/cnc-05.jpeg
-#### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-----
-thumbnail_url: photos/thumbnail/cnc/cnc-06.jpeg
-----
-url: photos/cnc/cnc-06.jpeg
-#### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-----
-thumbnail_url: photos/thumbnail/cnc/cnc-07.jpeg
-----
-url: photos/cnc/cnc-07.jpeg
-#### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-----
-thumbnail_url: photos/thumbnail/cnc/cnc-08.jpeg
-----
-url: photos/cnc/cnc-08.jpeg
-#### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-----
-thumbnail_url: photos/thumbnail/cnc/cnc-09.jpeg
-----
-url: photos/cnc/cnc-09.jpeg
-#### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-----
-thumbnail_url: photos/thumbnail/cnc/cnc-23.jpeg
-----
-url: photos/cnc/cnc-23.jpeg
-#### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-----
-thumbnail_url: photos/thumbnail/cnc/cnc-11.jpeg
-----
-url: photos/cnc/cnc-11.jpeg
-#### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-----
-thumbnail_url: photos/thumbnail/cnc/cnc-12.jpeg
-----
-url: photos/cnc/cnc-12.jpeg

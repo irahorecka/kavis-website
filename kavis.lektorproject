@@ -3,3 +3,6 @@ name = kavis
 
 [servers.ghpages]
 target = ghpages://irahorecka/kavis-website
+
+[packages]
+lektor-jinja-content =

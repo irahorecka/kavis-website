@@ -1,0 +1,152 @@
+main {
+    padding: 4rem 0 3rem 0;
+}
+
+/* Horizontal Rule */
+hr {
+    margin-bottom: 3rem;
+}
+
+/* Adapted from photos.css */
+a {
+	color: inherit;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+p.container-desc {
+    margin-bottom: 3rem;
+}
+
+.banner-img {
+    margin-top: 1.5rem;
+    margin-bottom: 3.0rem;
+}
+
+.div-services {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0rem 1rem;
+    padding-bottom: 4rem;
+    max-width: 764px;
+}
+
+/* Must adjust from standard due to larger text */
+#bootstrap-overrides .btn-info {
+    width: 50%;
+}
+
+#bootstrap-overrides .btn-close-modal {
+    padding: 0.2em 1em;
+    background-color: var(--grey);
+}
+#bootstrap-overrides .btn-close-modal:focus,
+#bootstrap-overrides .btn-close-modal:hover,
+#bootstrap-overrides .btn-close-modal:active {
+    background-color: transparent;
+    border-color: var(--grey);
+    color: var(--grey) !important;
+}
+
+/*===== START table =====*/
+
+/* Non-modal table */
+p.table-header {
+    color: var(--kavis-blue);
+    font-size: 1.35rem;
+}
+
+div.table-content {
+    margin-bottom: 3rem;
+}
+
+div.stacked-tables {
+    margin-bottom: 2rem;
+}
+
+.col-fa {
+    font-size: 1.05rem;
+}
+
+/* Modal table */
+.open-table {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#bootstrap-overrides th {
+    /* #0058AC in RGBA */
+    background-color: rgba(0, 71, 138, 0.25);
+}
+
+/* Give sort icon some padding on right */
+#bootstrap-overrides .fixed-table-container .table thead th,
+/* Give non-sorted column headers the proper text-center alignment coerced by forced 4px padding-right*/
+#bootstrap-overrides .fixed-table-container .table thead th .th-inner {
+    padding-right: 8px;
+}
+#bootstrap-overrides .fixed-table-container .table thead th .both {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAAIRlWElmTU0AKgAAAAgABQESAAMAAAABAAEAAAEaAAUAAAABAAAASgEbAAUAAAABAAAAUgEoAAMAAAABAAIAAIdpAAQAAAABAAAAWgAAAAAAAABIAAAAAQAAAEgAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAAAAqgAwAEAAAAAQAAAAoAAAAAyELV9gAAAAlwSFlzAAALEwAACxMBAJqcGAAAAVlpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iPgogICAgICAgICA8dGlmZjpPcmllbnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KTMInWQAAAG9JREFUGBljYIAAJigNotYD8QYkPlyOEUlwKZD9H4pXIInDFTMDBZdDFfwF0iAM0rAKiFmAGA7KgCyQxFcg/gnFIDZIrByIGWDW8gHZ/CABLOAjUOwT3G4sCrAKEbQaposoz8DcCdJEMHiQ3Yo1wAFWLiOUn2tFXwAAAABJRU5ErkJggg==');
+}
+#bootstrap-overrides .fixed-table-container .table thead th .asc {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAAIRlWElmTU0AKgAAAAgABQESAAMAAAABAAEAAAEaAAUAAAABAAAASgEbAAUAAAABAAAAUgEoAAMAAAABAAIAAIdpAAQAAAABAAAAWgAAAAAAAABIAAAAAQAAAEgAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAAAAqgAwAEAAAAAQAAAAoAAAAAyELV9gAAAAlwSFlzAAALEwAACxMBAJqcGAAAAVlpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iPgogICAgICAgICA8dGlmZjpPcmllbnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KTMInWQAAAHVJREFUGBmNkMsOQDAQRVXs/TfitRa/4btsEZwrbdMK4ianM3dm+sAksQxWSIflMuHiBj5radAtyMvA+55PaNbgruyehlVr7NBGXG3eEyNVOJ20gAaFctVauDSwuuve4qgvnSAHnRK+F5vskMEs81tP/+++2ZySch9GYK63pgAAAABJRU5ErkJggg==');
+}
+#bootstrap-overrides .fixed-table-container .table thead th .desc {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAAIRlWElmTU0AKgAAAAgABQESAAMAAAABAAEAAAEaAAUAAAABAAAASgEbAAUAAAABAAAAUgEoAAMAAAABAAIAAIdpAAQAAAABAAAAWgAAAAAAAABIAAAAAQAAAEgAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAAAAqgAwAEAAAAAQAAAAoAAAAAyELV9gAAAAlwSFlzAAALEwAACxMBAJqcGAAAAVlpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iPgogICAgICAgICA8dGlmZjpPcmllbnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KTMInWQAAAHlJREFUGBmNj0sOQEAQRIdYO7f4HUAcxLVsEdQb052JDZW8TH9Kp4QQQiG+9Mfz3MC5iFocohS5TjWVWBlO4vpgxogagXkTXAZqZr2IsqCdOhaY9lSPel0YzdyqthiDO7LsZmRHDD4wvX/Qr5qB1w94kbb0NrMIcXUD7IofJ7LcgCQAAAAASUVORK5CYII=');
+}
+
+/*===== END table =====*/
+
+/*===== START mobile =====*/
+
+@media (max-width: 765px) {
+    /* Two-col image gallery */
+	.gallery figure {
+		width: 50%;
+    }
+    /* Margin adjustments for list items table */
+    div.table-content {
+        margin: 1.6em 1em 2em 1em;
+    }
+    /* Keep list items at 1rem */
+    .col-fa {
+        font-size: 1rem;
+    }
+    /* Show smaller table column headers */
+    .desktop-table-col-header {
+        display: none;
+    }
+    /* Display to 80% width to accommodate larger text */
+    #bootstrap-overrides .btn-info {
+        width: 80%;
+    }
+    /* Left justify row values (modal table) */
+    #bootstrap-overrides .fixed-table-container .table tbody tr .card-view .card-view-value {
+        text-align: left;
+        padding-left: 1.5rem;
+    }
+}
+
+/*===== END mobile =====*/
+
+/*===== START desktop =====*/
+
+@media (min-width: 764px) {
+    /* Hover effect image gallery */
+	.gallery figure:hover {
+		opacity: 0.75 !important;
+		text-decoration: none;
+		color: inherit;
+	}
+    /* Show larger table column headers */
+    .mobile-table-col-header {
+        display: none;
+    }
+    .modal-dialog {
+        width: 80%; /* New width for default modal */
+        max-width: 1000px;
+    }
+}
+
+/*===== END desktop =====*/

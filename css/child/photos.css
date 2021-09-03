@@ -1,0 +1,19 @@
+.gallery-title {
+    font-size: 2.5rem;
+	margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.gallery-title ~ .gallery-title {
+    font-size: 2.5rem;
+	margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 764px) {
+    /* Hover effect image gallery */
+	.gallery figure:hover {
+		opacity: 0.75 !important;
+		text-decoration: none;
+		color: inherit;
+	}
+}

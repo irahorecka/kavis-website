@@ -1,0 +1,56 @@
+/*===== START gallery =====*/
+
+.gallery {
+    max-width: 764px;
+    margin: auto;
+	overflow: hidden;
+}
+
+.gallery img {
+	height: auto;
+	margin: 0;
+    max-width: 100%;
+    padding: 1.5px;
+}
+
+.gallery figure {
+	margin: 0;
+	position: relative;
+	list-style: none;
+	padding: 0;
+	display: inline-block;
+	width: 33.3333%;
+	float: left;
+}
+
+/*
+NOTE: .multi-gallery is a necessary class defined in js/photoswipe-multi-gallery.js
+DO NOT REMOVE
+*/
+
+/*===== END gallery =====*/
+
+
+/*===== START mobile =====*/
+
+@media (max-width: 765px) {
+    /* Two-col image gallery */
+	.gallery figure {
+		width: 50%;
+    }
+}
+
+/*===== END mobile =====*/
+
+/*===== START desktop =====*/
+
+@media (min-width: 764px) {
+    /* Hover effect image gallery */
+	figure.nav:hover {
+		opacity: 0.75 !important;
+		text-decoration: none;
+		color: inherit;
+	}
+}
+
+/*===== END desktop =====*/

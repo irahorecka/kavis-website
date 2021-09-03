@@ -1,0 +1,24 @@
+main {
+    padding: 4rem 1rem;
+}
+
+/* Allow image gallery to be flush* - esp. for mobile */
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Add spacing for copyright logo in mobile */
+.copyright-spacing {
+    height: 2rem;
+}
+
+/*===== START mobile =====*/
+
+@media (max-width: 765px) {
+    .copyright-spacing {
+        visibility: visible;
+    }
+}
+
+/*===== END mobile =====*/

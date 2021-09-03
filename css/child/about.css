@@ -1,0 +1,39 @@
+section {
+    text-align: center;
+}
+
+section.partners {
+    margin-top: 5rem;
+}
+
+div.legal {
+    max-width: 764px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.legal {
+    font-size: 0.85rem;
+}
+
+.client-logo {
+    margin: auto;
+    padding: 1.5rem 0;
+    display: inline-block;
+}
+
+/* Add spacing for copyright logo in mobile */
+.copyright-spacing {
+    height: 2rem;
+}
+
+/*===== START mobile =====*/
+
+@media (max-width: 765px) {
+    /* Two-col image gallery */
+	.client-logo {
+		width: 50%;
+    }
+}
+
+/*===== END mobile =====*/

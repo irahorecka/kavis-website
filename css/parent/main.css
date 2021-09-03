@@ -1,0 +1,280 @@
+:root {
+    --primary-color: #368ee9;
+    --kavis-blue: rgb(25,54,100);
+    --green: #2E9A41;
+    --grey: rgb(100,100,100);
+}
+
+body {
+    background: white;
+    color: var(--grey);
+    font-family: "LatoLatinWeb";
+    min-height: 95vh;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h2, h3 {
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+a {
+    color: rgb(45,144,233);
+    font-weight: bold;
+    transition: all 0.15s ease-out 0s;
+}
+
+a:hover {
+    color: rgb(23,113,207);
+}
+
+img {
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+}
+
+.btn {
+    padding: 0.5rem 1.9rem;
+    font-weight: 700;
+    margin: 0.4rem;
+}
+
+.btn-primary {
+    background: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background: #206ab6;
+}
+
+.btn-secondary {
+    color: #fff !important;
+}
+
+/* Ira's homebrew CSS */
+
+.btn-main {
+    border: 2px solid transparent;
+    border-radius: 0.66em 3px 0.66em 3px;
+    color: white;
+    display: block;
+    font-size: 1.0em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.15s ease-out 0s;
+}
+#bootstrap-overrides .btn-main:focus,
+#bootstrap-overrides .btn-main:hover,
+#bootstrap-overrides .btn-main:active {
+    box-shadow: none;
+}
+
+#bootstrap-overrides .btn-info {
+    background-color: var(--kavis-blue);
+    margin: auto;
+    padding: 0.2em 1em;
+    width: 33.33333%;
+}
+#bootstrap-overrides .btn-info:focus,
+#bootstrap-overrides .btn-info:hover,
+#bootstrap-overrides .btn-info:active {
+    background-color: transparent;
+    border-color: var(--kavis-blue);
+    color: var(--kavis-blue);
+}
+
+/* A container for multiple buttons in a single row */
+.button-row {
+    text-align: center;
+}
+
+/* A paragraph that contains only a single image */
+p.image {
+    text-align: center;
+}
+
+/* Override bootstrap card style to remove border */
+.card {
+    border: none;
+}
+
+/*===== START Header =====*/
+
+#navbar {
+    transition: top 0.25s;
+    background-color: var(--kavis-blue);
+}
+
+.navbar {
+    box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.05);
+    min-height: 60px;
+    background-color: white;
+}
+
+#bootstrap-overrides .navbar-brand {
+    padding-left: 0.25rem;
+}
+
+#bootstrap-overrides .navbar-toggler {
+    border-color: transparent;
+    padding-right: 0.25rem;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.nav-link {
+    margin-top: 0.05rem;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 0.5rem;
+}
+
+.nav-border-right {
+    border-right: 1px solid white;
+    padding-right: 16px;
+}
+
+.nav-border-left {
+    border-left: 1px solid white;
+    padding-left: 16px;
+}
+
+#bootstrap-overrides .navbar-light,
+#bootstrap-overrides .navbar-nav,
+#bootstrap-overrides .nav-link {
+    color: white;
+}
+.active>.nav-link,
+.nav-link:focus,
+.nav-link:hover,
+.nav-link.active,
+.nav-link.show,
+.show>.nav-link {
+    text-decoration: underline;
+}
+
+/* Dropdown menu */
+
+.dropdown-divider {
+    border-width: 1.5px;
+}
+
+.dropdown-menu,
+.dropdown-item {
+    color: white;
+    background-color: var(--kavis-blue);
+}
+.dropdown-item:hover,
+.dropdown-item:active {
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 0.2rem;
+    color: white;
+    background-color: var(--kavis-blue);
+}
+
+/* Allow hover navbar for drop-downs */
+.dropdown:hover .dropdown-menu {
+    margin-top: 0px;
+    display: block;
+}
+
+/*===== END Header =====*/
+
+/*===== START main =====*/
+
+main {
+    margin: 60px auto 0;
+    max-width: 764px;
+    padding: 3rem 1rem;
+}
+
+h1 {
+    text-align: center;
+    color: var(--kavis-blue);
+    font-style: italic;
+    font-size: 3rem;
+    font-family: "LatoLatinWebThin";
+    margin-bottom: 3.5rem;
+}
+
+h1 em {
+    font-family: "LatoLatinWeb";
+}
+
+::-moz-selection, /* Code for Firefox */
+::selection {
+    color: white;
+    background: var(--kavis-blue);
+}
+
+/* Give sections padding when routing by id */
+span.anchor {
+    display: block;
+    height: 60px;
+    margin-top: -60px;
+    visibility: hidden;
+}
+
+/* Default fork-awesome icon is check mark icon */
+.col-fa::before {
+    content: "\f00c";
+    font-family: 'ForkAwesome';
+    font-size: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    padding: 0 10px 0 0;
+}
+
+/*===== END main =====*/
+
+/*===== START Footer =====*/
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+.copyright {
+    font-size: 0.8rem;
+}
+
+/*===== END Footer =====*/
+
+/*===== START mobile =====*/
+
+@media (max-width:764px) {
+    /* Don't allow two-lined text */
+    #bootstrap-overrides .btn-info{
+        width: 66.66666%;
+    }
+    .hide-mobile {
+        display: none;
+    }
+
+    .nav-link {
+        text-underline-offset: 0.2rem;
+    }
+    /* Hide forced vertical navbar item bars in desktop */
+    .nav-border-right,
+    .nav-border-left {
+        border: 0;
+        padding: 0;
+    }
+    .dropdown-menu {
+        border-color: white;
+    }
+}
+
+/*===== END mobile =====*/

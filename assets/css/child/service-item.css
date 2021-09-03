@@ -12,10 +12,29 @@ h3 {
 
 /* For Photoswipe carousel */
 
+figure.main {
+    margin-bottom: 5px;
+}
+figure.nav {
+    margin-right: 5px;
+}
+
+div.gallery {
+    margin-top: 3rem;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.my-gallery {
+    max-width: 764px;
+    margin: 0 auto;
+}
+
 .my-gallery img {
     width: 100%;
     height: auto;
-
+    display: block;
 }
 
 .my-gallery figure {
@@ -24,41 +43,22 @@ h3 {
     width: 150px;
 }
 
-figure.main {
-    margin-bottom: 5px;
-}
-figure.nav {
-    margin-right: 5px;
-}
-
-img.my-gallery {
-    width: 100%;
-    display: block;
-    height: auto;
-}
-
-.my-gallery {
-    max-width: 764px;
+.slick-track {
+    display: flex;
     margin: 0 auto;
 }
 
-.photoSwipeOpen .slick-track {
+.slider-nav .slick-track .photoSwipeOpen {
     transition: none !important;
 }
 
+.slider-nav .slick-current {
+    border-bottom: 2px solid red;
+}
 
 img.slider-nav {
     max-width: 200px;
     display: block;
-}
-
-.slider-nav .slick-track {
-    transform: none !important;
-}
-
-
-.slider-nav .slick-current {
-    border-bottom: 2px solid red;
 }
 
 .slider-main {

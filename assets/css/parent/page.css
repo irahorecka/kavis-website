@@ -2,10 +2,6 @@ main {
     padding: 4rem 1rem;
 }
 
-div.margin-top {
-    margin-top: 5rem;
-}
-
 /* Allow image gallery to be flush* - esp. for mobile */
 .container {
     padding-left: 0;
@@ -14,7 +10,7 @@ div.margin-top {
 
 /* Add spacing for copyright logo in mobile */
 .copyright-spacing {
-    height: 5rem;
+    height: 2rem;
 }
 
 /*===== START mobile =====*/

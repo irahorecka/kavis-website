@@ -16,7 +16,7 @@ def recurse_resize(path):
         if os.path.isdir(item):
             recurse_resize(item)
         else:
-            subprocess.Popen(f"make resize-800-600 IN={item}", shell=True)
+            subprocess.Popen(f"make resize-1200-900 IN={item}", shell=True)
 
 
 if __name__ == "__main__":

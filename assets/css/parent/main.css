@@ -225,6 +225,10 @@ span.anchor {
     visibility: hidden;
 }
 
+#bootstrap-overrides a.dead-link {
+    color: grey;
+}
+
 /* Default fork-awesome icon is check mark icon */
 .col-fa::before {
     content: "\f00c";

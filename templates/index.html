@@ -4,9 +4,7 @@
   <link rel="stylesheet" href="{{ '/css/parent/feed-layout.css'|url }}">
   <link rel="stylesheet" href="{{ '/css/child/index.css'|url }}">
 {% endblock %}
-
 {% block content %}
-
   <section id="main" class="section-main">
     <div class="container">
       <div class="logo logo-main">
@@ -28,16 +26,12 @@
         the tech industry of North America, Europe, and Asia, specializing in semiconductor
         capital equipment parts and assemblies, tooling, biotech lab equipment, and optical instrumentation.
       </p>
-
       {% include "includes/index/banner-desktop.html" %}
-
       {% include "includes/index/banner-mobile.html" %}
-
   </section>
-
   <section id="services" class="section-services">
     <div class="container">
-      <h1>Industry quality, guaranteed.</h1>
+      <h1>Our Mission</h1>
       <p class="learn-more">
           Your project's success is important to us. We collaborate with customer
           R&D engineers to come up with solutions to solve design and fabrication issues and DFM
@@ -50,21 +44,6 @@
       </div>
     </div>
   </section>
-
-  <section class="section-privacy">
-    <div class="container">
-      <div class="logo-container">
-        <span class="fa fa-eye-slash logo" aria-hidden="true"></span>
-      </div>
-      <h1>Your privacy in safe hands</h1>
-      <p>
-          Business confidentiality shouldn't be taken lightly.
-          Respecting intellectual property is the cornerstone of our business and we
-          welcome NDAs.
-      </p>
-    </div>
-  </section>
-
   <section class="section-dummy"></section>
   <span id="contact" class="anchor"></span>
   <section class="section-contact">
@@ -91,7 +70,7 @@
           </div>
           <p class="contact-info">
             <span class="fa fa-at icon icon-padding" aria-hidden="true"></span>
-            <a href="mailto:tyoung@kavis-tech.com">tyoung@kavis-tech.com</a>
+            <a href="mailto:info@kavis-tech.com">info@kavis-tech.com</a>
           </p>
           <p class="contact-info">
             <span class="fa fa-phone icon icon-padding" aria-hidden="true"></span>
@@ -107,12 +86,10 @@
       </div>
     </div>
   </section>
-
   <script>
     // Remove :focus from .btn-contact on click
     $('body').on('click', '.btn-contact', function() {
       $('.btn-contact').blur();
     });
   </script>
-
 {% endblock %}

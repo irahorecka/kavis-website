@@ -1,3 +1,7 @@
+## Black format every python file to line length 100
+black:
+	find . -type f -name "*.py" | xargs black --line-length=100;
+
 ## Deploys website to github pages
 deploy:
 	lektor build;
@@ -35,6 +39,11 @@ transparent:
 	convert $$IN -transparent white $$OUT;
 
 resize-800-600:
-## Resizes image to 600px by 400px. Sets overflow background color to black.
-## E.g. $ make resize-600-400 IN=assets/images/photos/image06.jpeg
+## Resizes image to 800px by 600px. Sets overflow background color to black.
+## E.g. $ make resize-800-600 IN=assets/images/photos/image06.jpeg
 	convert $$IN -resize 800x600 -background black -gravity center -extent 800x600 $$IN
+
+resize-1200-900:
+## Resizes image to 1200px by 900px. Sets overflow background color to black.
+## E.g. $ make resize-1200-900 IN=assets/images/photos/image06.jpeg
+	convert $$IN -resize 1200x900 -background black -gravity center -extent 1200x900 $$IN

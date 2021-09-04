@@ -211,13 +211,10 @@ tag: laser-cutting
 thumbnail_url: photos/thumbnail/laser-cut/laser-cut-06.jpeg
 ----
 url: photos/laser-cut/laser-cut-06.jpeg
-
-
-
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
-tag: laser-welding
+tag: laser-cutting
 ----
 thumbnail_url: photos/thumbnail/laser-cut/laser-cut-10.jpeg
 ----
@@ -225,7 +222,7 @@ url: photos/laser-cut/laser-cut-10.jpeg
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
-tag: laser-welding
+tag: laser-cutting
 ----
 thumbnail_url: photos/thumbnail/laser-cut/laser-cut-11.jpeg
 ----
@@ -233,7 +230,7 @@ url: photos/laser-cut/laser-cut-11.jpeg
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
-tag: laser-welding
+tag: laser-cutting
 ----
 thumbnail_url: photos/thumbnail/laser-cut/laser-cut-12.jpeg
 ----

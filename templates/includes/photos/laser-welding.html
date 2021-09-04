@@ -11,9 +11,8 @@
             data-med-size="800x600"
             itemprop="contentUrl">
             <!-- Image thumbnail -->
-            <img class="thumbnail" src="{{ '../images/' + image.thumbnail_url|url }}"
-            itemprop="thumbnail"
-            alt="{{ image.description }}">
+            <img src="{{ '../images/' + image.thumbnail_url|url }}" class="thumbnail"
+            itemprop="thumbnail" alt="{{ image.description }}">
         </a>
     </figure>
     {% endif %}

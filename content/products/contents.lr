@@ -1,0 +1,63 @@
+_template: products.html
+---
+title: Products
+---
+body: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+---
+
+gallery:
+
+#### image ####
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----
+thumbnail_url: photos/thumbnail/cnc/cnc-04.jpeg
+----
+url: photos/cnc/cnc-04.jpeg
+#### image ####
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----
+thumbnail_url: photos/thumbnail/cnc/cnc-05.jpeg
+----
+url: photos/cnc/cnc-05.jpeg
+#### image ####
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----
+thumbnail_url: photos/thumbnail/cnc/cnc-06.jpeg
+----
+url: photos/cnc/cnc-06.jpeg
+#### image ####
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----
+thumbnail_url: photos/thumbnail/cnc/cnc-07.jpeg
+----
+url: photos/cnc/cnc-07.jpeg
+#### image ####
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----
+thumbnail_url: photos/thumbnail/cnc/cnc-08.jpeg
+----
+url: photos/cnc/cnc-08.jpeg
+#### image ####
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----
+thumbnail_url: photos/thumbnail/cnc/cnc-09.jpeg
+----
+url: photos/cnc/cnc-09.jpeg
+#### image ####
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----
+thumbnail_url: photos/thumbnail/cnc/cnc-23.jpeg
+----
+url: photos/cnc/cnc-23.jpeg
+#### image ####
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----
+thumbnail_url: photos/thumbnail/cnc/cnc-11.jpeg
+----
+url: photos/cnc/cnc-11.jpeg
+#### image ####
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----
+thumbnail_url: photos/thumbnail/cnc/cnc-12.jpeg
+----
+url: photos/cnc/cnc-12.jpeg

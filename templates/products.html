@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="{{ '/css/parent/page.css'|url }}">
   <link rel="stylesheet" href="{{ '/css/parent/gallery.css'|url }}">
   <link rel="stylesheet" href="{{ '/css/child/photos.css'|url }}">
+  <link rel="stylesheet" href="{{ '/css/child/products.css'|url }}">
 {% endblock %}
 
 {% block page_js %}
@@ -16,8 +17,6 @@
 {% block content %}
     {{ this.body }}
 
-    <span id="cnc" class="anchor"></span>
-    <h1 class="gallery-title">CNC</h1>
     <div class="container gallery multi-gallery">
     {%- for image in this.gallery.blocks -%}
       <figure itemprop="associatedMedia">
@@ -31,6 +30,7 @@
               <img src="{{ '../images/' + image.thumbnail_url|url }}" class="thumbnail"
               itemprop="thumbnail" alt="{{ image.description }}">
           </a>
+        <p class="photo-subtext">{{ image.subtext }}</p>
       </figure>
     {%- endfor -%}
     </div>

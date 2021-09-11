@@ -16,7 +16,7 @@
 {%- endblock -%}
 
 {% block content %}
-    {{ this.body }}
+    <div class="intro-desc">{{ this.body|safe }}</div>
     <div class="gallery my-gallery slider-main">
       {%- for image in this.gallery.blocks -%}
         <figure itemprop="associatedMedia" class="main">

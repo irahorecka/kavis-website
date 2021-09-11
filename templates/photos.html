@@ -14,7 +14,7 @@
 {%- endblock -%}
 
 {% block content %}
-    {{ this.body }}
+    <div class="intro-desc">{{ this.body|safe }}</div>
 
     {% include "includes/photos/cnc.html" %}
     {% include "includes/photos/edm.html" %}

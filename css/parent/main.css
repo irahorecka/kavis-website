@@ -217,6 +217,10 @@ h1 em {
     background: var(--kavis-blue);
 }
 
+.intro-desc {
+    margin-bottom: 5rem;
+}
+
 /* Give sections padding when routing by id */
 span.anchor {
     display: block;

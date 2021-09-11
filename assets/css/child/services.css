@@ -16,7 +16,7 @@ a {
 }
 
 p.container-desc {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .banner-img {
@@ -28,7 +28,6 @@ p.container-desc {
     margin-right: auto;
     margin-left: auto;
     padding: 0rem 1rem;
-    padding-bottom: 4rem;
     max-width: 764px;
 }
 
@@ -38,7 +37,7 @@ p.container-desc {
 }
 
 #bootstrap-overrides .btn-close-modal {
-    padding: 0.2em 1em;
+    padding: 0.2rem 1rem;
     background-color: var(--grey);
 }
 #bootstrap-overrides .btn-close-modal:focus,
@@ -58,11 +57,11 @@ p.table-header {
 }
 
 div.table-content {
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
 }
 
-div.stacked-tables {
-    margin-bottom: 2rem;
+div.table-content-last-child {
+    margin-bottom: 3rem;
 }
 
 .col-fa {
@@ -107,11 +106,10 @@ div.stacked-tables {
     }
     /* Margin adjustments for list items table */
     div.table-content {
-        margin: 1.6em 1em 2em 1em;
+        margin: 0 1rem 2rem 1rem;
     }
-    /* Keep list items at 1rem */
-    .col-fa {
-        font-size: 1rem;
+    div.table-content-last-child {
+        margin: 0 1rem 3rem 1rem;
     }
     /* Show smaller table column headers */
     .desktop-table-col-header {

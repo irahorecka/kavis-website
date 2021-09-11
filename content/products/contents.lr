@@ -1,0 +1,81 @@
+_template: products.html
+---
+title: Products
+---
+body: <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+---
+
+gallery:
+
+#### image ####
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----
+thumbnail_url: photos/thumbnail/products-page/products-page-01.jpeg
+----
+url: photos/products-page/products-page-01.jpeg
+----
+subtext: Water Chuck
+#### image ####
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----
+thumbnail_url: photos/thumbnail/products-page/products-page-02.jpeg
+----
+url: photos/products-page/products-page-02.jpeg
+----
+subtext: Water Lift Pin
+#### image ####
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----
+thumbnail_url: photos/thumbnail/products-page/products-page-03.jpeg
+----
+url: photos/products-page/products-page-03.jpeg
+----
+subtext: Tungsten Carbide Pads
+#### image ####
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----
+thumbnail_url: photos/thumbnail/products-page/products-page-04.jpeg
+----
+url: photos/products-page/products-page-04.jpeg
+----
+subtext: Custom Fasteners
+#### image ####
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----
+thumbnail_url: photos/thumbnail/products-page/products-page-05.jpeg
+----
+url: photos/products-page/products-page-05.jpeg
+----
+subtext: Leaf Springs
+#### image ####
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----
+thumbnail_url: photos/thumbnail/products-page/products-page-06.jpeg
+----
+url: photos/products-page/products-page-06.jpeg
+----
+subtext: Custom Shim
+#### image ####
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----
+thumbnail_url: photos/thumbnail/products-page/products-page-07.jpeg
+----
+url: photos/products-page/products-page-07.jpeg
+----
+subtext: Tooling Ball
+#### image ####
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----
+thumbnail_url: photos/thumbnail/products-page/products-page-08.jpeg
+----
+url: photos/products-page/products-page-08.jpeg
+----
+subtext: Special Pins
+#### image ####
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----
+thumbnail_url: photos/thumbnail/products-page/products-page-09.jpeg
+----
+url: photos/products-page/products-page-09.jpeg
+----
+subtext: Face Plate

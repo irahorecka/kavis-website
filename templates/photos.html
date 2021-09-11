@@ -14,14 +14,14 @@
 {%- endblock -%}
 
 {% block content %}
-    {{ this.body }}
+    <div class="intro-desc">{{ this.body|safe }}</div>
 
     {% include "includes/photos/cnc.html" %}
     {% include "includes/photos/edm.html" %}
-    {% include "includes/photos/3d-printing.html" %}
+
     {% include "includes/photos/sheet-metal.html" %}
     {% include "includes/photos/laser-cutting.html" %}
-    {% include "includes/photos/laser-welding.html" %}
+
     {% include "includes/photos/cleanroom.html" %}
 
     <div class="copyright-spacing"></div>

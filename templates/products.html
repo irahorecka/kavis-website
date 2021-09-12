@@ -1,5 +1,4 @@
 {% extends "page.html" %}
-
 {% block page_css %}
   <link rel="stylesheet" href="{{ '/external/photoswipe-4.1.3/photoswipe.css'|url }}">
   <link rel="stylesheet" href="{{ '/external/photoswipe-4.1.3/default-skin/default-skin.css'|url }}">
@@ -8,15 +7,12 @@
   <link rel="stylesheet" href="{{ '/css/child/photos.css'|url }}">
   <link rel="stylesheet" href="{{ '/css/child/products.css'|url }}">
 {% endblock %}
-
 {% block page_js %}
   <script defer src="{{ '/external/photoswipe-4.1.3/photoswipe.min.js'|url }}"></script>
   <script defer src="{{ '/external/photoswipe-4.1.3/photoswipe-ui-default.min.js'|url }}"></script>
 {%- endblock -%}
-
 {% block content %}
     <div class="intro-desc">{{ this.body|safe }}</div>
-
     <div class="container gallery multi-gallery">
     {%- for image in this.gallery.blocks -%}
       <figure itemprop="associatedMedia">
@@ -35,6 +31,5 @@
     {%- endfor -%}
     </div>
     <div class="copyright-spacing"></div>
-
     {% include "includes/photoswipe-root.html" %}
 {% endblock %}

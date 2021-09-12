@@ -1,20 +1,20 @@
 <span id="cnc" class="anchor"></span>
 <h1 class="gallery-title">CNC</h1>
 <div class="container gallery multi-gallery">
-{%- for image in this.gallery.blocks -%}
-    {% if image.tag == 'cnc' %}
-    <figure itemprop="associatedMedia">
-        <!-- Main image when zoomed. Set fixed image dimension to 600x400 for now. -->
-        <a href="{{ '../images/' + image.url|url }}" data-med="{{ '../images/' + image.url|url }}"
-            data-caption="{{ image.description }}<br><em class='text-muted'>© Kavis Technology LLC</em>"
-            data-size="1200x900"
-            data-med-size="800x600"
-            itemprop="contentUrl">
-            <!-- Image thumbnail -->
-            <img src="{{ '../images/' + image.thumbnail_url|url }}" class="thumbnail"
-            itemprop="thumbnail" alt="{{ image.description }}">
-        </a>
-    </figure>
-    {% endif %}
-{%- endfor -%}
+  {%- for image in this.gallery.blocks -%}
+  {% if image.tag == 'cnc' %}
+  <figure itemprop="associatedMedia">
+    <!-- Main image when zoomed. Set fixed image dimension to 600x400 for now. -->
+    <a href="{{ '../images/' + image.url|url }}" data-med="{{ '../images/' + image.url|url }}"
+      data-caption="{{ image.description }}<br><em class='text-muted'>© Kavis Technology LLC</em>"
+      data-size="1200x900"
+      data-med-size="800x600"
+      itemprop="contentUrl">
+      <!-- Image thumbnail -->
+      <img src="{{ '../images/' + image.thumbnail_url|url }}" class="thumbnail"
+        itemprop="thumbnail" alt="{{ image.description }}">
+    </a>
+  </figure>
+  {% endif %}
+  {%- endfor -%}
 </div>

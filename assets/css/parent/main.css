@@ -15,7 +15,12 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+h1, h4 {
+    color: var(--kavis-blue);
+}
+
 h2, h3 {
+    color: var(--kavis-blue);
     margin-bottom: 1rem;
 }
 
@@ -200,7 +205,6 @@ main {
 
 h1 {
     text-align: center;
-    color: var(--kavis-blue);
     font-style: italic;
     font-size: 3rem;
     font-family: "LatoLatinWebThin";

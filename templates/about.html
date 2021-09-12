@@ -1,10 +1,8 @@
 {% extends "page.html" %}
-
 {% block page_css %}
   <link rel="stylesheet" href="{{ '/css/parent/page.css'|url }}">
   <link rel="stylesheet" href="{{ '/css/child/about.css'|url }}">
 {% endblock %}
-
 {% block content %}
     <div class="intro-desc">{{ this.body|safe }}</div>
   <section id="partners">
@@ -69,5 +67,4 @@
     </div>
   </section>
   <div class="copyright-spacing"></div>
-
 {% endblock %}

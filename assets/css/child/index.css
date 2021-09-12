@@ -5,20 +5,6 @@ main {
     padding-bottom: 0;
 }
 
-.section-services h1,
-.section-contact h1 {
-    color: var(--kavis-blue);
-}
-
-.section-main h1,
-.section-privacy h1 {
-    color: var(--grey)
-}
-
-.section-privacy .logo {
-    color: var(--green);
-}
-
 .section-contact {
     /* Provide more padding in landing page for copyright footer */
     padding-bottom: 5rem;
@@ -41,13 +27,9 @@ main {
 }
 
 /* Ira's homebrew stuff */
-/* Images */
-img.screenshot {
-    margin-top: 1.5rem;
-}
 
-p.learn-more {
-    margin-bottom: 2.5rem;
+p.description-text {
+    margin-bottom: 3rem;
 }
 
 /* Begin desktop banner */
@@ -93,6 +75,7 @@ div.table-content-head {
     font-size: 1.6rem;
     text-align: center;
     text-decoration: underline;
+    color: var(--kavis-blue);
 }
 
 /* Non-modal table for mobile */
@@ -130,7 +113,6 @@ a.mobile-href {
 
 .contact-addr {
     margin: 0em;
-    margin-top: 3rem;
     margin-bottom: 1.5rem;
     font-size: 1.1rem;
     text-align: left;
@@ -147,10 +129,6 @@ a.mobile-href {
     font-size: 1.6rem;
     padding: 0rem 0;
     text-align: left;
-}
-
-.contact-header {
-    margin-bottom: 1.5rem;
 }
 
 .icon-padding {

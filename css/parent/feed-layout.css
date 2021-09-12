@@ -12,7 +12,6 @@ main section .container {
 }
 
 main section h1 {
-    color: #0058AC;
     /* Override default h1 style meant for all pages */
     font-weight: bold;
     margin-top: 1.5rem;

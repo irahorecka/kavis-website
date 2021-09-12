@@ -2,12 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
   <title>Services | Kavis Technology</title>
-
+  <link rel="preload" as="style" href="../css/latolatinfonts.css">
   <!-- Favicon. Works with IE >= 11 and other GUI browsers -->
   <link rel="icon" type="image/png" href="../images/logos/kavistech-icon-favicon.png"/>
-
   <link rel="stylesheet" href="../external/bootstrap-4.4.1/css/bootstrap.css">
   <link rel="stylesheet" href="../css/latolatinfonts.css">
   <link rel="stylesheet" href="../css/parent/main.css">
@@ -33,14 +31,12 @@
   <link rel="stylesheet" href="../css/parent/gallery.css">
   <link rel="stylesheet" href="../css/child/services.css">
 
-
   <script src="../external/jquery-3.5.1.min.js"></script>
   <script defer src="../external/bootstrap-4.4.1/js/bootstrap.min.js"></script>
   <script defer src="../external/bootstrap-table-1.18.3/bootstrap-table.min.js"></script>
   <script defer src="../external/bootstrap-table-1.18.3/bootstrap-table-mobile.min.js"></script>
   <script defer src="../external/photoswipe-4.1.3/photoswipe.min.js"></script>
   <script defer src="../external/photoswipe-4.1.3/photoswipe-ui-default.min.js"></script>
-
   <meta property="og:site_name" content="Kavis Technology LLC" />
   <meta property="og:title"
         content="Kavis Technology LLC - The High-Tech Outsourcing Partner" />
@@ -53,7 +49,6 @@
   <meta name="viewport"
         content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
-
 <body id="bootstrap-overrides">
   <header>
     <nav id="navbar" class="navbar fixed-top navbar-expand-md navbar-light">
@@ -110,14 +105,12 @@
       </div>
     </nav>
   </header>
-
   <main>
   <h1>Services</h1>
 
   <div class="div-services">
     <div class="intro-desc"><p>We specialize in contract manufacturing with global sourcing. We have over a decade of experience in optimizing quality, cost, and on-time delivery of parts, assemblies, kits, custom tooling,  from start to finish.  RoHS and REACH compliance is available upon request.</p><p>For parts and materials to be used in clean environment like semiconductor equipment and healthcare products, we have service providers in US and Singapore that provide precision cleaning services to satisfy different levels of cleanness for UV, DUV, EUV, high vacuum, ultrahigh vacuum applications with special attention to photo contamination, outgassing, virtual leak, etc.</p></div>
   </div>
-
   <span id="facilities" class="anchor"></span>
   <section>
     <div class="container">
@@ -126,7 +119,6 @@
       Asia, and Europe.</p>
       <img src="../images/photos/landing-page/landing-page-03.jpeg" class="img-fluid screenshot rounded banner-img"
            alt="Kavis Technology - Services/Facilities">
-
       <h3>International</h3>
       <p class="container-desc">Our international facilities employ cutting edge equipments and manufacturing to maximize
                                 compatibility with your business project's needs</p>
@@ -178,7 +170,6 @@
         </div>
       </div>
       <hr>
-
       <h3>United States</h3>
       <p class="container-desc">
         Our U.S. and offshore facilities work in syhcrony, helping customers benefit from high quality materials while achieving cost-down objectives.
@@ -193,7 +184,6 @@
         <div class="col-sm-12 col-fa">Reworking and non-compliance materials handling at Tridecs Precision Machining</div>
         <div class="col-sm-12 col-fa">Inventory and spare parts</div>
       </div>
-
       <div class="gallery multi-gallery">
           <figure itemprop="associatedMedia">
               <!-- Main image when zoomed. Set fixed image dimension to 600x400 for now. -->
@@ -273,10 +263,8 @@
               </a>
           </figure>
         </div>
-
     </div>
   </section>
-
   <span id="common-materials" class="anchor"></span>
   <section class="section-dummy"></section>  <!-- for proper alternation of background colors -->
   <section>
@@ -318,7 +306,6 @@
         <div class="col-sm-4 col-fa">Zirconia</div>
       </div>
     </div>
-
     <div class="container gallery multi-gallery">
         <figure itemprop="associatedMedia">
             <!-- Main image when zoomed. Set fixed image dimension to 600x400 for now. -->
@@ -398,9 +385,7 @@
             </a>
         </figure>
       </div>
-
   </section>
-
   <!-- Root element of PhotoSwipe -->
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="pswp__bg"></div>
@@ -440,12 +425,9 @@
     </div>
   </div>
 </div>
-
 <script src=../js/photoswipe-multi-gallery.js></script>
-
   <script>
     var $table = $('#table')
-
     $(function() {
       $('#modalTable').on('shown.bs.modal', function () {
         $table.bootstrapTable('resetView')
@@ -457,7 +439,6 @@
         $('.btn').blur();
       });
     })
-
     // Adjust modal table col name and window height for mobile
     if (/Mobi|Android/i.test(navigator.userAgent)) {
       document.querySelectorAll('[data-field="specs"]')[0].innerHTML = "Specs";
@@ -465,14 +446,11 @@
     }
   </script>
 
-
   </main>
-
   <footer class="page-footer font-small">
     <div class="footer-copyright text-center">
         <p class="copyright">&copy; Kavis Technology LLC 2021</p>
     </div>
   </footer>
-
 </body>
 </html>

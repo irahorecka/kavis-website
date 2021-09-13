@@ -15,20 +15,8 @@ a {
 	transition: all 0.2s ease-in-out;
 }
 
-p.container-desc {
-    margin-bottom: 2rem;
-}
-
 .banner-img {
-    margin-top: 1.5rem;
     margin-bottom: 3.0rem;
-}
-
-.div-services {
-    margin-right: auto;
-    margin-left: auto;
-    padding: 0rem 1rem;
-    max-width: 764px;
 }
 
 /* Must adjust from standard due to larger text */

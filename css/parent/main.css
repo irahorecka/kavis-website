@@ -221,7 +221,15 @@ h1 em {
     background: var(--kavis-blue);
 }
 
+.container-desc {
+    margin-bottom: 2rem;
+}
+
 .intro-desc {
+    padding: 0rem 1rem;
+    max-width: 764px;
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: 5rem;
 }
 

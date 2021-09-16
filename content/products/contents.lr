@@ -14,7 +14,7 @@ thumbnail_url: photos/thumbnail/products-page/products-page-01.jpeg
 ----
 url: photos/products-page/products-page-01.jpeg
 ----
-subtext: Water Chuck
+subtext: Face Plate
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
@@ -22,7 +22,7 @@ thumbnail_url: photos/thumbnail/products-page/products-page-02.jpeg
 ----
 url: photos/products-page/products-page-02.jpeg
 ----
-subtext: Water Lift Pin
+subtext: Tungsten Carbide Pads
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
@@ -30,7 +30,7 @@ thumbnail_url: photos/thumbnail/products-page/products-page-03.jpeg
 ----
 url: photos/products-page/products-page-03.jpeg
 ----
-subtext: Tungsten Carbide Pads
+subtext: Water Lift Pins
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
@@ -38,7 +38,7 @@ thumbnail_url: photos/thumbnail/products-page/products-page-04.jpeg
 ----
 url: photos/products-page/products-page-04.jpeg
 ----
-subtext: Custom Fasteners
+subtext: Custom Shims
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
@@ -54,7 +54,7 @@ thumbnail_url: photos/thumbnail/products-page/products-page-06.jpeg
 ----
 url: photos/products-page/products-page-06.jpeg
 ----
-subtext: Custom Shim
+subtext: Special Pins
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
@@ -62,7 +62,7 @@ thumbnail_url: photos/thumbnail/products-page/products-page-07.jpeg
 ----
 url: photos/products-page/products-page-07.jpeg
 ----
-subtext: Tooling Ball
+subtext: Water Chuck
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
@@ -70,7 +70,7 @@ thumbnail_url: photos/thumbnail/products-page/products-page-08.jpeg
 ----
 url: photos/products-page/products-page-08.jpeg
 ----
-subtext: Special Pins
+subtext: Tooling Balls
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
@@ -78,4 +78,4 @@ thumbnail_url: photos/thumbnail/products-page/products-page-09.jpeg
 ----
 url: photos/products-page/products-page-09.jpeg
 ----
-subtext: Face Plate
+subtext: Custom Screws

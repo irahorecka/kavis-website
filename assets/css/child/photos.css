@@ -16,6 +16,17 @@ main section h1 {
     margin-bottom: 2rem;
 }
 
+.services-href {
+	color: var(--kavis-blue);
+	font-weight: normal;
+}
+.services-href:hover {
+	color: var(--kavis-blue);
+	text-decoration: underline;
+	text-decoration-thickness: 2.5px;
+	text-underline-offset: 0.2rem;
+}
+
 @media (min-width: 764px) {
     /* Hover effect image gallery */
 	.gallery figure:hover {

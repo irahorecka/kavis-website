@@ -292,9 +292,6 @@ footer {
     #bootstrap-overrides .btn-info{
         width: 66.66666%;
     }
-    .hide-mobile {
-        display: none;
-    }
 
     .nav-link {
         text-underline-offset: 0.2rem;

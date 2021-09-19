@@ -30,8 +30,13 @@
 /*===== START mobile =====*/
 
 @media (max-width: 764px) {
+    .contact-addr {
+        padding-left: 1rem;
+    }
+
     .contact-info {
         text-align: left;
+        padding-left: 1rem;
     }
 }
 

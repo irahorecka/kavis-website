@@ -3,7 +3,7 @@ _template: service-item.html
 title: Laser Welding
 ---
 body:
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  View more photos <a href="{{ "/photos"|url }}#laser-welding">here</a>.
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. View our <a href="{{ "/photos"|url }}#laser-welding">photo gallery</a> for more laser welding photos.</p>
 ---
 gallery:
 

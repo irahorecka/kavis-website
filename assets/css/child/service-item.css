@@ -30,10 +30,19 @@ div.gallery {
     margin: 0 auto;
 }
 
-.my-gallery img {
-    width: 100%;
+/* Figure in focus */
+.my-gallery a img {
+    width: 80%;
     height: auto;
     display: block;
+    margin: auto;
+    filter: drop-shadow(1px 1px 4px grey);
+}
+
+/* Figure thumbnails */
+.my-gallery img {
+    width: 100%;
+    filter: drop-shadow(1px 1px 2px grey);
 }
 
 .my-gallery figure {
@@ -52,7 +61,8 @@ div.gallery {
 }
 
 .slider-nav .slick-current {
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid var(--kavis-blue);
+    padding-bottom: 3px;
 }
 
 img.slider-nav {
@@ -84,3 +94,13 @@ img.slider-nav {
 }
 
 /*===== END gallery =====*/
+
+/*===== START mobile =====*/
+
+@media (max-width:764px) {
+    .my-gallery a img {
+        width: 100%;
+    }
+}
+
+/*===== END mobile =====*/

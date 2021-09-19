@@ -214,6 +214,8 @@ h1 {
     font-size: 3rem;
     font-family: "LatoLatinWebThin";
     margin-bottom: 3.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
 
 h1 em {

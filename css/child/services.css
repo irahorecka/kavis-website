@@ -87,7 +87,7 @@ div.table-content-last-child {
 
 /*===== START mobile =====*/
 
-@media (max-width: 765px) {
+@media (max-width: 764px) {
     /* Two-col image gallery */
 	.gallery figure {
 		width: 50%;
@@ -118,7 +118,7 @@ div.table-content-last-child {
 
 /*===== START desktop =====*/
 
-@media (min-width: 764px) {
+@media (min-width: 765px) {
     /* Hover effect image gallery */
 	.gallery figure:hover {
 		opacity: 0.75 !important;

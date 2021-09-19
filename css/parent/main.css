@@ -111,6 +111,11 @@ p.image {
     border: none;
 }
 
+/* Add spacing for copyright logo in mobile */
+.copyright-spacing {
+    height: 2rem;
+}
+
 /*===== START Header =====*/
 
 #navbar {
@@ -198,8 +203,8 @@ p.image {
 /*===== START main =====*/
 
 main {
-    margin: 60px auto 0;
     max-width: 764px;
+    margin: 60px auto 0;
     padding: 3rem 1rem;
 }
 
@@ -219,6 +224,10 @@ h1 em {
 ::selection {
     color: white;
     background: var(--kavis-blue);
+}
+
+.container {
+    max-width: 764px;
 }
 
 .container-desc {
@@ -274,7 +283,11 @@ footer {
 
 /*===== START mobile =====*/
 
-@media (max-width:764px) {
+@media (max-width: 764px) {
+    .copyright-spacing {
+        visibility: visible;
+    }
+
     /* Don't allow two-lined text */
     #bootstrap-overrides .btn-info{
         width: 66.66666%;

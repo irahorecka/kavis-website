@@ -95,7 +95,7 @@ img.slider-nav {
 
 /*===== START mobile =====*/
 
-@media (max-width:764px) {
+@media (max-width: 764px) {
     .my-gallery a img {
         width: 100%;
     }

@@ -1,0 +1,36 @@
+{% extends "page.html" %}
+{% block page_css %}
+  <link rel="stylesheet" href="{{ '/css/parent/page.css'|url }}">
+  <link rel="stylesheet" href="{{ '/css/child/contact.css'|url }}">
+{% endblock %}
+{% block content %}
+<div class="intro-desc">{{ this.body|safe }}</div>
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-md-5">
+      <div class="contact-addr">
+        <p class="contact-addr-inner">
+          Kavis Technology LLC
+        </p>
+        <p class="contact-addr-inner">
+          3401 Investment Blvd #10
+        </p>
+        <p class="contact-addr-inner">
+          Hayward, CA 94545
+        </p>
+      </div>
+    </div>
+    <div class="col-12 col-md-7">
+      <p class="contact-info">
+        <span class="fa fa-at icon icon-padding" aria-hidden="true"></span>
+        <a href="mailto:info@kavis-tech.com">info@kavis-tech.com</a>
+      </p>
+      <p class="contact-info">
+        <span class="fa fa-phone icon icon-padding" aria-hidden="true"></span>
+        +1 510 825 2035
+      </p>
+    </div>
+  </div>
+</div>
+<div class="copyright-spacing"></div>
+{% endblock %}

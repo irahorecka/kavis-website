@@ -32,7 +32,7 @@ div.gallery {
 
 /* Figure in focus */
 .my-gallery a img {
-    width: 80%;
+    width: 85%;
     height: auto;
     display: block;
     margin: auto;

@@ -29,7 +29,7 @@
       {% include "includes/index/banner-desktop.html" %}
       {% include "includes/index/banner-mobile.html" %}
   </section>
-  <section id="services" class="section-services">
+  <section id="services">
     <div class="container">
       <h1>Our Mission</h1>
       <p class="description-text">
@@ -38,54 +38,9 @@
           optimization, from prototyping to production.
       </p>
       <a class="btn btn-main btn-info learn-more" href="{{ "/services"|url }}">learn more</a>
-      <div class="logo-container">
-        <img src="{{ '/images/industry.png'|url }}" class="img-fluid logo"
-        loading="lazy" alt="Quality Guaranteed">
-      </div>
     </div>
   </section>
-  <section class="section-dummy"></section>
-  <span id="contact" class="anchor"></span>
-  <section class="section-contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h1>Contact Us</h1>
-          <p class="description-text">
-            Ready to start? The solutions start here.
-            Please feel free to reach out to us.
-          </p>
-        </div>
-        <div class="col-12 col-md-8">
-          <div class="contact-addr">
-            <p class="contact-addr-inner">
-              Kavis Technology LLC
-            </p>
-            <p class="contact-addr-inner">
-              3401 Investment Blvd. #10
-            </p>
-            <p class="contact-addr-inner">
-              Hayward, CA 94545
-            </p>
-          </div>
-          <p class="contact-info">
-            <span class="fa fa-at icon icon-padding" aria-hidden="true"></span>
-            <a href="mailto:info@kavis-tech.com">info@kavis-tech.com</a>
-          </p>
-          <p class="contact-info">
-            <span class="fa fa-phone icon icon-padding" aria-hidden="true"></span>
-            +1 510 825 2035
-          </p>
-        </div>
-        <div class="col-12 col-md-4">
-          <img src="{{ '/images/logos/kavistech-banner-small-transparent.png'|url }}"
-          class="img-fluid logo contact-logo" alt="Kavis Technology Logo">
-          <br>
-          <a class="btn btn-main btn-contact" href="https://www.google.com/maps/place/3401+Investment+Blvd+%2310,+Hayward,+CA+94545/@37.6235361,-122.1247231,15.23z/data=!4m5!3m4!1s0x808f96d0173fffff:0xeca58aac76c03c5b!8m2!3d37.6262324!4d-122.1186248" target="_blank">how to find us</a>
-        </div>
-      </div>
-    </div>
-  </section>
+  <div class="copyright-spacing"></div>
   <script>
     // Remove :focus from .btn-contact on click
     $('body').on('click', '.btn-contact', function() {

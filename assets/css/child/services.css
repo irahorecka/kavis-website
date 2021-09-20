@@ -9,14 +9,25 @@ hr {
 
 /* Adapted from photos.css */
 a {
-	color: inherit;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
 
-.banner-img {
-    margin-bottom: 3.0rem;
+.intro-services {
+    margin-bottom: 3rem;
+}
+
+.banner-pb {
+    padding-bottom: 3rem;
+}
+
+.col-fa.global-facilities::before {
+    content: "\f054";
+    font-family: 'ForkAwesome';
+    font-style: normal;
+    text-decoration: inherit;
+    padding: 0 10px 0 0;
 }
 
 /* Must adjust from standard due to larger text */
@@ -50,8 +61,7 @@ p.table-header {
 
 /* Modal table */
 .open-table {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 #bootstrap-overrides th {

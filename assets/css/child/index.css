@@ -16,10 +16,6 @@ main section h1 {
     margin-top: 1.5rem;
 }
 
-ul {
-    padding-left: 2.5rem;
-}
-
 .logo-main {
     margin-block-end: 2rem;
 }
@@ -34,85 +30,14 @@ p.description-text {
     margin-bottom: 3rem;
 }
 
-/* Begin desktop banner */
-.banner-desktop-list {
-    color: var(--white);
-    top: -280px;
-    /* Eliminate whitespace created by moving top */
-    margin-bottom: -280px;
-    margin-left: 385px;
-}
-.banner-desktop-list li {
-	line-height: 1.5em;
-    padding-left: 0.5rem;
-	text-align: left;
-	font-size: 1.3rem;
-}
-.banner-desktop-list li:hover,
-.banner-desktop-list p {
-    text-decoration: underline;
-    text-underline-offset: 0.2rem;
-    text-decoration-thickness: 1.5px;
-}
-.banner-desktop-list p {
-	font-size: 1.4rem;
-    margin-bottom: 0.2em;
-    text-decoration-thickness: 2px;
-}
-
-a.desktop-href {
-    color: var(--white);
-    font-weight: normal;
-}
-a.desktop-href:hover {
-    text-decoration: none;
-}
-
-/* Begin mobile banner */
-div.table-content-head {
-    margin: 2em 0 -0.5em 0;
-}
-
-.banner-mobile p {
-    font-size: 1.6rem;
-    text-align: center;
-    text-decoration: underline;
-    color: var(--kavis-blue);
-}
-
-/* Non-modal table for mobile */
-div.table-content {
-    margin: 2em 2em 0 2em;
-}
-
-div.col-fa {
-    padding-bottom: 2px
-}
-div.col-fa::before {
-    content: "\f054";
-    padding: 0 20px 0 0;
-}
-
-a.mobile-href {
-    font-size: 1.5rem;
-    font-weight: normal;
-}
-
 /*===== START mobile =====*/
 
-/* Landscape mobile */
-@media (max-width: 824px) {
-    .banner-desktop {
-        display: none;
-    }
-}
 /* Default mobile threshold */
 @media (max-width: 764px) {
     /* Smaller section h1 for mobile */
     main section h1 {
         font-size: 2rem;
     }
-
     .logo-main {
         margin-block-start: -0.5rem;
     }
@@ -121,27 +46,5 @@ a.mobile-href {
         width:  66.66666%;
     }
 }
-/* Small mobile - prevent word wrap */
-@media (max-width: 375px) {
-    a.mobile-href {
-        font-size: 1.3rem;
-    }
-}
-@media (max-width: 320px) {
-    a.mobile-href {
-        font-size: 1.1rem;
-    }
-}
 
 /*===== END mobile =====*/
-
-/*===== START desktop =====*/
-
-/* Landscape mobile exceeded */
-@media (min-width: 825px) {
-    .banner-mobile {
-        display: none;
-    }
-}
-
-/*===== END desktop =====*/

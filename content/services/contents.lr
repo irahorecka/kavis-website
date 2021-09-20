@@ -4,7 +4,7 @@ title: Services
 ---
 body:
 
-<p>We specialize in contract manufacturing with global sourcing. We have over a decade of experience in optimizing quality, cost, and on-time delivery of parts, assemblies, kits, custom tooling,  from start to finish.  RoHS and REACH compliance is available upon request.</p><p>For parts and materials to be used in clean environment like semiconductor equipment and healthcare products, we have service providers in US and Singapore that provide precision cleaning services to satisfy different levels of cleanness for UV, DUV, EUV, high vacuum, ultrahigh vacuum applications with special attention to photo contamination, outgassing, virtual leak, etc.</p>
+<p>We specialize in contract manufacturing with global sourcing. We have over a decade of experience in optimizing quality, cost, and on-time delivery of parts, assemblies, kits, custom tooling, from start to finish. RoHS and REACH compliance is available upon request.</p><p>For parts and materials to be used in clean environment like semiconductor equipment and healthcare products, we have service providers in US and Singapore that provide precision cleaning services to satisfy different levels of cleanness for UV, DUV, EUV, high vacuum, ultrahigh vacuum applications with special attention to photo contamination, outgassing, virtual leak, etc.</p>
 ---
 gallery:
 
@@ -13,97 +13,97 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu
 ----
 tag: facilities
 ----
-thumbnail_url: photos/thumbnail/landing-page/landing-page-01.jpeg
+thumbnail_url: photos/thumbnail/facilities/facilities-01.jpeg
 ----
-url: photos/landing-page/landing-page-01.jpeg
+url: photos/facilities/facilities-01.jpeg
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
 tag: facilities
 ----
-thumbnail_url: photos/thumbnail/landing-page/landing-page-02.jpeg
+thumbnail_url: photos/thumbnail/facilities/facilities-02.jpeg
 ----
-url: photos/landing-page/landing-page-02.jpeg
+url: photos/facilities/facilities-02.jpeg
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
 tag: facilities
 ----
-thumbnail_url: photos/thumbnail/landing-page/landing-page-03.jpeg
+thumbnail_url: photos/thumbnail/facilities/facilities-03.jpeg
 ----
-url: photos/landing-page/landing-page-03.jpeg
+url: photos/facilities/facilities-03.jpeg
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
 tag: facilities
 ----
-thumbnail_url: photos/thumbnail/landing-page/landing-page-04.jpeg
+thumbnail_url: photos/thumbnail/facilities/facilities-04.jpeg
 ----
-url: photos/landing-page/landing-page-04.jpeg
+url: photos/facilities/facilities-04.jpeg
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
 tag: facilities
 ----
-thumbnail_url: photos/thumbnail/landing-page/landing-page-05.jpeg
+thumbnail_url: photos/thumbnail/facilities/facilities-05.jpeg
 ----
-url: photos/landing-page/landing-page-05.jpeg
+url: photos/facilities/facilities-05.jpeg
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
 tag: facilities
 ----
-thumbnail_url: photos/thumbnail/landing-page/landing-page-06.jpeg
+thumbnail_url: photos/thumbnail/facilities/facilities-06.jpeg
 ----
-url: photos/landing-page/landing-page-06.jpeg
+url: photos/facilities/facilities-06.jpeg
 
 
 
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
-tag: hardware
+tag: common-materials
 ----
-thumbnail_url: photos/thumbnail/cnc/cnc-01.jpeg
+thumbnail_url: photos/thumbnail/common-materials/common-materials-01.jpeg
 ----
-url: photos/cnc/cnc-01.jpeg
+url: photos/common-materials/common-materials-01.jpeg
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
-tag: hardware
+tag: common-materials
 ----
-thumbnail_url: photos/thumbnail/cnc/cnc-02.jpeg
+thumbnail_url: photos/thumbnail/common-materials/common-materials-02.jpeg
 ----
-url: photos/cnc/cnc-02.jpeg
+url: photos/common-materials/common-materials-02.jpeg
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
-tag: hardware
+tag: common-materials
 ----
-thumbnail_url: photos/thumbnail/cnc/cnc-03.jpeg
+thumbnail_url: photos/thumbnail/common-materials/common-materials-03.jpeg
 ----
-url: photos/cnc/cnc-03.jpeg
+url: photos/common-materials/common-materials-03.jpeg
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
-tag: hardware
+tag: common-materials
 ----
-thumbnail_url: photos/thumbnail/cnc/cnc-04.jpeg
+thumbnail_url: photos/thumbnail/common-materials/common-materials-04.jpeg
 ----
-url: photos/cnc/cnc-04.jpeg
+url: photos/common-materials/common-materials-04.jpeg
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
-tag: hardware
+tag: common-materials
 ----
-thumbnail_url: photos/thumbnail/cnc/cnc-05.jpeg
+thumbnail_url: photos/thumbnail/common-materials/common-materials-05.jpeg
 ----
-url: photos/cnc/cnc-05.jpeg
+url: photos/common-materials/common-materials-05.jpeg
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
-tag: hardware
+tag: common-materials
 ----
-thumbnail_url: photos/thumbnail/cnc/cnc-06.jpeg
+thumbnail_url: photos/thumbnail/common-materials/common-materials-06.jpeg
 ----
-url: photos/cnc/cnc-06.jpeg
+url: photos/common-materials/common-materials-06.jpeg

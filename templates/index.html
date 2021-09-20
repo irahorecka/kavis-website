@@ -3,6 +3,7 @@
 {%- block page_css %}
   <link rel="stylesheet" href="{{ '/css/parent/feed-layout.css'|url }}">
   <link rel="stylesheet" href="{{ '/css/child/index.css'|url }}">
+  <link rel="stylesheet" href="{{ '/css/child/banner.css'|url }}">
 {% endblock %}
 {% block content %}
   <section id="main" class="section-main">
@@ -26,8 +27,8 @@
         the tech industry of North America, Europe, and Asia, specializing in semiconductor
         capital equipment parts and assemblies, tooling, biotech lab equipment, and optical instrumentation.
       </p>
-      {% include "includes/index/banner-desktop.html" %}
-      {% include "includes/index/banner-mobile.html" %}
+      {% include "includes/banner/banner-desktop.html" %}
+      {% include "includes/banner/banner-mobile.html" %}
   </section>
   <section id="services">
     <div class="container">

@@ -15,14 +15,3 @@ main section:nth-child(even) {
 .section-dummy {
     padding: 0rem;
 }
-
-/*===== START table =====*/
-
-/* Non-modal table */
-
-div.table-content {
-    margin: 2em;
-    text-align: left;
-}
-
-/*===== END table =====*/

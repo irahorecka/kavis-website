@@ -244,6 +244,21 @@ h1 em {
     margin-bottom: 5rem;
 }
 
+/*===== START table =====*/
+
+/* Non-modal table */
+div.table-content {
+    margin: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+div.table-content-last-child {
+    margin-bottom: 3rem;
+}
+
+/*===== END table =====*/
+
 /* Give sections padding when routing by id */
 span.anchor {
     display: block;
@@ -289,12 +304,17 @@ footer {
     .copyright-spacing {
         visibility: visible;
     }
-
+    /* Margin adjustments for list items table */
+    div.table-content {
+        margin: 0 1rem 2rem 1rem;
+    }
+    div.table-content-last-child {
+        margin: 0 1rem 3rem 1rem;
+    }
     /* Don't allow two-lined text */
     #bootstrap-overrides .btn-info{
         width: 66.66666%;
     }
-
     .nav-link {
         text-underline-offset: 0.2rem;
     }

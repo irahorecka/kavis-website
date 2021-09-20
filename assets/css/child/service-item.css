@@ -5,6 +5,11 @@ h4 {
     margin-bottom: 2rem;
 }
 
+div.table-content {
+    margin-left: 0;
+    margin-bottom: 2rem;
+}
+
 /*===== START gallery =====*/
 
 /* For Photoswipe carousel */

@@ -30,6 +30,7 @@
   <link rel="stylesheet" href="../css/parent/feed-layout.css">
   <link rel="stylesheet" href="../css/parent/gallery.css">
   <link rel="stylesheet" href="../css/child/services.css">
+  <link rel="stylesheet" href="../css/child/banner.css">
 
   <script src="../external/jquery-3.5.1.min.js"></script>
   <script defer src="../external/bootstrap-4.4.1/js/bootstrap.min.js"></script>
@@ -109,18 +110,53 @@
   <main>
   <h1>Services</h1>
 
-  <div class="intro-desc"><p>We specialize in contract manufacturing with global sourcing. We have over a decade of experience in optimizing quality, cost, and on-time delivery of parts, assemblies, kits, custom tooling,  from start to finish.  RoHS and REACH compliance is available upon request.</p><p>For parts and materials to be used in clean environment like semiconductor equipment and healthcare products, we have service providers in US and Singapore that provide precision cleaning services to satisfy different levels of cleanness for UV, DUV, EUV, high vacuum, ultrahigh vacuum applications with special attention to photo contamination, outgassing, virtual leak, etc.</p></div>
-  <span id="facilities" class="anchor"></span>
-  <section>
+  <div class="intro-desc intro-services"><p>We specialize in contract manufacturing with global sourcing. We have over a decade of experience in optimizing quality, cost, and on-time delivery of parts, assemblies, kits, custom tooling, from start to finish. RoHS and REACH compliance is available upon request.</p><p>For parts and materials to be used in clean environment like semiconductor equipment and healthcare products, we have service providers in US and Singapore that provide precision cleaning services to satisfy different levels of cleanness for UV, DUV, EUV, high vacuum, ultrahigh vacuum applications with special attention to photo contamination, outgassing, virtual leak, etc.</p></div>
+  <div class="container banner-pb">
+    <div class="row banner-desktop">
+  <img src="../images/photos/landing-page/landing-page-01-desktop.jpeg" class="img-fluid rounded"
+    alt="Kavis Techology - Stock Photo">
+  <div class="col-md-6 banner-desktop-list">
+    <p>Contract Manufacturing Services</p>
+    <ul>
+      <li><a href="cnc/">CNC</a></li>
+      <li><a href="edm/">EDM</a></li>
+      <li><a class="dead-link" href="#">3D Printing</a></li>
+      <li><a href="sheet-metal/">Sheet Metal</a></li>
+      <li><a href="laser-cutting/">Laser Cutting</a></li>
+      <li><a class="dead-link" href="#">Laser Welding</a></li>
+      <li><a href="cleanroom/">Cleanroom Assembly</a></li>
+    </ul>
+  </div>
+</div>
+    <div class="banner-mobile">
+  <img src="../images/photos/landing-page/landing-page-01-mobile.jpeg" class="img-fluid rounded"
+    alt="Kavis Techology - Stock Photo">
+  <div class="table-content-head">
+    <p>Contract Manufacturing Services</p>
+  </div>
+  <div class="table-content row">
+    <div class="col-sm-6 col-fa"><a href="cnc/">CNC</a></div>
+    <div class="col-sm-6 col-fa"><a href="edm/">EDM</a></div>
+    <div class="col-sm-6 col-fa"><a class="dead-link" href="#">3D Printing</a></div>
+    <div class="col-sm-6 col-fa"><a href="sheet-metal/">Sheet Metal</a></div>
+    <div class="col-sm-6 col-fa"><a href="laser-cutting/">Laser Cutting</a></div>
+    <div class="col-sm-6 col-fa"><a class="dead-link" href="#">Laser Welding</a></div>
+    <div class="col-sm-6 col-fa"><a href="cleanroom/">Cleanroom Assembly</a></div>
+  </div>
+</div>
+  </div>
+  <span class="anchor"></span>
+  <section class="section-dummy"></section>  <!-- for proper alternation of background colors -->
+  <section id="facilities">
     <div class="container">
       <h2>Facilities</h2>
       <p class="container-desc">We have local and overseas facilities of exceptional standards, with locations in the United States,
       Asia, and Europe.</p>
-      <img src="../images/photos/landing-page/landing-page-03.jpeg" class="img-fluid screenshot rounded banner-img"
-           alt="Kavis Technology - Services/Facilities">
-      <h3>International</h3>
-      <p class="container-desc">Our international facilities employ cutting edge equipments and manufacturing to maximize
-                                compatibility with your business project's needs</p>
+      <div class="row table-content table-content-last-child">
+        <div class="col-sm-6 col-fa global-facilities">San Jose, USA</div>
+        <div class="col-sm-6 col-fa global-facilities">Shenzhen, China</div>
+        <div class="col-sm-6 col-fa global-facilities">Gyeonggi-do, South Korea</div>
+      </div>
       <p class="table-header">We offer the following offshore capabilities:</p>
       <div class="row table-content table-content-last-child">
         <div class="col-sm-6 col-fa">CNC Milling | Lapping | Grinding</div>
@@ -168,105 +204,90 @@
           </div>
         </div>
       </div>
-      <hr>
-      <h3>United States</h3>
-      <p class="container-desc">
-        Our U.S. and offshore facilities work in synchrony, helping customers benefit from high quality materials while achieving cost-down objectives.
-        We complete in-house assemblies, quality assurance, detailed cleaning of materials, and our staff adheres closely to your project requirements.
-      </p>
-      <p class="table-header">Hayward, CA facility:</p>
-      <div class="row table-content table-content-last-child">
-        <div class="col-sm-12 col-fa">Parts cleaning at TMPI for photo-contamination control</div>
-        <div class="col-sm-12 col-fa">Inspection and assembly in Class 1000 cleanroom</div>
-        <div class="col-sm-12 col-fa">Electroless nickel plating at Electro Plating Specialties (EPS)</div>
-        <div class="col-sm-12 col-fa">Colored hard anodized materials at EPS</div>
-        <div class="col-sm-12 col-fa">Reworking and non-compliance materials handling at Tridecs Precision Machining</div>
-        <div class="col-sm-12 col-fa">Inventory and spare parts</div>
-      </div>
     </div>
     <div class="container gallery multi-gallery">
       <figure itemprop="associatedMedia">
           <!-- Main image when zoomed. Set fixed image dimension to 600x400 for now. -->
-          <a href="../images/photos/landing-page/landing-page-01.jpeg" data-med="../images/photos/landing-page/landing-page-01.jpeg"
+          <a href="../images/photos/facilities/facilities-01.jpeg" data-med="../images/photos/facilities/facilities-01.jpeg"
               data-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><em class='text-muted'>© Kavis Technology LLC</em>"
               data-size="1200x900"
               data-med-size="800x600"
               itemprop="contentUrl">
             <!-- Image thumbnail -->
-            <img src="../images/photos/thumbnail/landing-page/landing-page-01.jpeg" class="thumbnail"
+            <img src="../images/photos/thumbnail/facilities/facilities-01.jpeg" class="thumbnail"
             itemprop="thumbnail" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." loading="lazy">
           </a>
       </figure>
     
       <figure itemprop="associatedMedia">
           <!-- Main image when zoomed. Set fixed image dimension to 600x400 for now. -->
-          <a href="../images/photos/landing-page/landing-page-02.jpeg" data-med="../images/photos/landing-page/landing-page-02.jpeg"
+          <a href="../images/photos/facilities/facilities-02.jpeg" data-med="../images/photos/facilities/facilities-02.jpeg"
               data-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><em class='text-muted'>© Kavis Technology LLC</em>"
               data-size="1200x900"
               data-med-size="800x600"
               itemprop="contentUrl">
             <!-- Image thumbnail -->
-            <img src="../images/photos/thumbnail/landing-page/landing-page-02.jpeg" class="thumbnail"
+            <img src="../images/photos/thumbnail/facilities/facilities-02.jpeg" class="thumbnail"
             itemprop="thumbnail" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." loading="lazy">
           </a>
       </figure>
     
       <figure itemprop="associatedMedia">
           <!-- Main image when zoomed. Set fixed image dimension to 600x400 for now. -->
-          <a href="../images/photos/landing-page/landing-page-03.jpeg" data-med="../images/photos/landing-page/landing-page-03.jpeg"
+          <a href="../images/photos/facilities/facilities-03.jpeg" data-med="../images/photos/facilities/facilities-03.jpeg"
               data-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><em class='text-muted'>© Kavis Technology LLC</em>"
               data-size="1200x900"
               data-med-size="800x600"
               itemprop="contentUrl">
             <!-- Image thumbnail -->
-            <img src="../images/photos/thumbnail/landing-page/landing-page-03.jpeg" class="thumbnail"
+            <img src="../images/photos/thumbnail/facilities/facilities-03.jpeg" class="thumbnail"
             itemprop="thumbnail" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." loading="lazy">
           </a>
       </figure>
     
       <figure itemprop="associatedMedia">
           <!-- Main image when zoomed. Set fixed image dimension to 600x400 for now. -->
-          <a href="../images/photos/landing-page/landing-page-04.jpeg" data-med="../images/photos/landing-page/landing-page-04.jpeg"
+          <a href="../images/photos/facilities/facilities-04.jpeg" data-med="../images/photos/facilities/facilities-04.jpeg"
               data-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><em class='text-muted'>© Kavis Technology LLC</em>"
               data-size="1200x900"
               data-med-size="800x600"
               itemprop="contentUrl">
             <!-- Image thumbnail -->
-            <img src="../images/photos/thumbnail/landing-page/landing-page-04.jpeg" class="thumbnail"
+            <img src="../images/photos/thumbnail/facilities/facilities-04.jpeg" class="thumbnail"
             itemprop="thumbnail" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." loading="lazy">
           </a>
       </figure>
     
       <figure itemprop="associatedMedia">
           <!-- Main image when zoomed. Set fixed image dimension to 600x400 for now. -->
-          <a href="../images/photos/landing-page/landing-page-05.jpeg" data-med="../images/photos/landing-page/landing-page-05.jpeg"
+          <a href="../images/photos/facilities/facilities-05.jpeg" data-med="../images/photos/facilities/facilities-05.jpeg"
               data-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><em class='text-muted'>© Kavis Technology LLC</em>"
               data-size="1200x900"
               data-med-size="800x600"
               itemprop="contentUrl">
             <!-- Image thumbnail -->
-            <img src="../images/photos/thumbnail/landing-page/landing-page-05.jpeg" class="thumbnail"
+            <img src="../images/photos/thumbnail/facilities/facilities-05.jpeg" class="thumbnail"
             itemprop="thumbnail" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." loading="lazy">
           </a>
       </figure>
     
       <figure itemprop="associatedMedia">
           <!-- Main image when zoomed. Set fixed image dimension to 600x400 for now. -->
-          <a href="../images/photos/landing-page/landing-page-06.jpeg" data-med="../images/photos/landing-page/landing-page-06.jpeg"
+          <a href="../images/photos/facilities/facilities-06.jpeg" data-med="../images/photos/facilities/facilities-06.jpeg"
               data-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><em class='text-muted'>© Kavis Technology LLC</em>"
               data-size="1200x900"
               data-med-size="800x600"
               itemprop="contentUrl">
             <!-- Image thumbnail -->
-            <img src="../images/photos/thumbnail/landing-page/landing-page-06.jpeg" class="thumbnail"
+            <img src="../images/photos/thumbnail/facilities/facilities-06.jpeg" class="thumbnail"
             itemprop="thumbnail" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." loading="lazy">
           </a>
       </figure>
     </div>
   </section>
-  <span id="common-materials" class="anchor"></span>
+  <span class="anchor"></span>
   <section class="section-dummy"></section>  <!-- for proper alternation of background colors -->
-  <section>
+  <section id="common-materials">
     <div class="container">
       <h2>Common Materials</h2>
       <p class="container-desc">
@@ -308,78 +329,78 @@
     <div class="container gallery multi-gallery">
       <figure itemprop="associatedMedia">
           <!-- Main image when zoomed. Set fixed image dimension to 600x400 for now. -->
-          <a href="../images/photos/cnc/cnc-01.jpeg" data-med="../images/photos/cnc/cnc-01.jpeg"
+          <a href="../images/photos/common-materials/common-materials-01.jpeg" data-med="../images/photos/common-materials/common-materials-01.jpeg"
               data-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><em class='text-muted'>© Kavis Technology LLC</em>"
               data-size="1200x900"
               data-med-size="800x600"
               itemprop="contentUrl">
             <!-- Image thumbnail -->
-            <img src="../images/photos/thumbnail/cnc/cnc-01.jpeg" class="thumbnail"
+            <img src="../images/photos/thumbnail/common-materials/common-materials-01.jpeg" class="thumbnail"
             itemprop="thumbnail" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." loading="lazy">
           </a>
       </figure>
     
       <figure itemprop="associatedMedia">
           <!-- Main image when zoomed. Set fixed image dimension to 600x400 for now. -->
-          <a href="../images/photos/cnc/cnc-02.jpeg" data-med="../images/photos/cnc/cnc-02.jpeg"
+          <a href="../images/photos/common-materials/common-materials-02.jpeg" data-med="../images/photos/common-materials/common-materials-02.jpeg"
               data-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><em class='text-muted'>© Kavis Technology LLC</em>"
               data-size="1200x900"
               data-med-size="800x600"
               itemprop="contentUrl">
             <!-- Image thumbnail -->
-            <img src="../images/photos/thumbnail/cnc/cnc-02.jpeg" class="thumbnail"
+            <img src="../images/photos/thumbnail/common-materials/common-materials-02.jpeg" class="thumbnail"
             itemprop="thumbnail" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." loading="lazy">
           </a>
       </figure>
     
       <figure itemprop="associatedMedia">
           <!-- Main image when zoomed. Set fixed image dimension to 600x400 for now. -->
-          <a href="../images/photos/cnc/cnc-03.jpeg" data-med="../images/photos/cnc/cnc-03.jpeg"
+          <a href="../images/photos/common-materials/common-materials-03.jpeg" data-med="../images/photos/common-materials/common-materials-03.jpeg"
               data-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><em class='text-muted'>© Kavis Technology LLC</em>"
               data-size="1200x900"
               data-med-size="800x600"
               itemprop="contentUrl">
             <!-- Image thumbnail -->
-            <img src="../images/photos/thumbnail/cnc/cnc-03.jpeg" class="thumbnail"
+            <img src="../images/photos/thumbnail/common-materials/common-materials-03.jpeg" class="thumbnail"
             itemprop="thumbnail" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." loading="lazy">
           </a>
       </figure>
     
       <figure itemprop="associatedMedia">
           <!-- Main image when zoomed. Set fixed image dimension to 600x400 for now. -->
-          <a href="../images/photos/cnc/cnc-04.jpeg" data-med="../images/photos/cnc/cnc-04.jpeg"
+          <a href="../images/photos/common-materials/common-materials-04.jpeg" data-med="../images/photos/common-materials/common-materials-04.jpeg"
               data-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><em class='text-muted'>© Kavis Technology LLC</em>"
               data-size="1200x900"
               data-med-size="800x600"
               itemprop="contentUrl">
             <!-- Image thumbnail -->
-            <img src="../images/photos/thumbnail/cnc/cnc-04.jpeg" class="thumbnail"
+            <img src="../images/photos/thumbnail/common-materials/common-materials-04.jpeg" class="thumbnail"
             itemprop="thumbnail" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." loading="lazy">
           </a>
       </figure>
     
       <figure itemprop="associatedMedia">
           <!-- Main image when zoomed. Set fixed image dimension to 600x400 for now. -->
-          <a href="../images/photos/cnc/cnc-05.jpeg" data-med="../images/photos/cnc/cnc-05.jpeg"
+          <a href="../images/photos/common-materials/common-materials-05.jpeg" data-med="../images/photos/common-materials/common-materials-05.jpeg"
               data-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><em class='text-muted'>© Kavis Technology LLC</em>"
               data-size="1200x900"
               data-med-size="800x600"
               itemprop="contentUrl">
             <!-- Image thumbnail -->
-            <img src="../images/photos/thumbnail/cnc/cnc-05.jpeg" class="thumbnail"
+            <img src="../images/photos/thumbnail/common-materials/common-materials-05.jpeg" class="thumbnail"
             itemprop="thumbnail" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." loading="lazy">
           </a>
       </figure>
     
       <figure itemprop="associatedMedia">
           <!-- Main image when zoomed. Set fixed image dimension to 600x400 for now. -->
-          <a href="../images/photos/cnc/cnc-06.jpeg" data-med="../images/photos/cnc/cnc-06.jpeg"
+          <a href="../images/photos/common-materials/common-materials-06.jpeg" data-med="../images/photos/common-materials/common-materials-06.jpeg"
               data-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><em class='text-muted'>© Kavis Technology LLC</em>"
               data-size="1200x900"
               data-med-size="800x600"
               itemprop="contentUrl">
             <!-- Image thumbnail -->
-            <img src="../images/photos/thumbnail/cnc/cnc-06.jpeg" class="thumbnail"
+            <img src="../images/photos/thumbnail/common-materials/common-materials-06.jpeg" class="thumbnail"
             itemprop="thumbnail" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." loading="lazy">
           </a>
       </figure>

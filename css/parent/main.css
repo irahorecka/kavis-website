@@ -253,7 +253,7 @@ div.table-content {
     text-align: left;
 }
 
-div.table-content-last-child {
+div.table-content.table-content-last-child {
     margin-bottom: 3rem;
 }
 
@@ -275,7 +275,6 @@ span.anchor {
 .col-fa::before {
     content: "\f00c";
     font-family: 'ForkAwesome';
-    font-size: normal;
     font-style: normal;
     text-decoration: inherit;
     padding: 0 10px 0 0;
@@ -306,10 +305,16 @@ footer {
     }
     /* Margin adjustments for list items table */
     div.table-content {
-        margin: 0 1rem 2rem 1rem;
+        margin-top: 0;
+        margin-right: 1rem;
+        margin-bottom: 2rem;
+        margin-left: 1rem;
     }
     div.table-content-last-child {
-        margin: 0 1rem 3rem 1rem;
+        margin-top: 0;
+        margin-right: 1rem;
+        margin-bottom: 3rem;
+        margin-left: 1rem;
     }
     /* Don't allow two-lined text */
     #bootstrap-overrides .btn-info{

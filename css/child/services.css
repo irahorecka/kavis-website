@@ -44,14 +44,6 @@ p.table-header {
     font-size: 1.35rem;
 }
 
-div.table-content {
-    margin-bottom: 1.5rem;
-}
-
-div.table-content-last-child {
-    margin-bottom: 3rem;
-}
-
 .col-fa {
     font-size: 1.05rem;
 }
@@ -91,13 +83,6 @@ div.table-content-last-child {
     /* Two-col image gallery */
 	.gallery figure {
 		width: 50%;
-    }
-    /* Margin adjustments for list items table */
-    div.table-content {
-        margin: 0 1rem 2rem 1rem;
-    }
-    div.table-content-last-child {
-        margin: 0 1rem 3rem 1rem;
     }
     /* Show smaller table column headers */
     .desktop-table-col-header {

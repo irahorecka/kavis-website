@@ -1,0 +1,98 @@
+/* Begin desktop banner */
+.banner-desktop a {
+    color: var(--white);
+    font-weight: normal;
+}
+.banner-desktop a:hover {
+    text-decoration: none;
+}
+.banner-desktop ul {
+    padding-left: 2.5rem;
+}
+
+.banner-desktop-list {
+    color: var(--white);
+    top: -280px;
+    /* Eliminate whitespace created by moving top */
+    margin-bottom: -280px;
+    margin-left: 385px;
+}
+.banner-desktop-list li {
+	line-height: 1.5em;
+    padding-left: 0.5rem;
+	text-align: left;
+	font-size: 1.3rem;
+}
+.banner-desktop-list li:hover,
+.banner-desktop-list p {
+    text-decoration: underline;
+    text-underline-offset: 0.2rem;
+    text-decoration-thickness: 1.5px;
+}
+.banner-desktop-list p {
+	font-size: 1.4rem;
+    text-align: center;
+    text-decoration-thickness: 2px;
+    margin-bottom: 0.2em;
+}
+
+/* Begin mobile banner */
+.banner-mobile a {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+.banner-mobile p {
+    font-size: 1.6rem;
+    text-align: center;
+    text-decoration: underline;
+    color: var(--kavis-blue);
+}
+.banner-mobile div.table-content-head {
+    margin: 2em 0 -0.5em 0;
+}
+/* Non-modal table for mobile */
+.banner-mobile div.table-content.row {
+    margin: 2em 2em 0 2em;
+}
+.banner-mobile div.col-fa {
+    padding-bottom: 2px
+}
+.banner-mobile div.col-fa::before {
+    content: "\f054";
+    padding: 0 20px 0 0;
+}
+
+/*===== START mobile =====*/
+
+/* Landscape mobile */
+@media (max-width: 824px) {
+    .banner-desktop {
+        display: none;
+    }
+}
+
+/* Small mobile - prevent word wrap */
+@media (max-width: 375px) {
+    .banner-mobile a {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .banner-mobile a {
+        font-size: 1.1rem;
+    }
+}
+
+/*===== END mobile =====*/
+
+/*===== START desktop =====*/
+
+/* Landscape mobile exceeded */
+@media (min-width: 825px) {
+    .banner-mobile {
+        display: none;
+    }
+}
+
+/*===== END desktop =====*/

@@ -3,7 +3,7 @@ _template: service-item.html
 title: Sheet Metal
 ---
 body:
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. View our <a href="{{ "/photos"|url }}#sheet-metal">photo gallery</a> for more sheet metal photos.</p>
+<p>In addition to the conventional sheet metal process like laser cutting / die cutting, folding, welding, we also use a combination of CNC machining and sheet metal machining to create more complex shapes by laser welding of precision CNC parts onto sheet metal parts. View our <a href="{{ "/photos"|url }}#sheet-metal">photo gallery</a> for more sheet metal photos.</p>
 ---
 gallery:
 

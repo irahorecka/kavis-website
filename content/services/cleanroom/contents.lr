@@ -3,25 +3,25 @@ _template: service-item.html
 title: Cleanroom Assembly
 ---
 body:
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. View our <a href="{{ "/photos"|url }}#cleanroom">photo gallery</a> for more cleanroom assembly photos.</p>
+<p>We provide cleanroom assembly services in Class 10000 clean room environment.  All the Class 10000 protocol are followed using clean tool.  Finished products are double bagged and vacuum sealed. View our <a href="{{ "/photos"|url }}#cleanroom">photo gallery</a> for more cleanroom assembly photos.</p>
 ---
 gallery:
 
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
-thumbnail_url: photos/thumbnail/edm/edm-07.jpeg
+thumbnail_url: photos/thumbnail/cleanroom/cleanroom-01.jpeg
 ----
-url: photos/edm/edm-07.jpeg
+url: photos/cleanroom/cleanroom-01.jpeg
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
-thumbnail_url: photos/thumbnail/edm/edm-08.jpeg
+thumbnail_url: photos/thumbnail/cleanroom/cleanroom-03.jpeg
 ----
-url: photos/edm/edm-08.jpeg
+url: photos/cleanroom/cleanroom-03.jpeg
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
-thumbnail_url: photos/thumbnail/edm/edm-09.jpeg
+thumbnail_url: photos/thumbnail/cleanroom/cleanroom-04.jpeg
 ----
-url: photos/edm/edm-09.jpeg
+url: photos/cleanroom/cleanroom-04.jpeg

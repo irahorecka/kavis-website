@@ -106,6 +106,30 @@ tag: edm
 thumbnail_url: photos/thumbnail/edm/edm-06.jpeg
 ----
 url: photos/edm/edm-06.jpeg
+#### image ####
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----
+tag: edm
+----
+thumbnail_url: photos/thumbnail/edm/edm-10.jpeg
+----
+url: photos/edm/edm-10.jpeg
+#### image ####
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----
+tag: edm
+----
+thumbnail_url: photos/thumbnail/edm/edm-11.jpeg
+----
+url: photos/edm/edm-11.jpeg
+#### image ####
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----
+tag: edm
+----
+thumbnail_url: photos/thumbnail/edm/edm-12.jpeg
+----
+url: photos/edm/edm-12.jpeg
 
 
 
@@ -243,22 +267,22 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu
 ----
 tag: cleanroom
 ----
-thumbnail_url: photos/thumbnail/edm/edm-10.jpeg
+thumbnail_url: photos/thumbnail/cleanroom/cleanroom-01.jpeg
 ----
-url: photos/edm/edm-10.jpeg
+url: photos/cleanroom/cleanroom-01.jpeg
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
 tag: cleanroom
 ----
-thumbnail_url: photos/thumbnail/edm/edm-11.jpeg
+thumbnail_url: photos/thumbnail/cleanroom/cleanroom-02.jpeg
 ----
-url: photos/edm/edm-11.jpeg
+url: photos/cleanroom/cleanroom-02.jpeg
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
 tag: cleanroom
 ----
-thumbnail_url: photos/thumbnail/edm/edm-12.jpeg
+thumbnail_url: photos/thumbnail/cleanroom/cleanroom-03.jpeg
 ----
-url: photos/edm/edm-12.jpeg
+url: photos/cleanroom/cleanroom-03.jpeg

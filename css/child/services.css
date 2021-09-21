@@ -22,6 +22,12 @@ a {
     padding-bottom: 3rem;
 }
 
+.col-fa.global-facilities {
+    text-align: right;
+}
+.col-fa.global-facilities:first-child {
+    text-align: left;
+}
 .col-fa.global-facilities::before {
     content: "\f041";
 }
@@ -56,10 +62,6 @@ p.table-header {
 }
 
 /* Modal table */
-.open-table {
-    margin-bottom: 3rem;
-}
-
 #bootstrap-overrides th {
     /* #0058AC in RGBA */
     background-color: rgba(0, 71, 138, 0.25);
@@ -86,6 +88,9 @@ p.table-header {
 /*===== START mobile =====*/
 
 @media (max-width: 764px) {
+    .col-fa.global-facilities {
+        text-align: left;
+    }
     /* Two-col image gallery */
 	.gallery figure {
 		width: 50%;

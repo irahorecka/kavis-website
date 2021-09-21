@@ -1,7 +1,7 @@
 <span id="3d-printing" class="anchor"></span>
 <section class="section-dummy"></section>  <!-- for proper alternation of background colors -->
 <section>
-  <h2 class="container-desc"><a href="#" class="services-href">3D Printing</a></h2>
+  <h2 class="container-desc"><a href="{{ '/services/3d-printing'|url }}" class="services-href">3D Printing</a></h2>
   <div class="container gallery multi-gallery">
     {%- for image in this.gallery.blocks -%}
     {% if image.tag == '3d-printing' %}

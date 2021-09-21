@@ -10,9 +10,9 @@ gallery:
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
-thumbnail_url: photos/thumbnail/cnc/cnc-01.jpeg
+thumbnail_url: photos/thumbnail/cnc/cnc-65.jpeg
 ----
-url: photos/cnc/cnc-01.jpeg
+url: photos/cnc/cnc-65.jpeg
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
@@ -25,3 +25,9 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu
 thumbnail_url: photos/thumbnail/cnc/cnc-03.jpeg
 ----
 url: photos/cnc/cnc-03.jpeg
+#### image ####
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----
+thumbnail_url: photos/thumbnail/cnc/cnc-28.jpeg
+----
+url: photos/cnc/cnc-28.jpeg

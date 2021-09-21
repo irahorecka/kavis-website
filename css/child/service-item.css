@@ -10,6 +10,10 @@ div.table-content {
     margin-bottom: 2rem;
 }
 
+.col-fa.service-item::before {
+    content: "\f054";
+}
+
 /*===== START gallery =====*/
 
 /* For Photoswipe carousel */

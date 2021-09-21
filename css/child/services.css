@@ -23,11 +23,7 @@ a {
 }
 
 .col-fa.global-facilities::before {
-    content: "\f054";
-    font-family: 'ForkAwesome';
-    font-style: normal;
-    text-decoration: inherit;
-    padding: 0 10px 0 0;
+    content: "\f041";
 }
 
 /* Must adjust from standard due to larger text */

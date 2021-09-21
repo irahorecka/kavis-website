@@ -13,6 +13,7 @@
 {%- endblock -%}
 {% block content %}
     <div class="intro-desc">{{ this.body|safe }}</div>
+    <hr>
     <div class="container gallery multi-gallery">
     {%- for image in this.gallery.blocks -%}
       <figure itemprop="associatedMedia">

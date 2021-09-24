@@ -111,7 +111,7 @@ img.slider-nav {
 
 @media (max-width: 764px) {
     .my-gallery a img {
-        width: 100%;
+        width: 90%;
     }
 }
 

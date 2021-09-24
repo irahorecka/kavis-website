@@ -6,7 +6,7 @@ title: Photo Gallery
 gallery:
 
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: CNC
 ----
 tag: cnc
 ----
@@ -14,7 +14,7 @@ thumbnail_url: photos/thumbnail/cnc/cnc-04.jpeg
 ----
 url: photos/cnc/cnc-04.jpeg
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: CNC
 ----
 tag: cnc
 ----
@@ -22,7 +22,7 @@ thumbnail_url: photos/thumbnail/cnc/cnc-05.jpeg
 ----
 url: photos/cnc/cnc-05.jpeg
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: CNC
 ----
 tag: cnc
 ----
@@ -30,7 +30,7 @@ thumbnail_url: photos/thumbnail/cnc/cnc-06.jpeg
 ----
 url: photos/cnc/cnc-06.jpeg
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: CNC
 ----
 tag: cnc
 ----
@@ -38,7 +38,7 @@ thumbnail_url: photos/thumbnail/cnc/cnc-07.jpeg
 ----
 url: photos/cnc/cnc-07.jpeg
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: CNC
 ----
 tag: cnc
 ----
@@ -46,7 +46,7 @@ thumbnail_url: photos/thumbnail/cnc/cnc-08.jpeg
 ----
 url: photos/cnc/cnc-08.jpeg
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: CNC
 ----
 tag: cnc
 ----
@@ -54,7 +54,7 @@ thumbnail_url: photos/thumbnail/cnc/cnc-09.jpeg
 ----
 url: photos/cnc/cnc-09.jpeg
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: CNC
 ----
 tag: cnc
 ----
@@ -62,7 +62,7 @@ thumbnail_url: photos/thumbnail/cnc/cnc-23.jpeg
 ----
 url: photos/cnc/cnc-23.jpeg
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: CNC
 ----
 tag: cnc
 ----
@@ -70,7 +70,7 @@ thumbnail_url: photos/thumbnail/cnc/cnc-11.jpeg
 ----
 url: photos/cnc/cnc-11.jpeg
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: CNC
 ----
 tag: cnc
 ----
@@ -81,7 +81,7 @@ url: photos/cnc/cnc-12.jpeg
 
 
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: EDM
 ----
 tag: edm
 ----
@@ -89,7 +89,7 @@ thumbnail_url: photos/thumbnail/edm/edm-04.jpeg
 ----
 url: photos/edm/edm-04.jpeg
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: EDM
 ----
 tag: edm
 ----
@@ -97,7 +97,7 @@ thumbnail_url: photos/thumbnail/edm/edm-05.jpeg
 ----
 url: photos/edm/edm-05.jpeg
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: EDM
 ----
 tag: edm
 ----
@@ -105,7 +105,7 @@ thumbnail_url: photos/thumbnail/edm/edm-06.jpeg
 ----
 url: photos/edm/edm-06.jpeg
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: EDM
 ----
 tag: edm
 ----
@@ -113,7 +113,7 @@ thumbnail_url: photos/thumbnail/edm/edm-10.jpeg
 ----
 url: photos/edm/edm-10.jpeg
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: EDM
 ----
 tag: edm
 ----
@@ -121,7 +121,7 @@ thumbnail_url: photos/thumbnail/edm/edm-11.jpeg
 ----
 url: photos/edm/edm-11.jpeg
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: EDM
 ----
 tag: edm
 ----
@@ -132,7 +132,7 @@ url: photos/edm/edm-12.jpeg
 
 
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: 3D Printing
 ----
 tag: 3d-printing
 ----
@@ -140,7 +140,7 @@ thumbnail_url: photos/thumbnail/3d-printing/3d-printing-01.jpeg
 ----
 url: photos/3d-printing/3d-printing-01.jpeg
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: 3D Printing
 ----
 tag: 3d-printing
 ----
@@ -148,7 +148,7 @@ thumbnail_url: photos/thumbnail/3d-printing/3d-printing-02.jpeg
 ----
 url: photos/3d-printing/3d-printing-02.jpeg
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: 3D Printing
 ----
 tag: 3d-printing
 ----
@@ -159,7 +159,7 @@ url: photos/3d-printing/3d-printing-03.jpeg
 
 
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: Sheet Metal
 ----
 tag: sheet-metal
 ----
@@ -167,7 +167,7 @@ thumbnail_url: photos/thumbnail/sheet-metal/sheet-metal-10.jpeg
 ----
 url: photos/sheet-metal/sheet-metal-10.jpeg
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: Sheet Metal
 ----
 tag: sheet-metal
 ----
@@ -175,7 +175,7 @@ thumbnail_url: photos/thumbnail/sheet-metal/sheet-metal-05.jpeg
 ----
 url: photos/sheet-metal/sheet-metal-05.jpeg
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: Sheet Metal
 ----
 tag: sheet-metal
 ----
@@ -183,7 +183,7 @@ thumbnail_url: photos/thumbnail/sheet-metal/sheet-metal-06.jpeg
 ----
 url: photos/sheet-metal/sheet-metal-06.jpeg
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: Sheet Metal
 ----
 tag: sheet-metal
 ----
@@ -191,7 +191,7 @@ thumbnail_url: photos/thumbnail/sheet-metal/sheet-metal-07.jpeg
 ----
 url: photos/sheet-metal/sheet-metal-07.jpeg
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: Sheet Metal
 ----
 tag: sheet-metal
 ----
@@ -199,7 +199,7 @@ thumbnail_url: photos/thumbnail/sheet-metal/sheet-metal-08.jpeg
 ----
 url: photos/sheet-metal/sheet-metal-08.jpeg
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: Sheet Metal
 ----
 tag: sheet-metal
 ----
@@ -210,7 +210,7 @@ url: photos/sheet-metal/sheet-metal-09.jpeg
 
 
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: Laser Cutting
 ----
 tag: laser-cutting
 ----
@@ -218,7 +218,7 @@ thumbnail_url: photos/thumbnail/laser-cutting/laser-cutting-04.jpeg
 ----
 url: photos/laser-cutting/laser-cutting-04.jpeg
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: Laser Cutting
 ----
 tag: laser-cutting
 ----
@@ -226,7 +226,7 @@ thumbnail_url: photos/thumbnail/laser-cutting/laser-cutting-05.jpeg
 ----
 url: photos/laser-cutting/laser-cutting-05.jpeg
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: Laser Cutting
 ----
 tag: laser-cutting
 ----
@@ -234,7 +234,7 @@ thumbnail_url: photos/thumbnail/laser-cutting/laser-cutting-06.jpeg
 ----
 url: photos/laser-cutting/laser-cutting-06.jpeg
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: Laser Cutting
 ----
 tag: laser-cutting
 ----
@@ -242,7 +242,7 @@ thumbnail_url: photos/thumbnail/laser-cutting/laser-cutting-10.jpeg
 ----
 url: photos/laser-cutting/laser-cutting-10.jpeg
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: Laser Cutting
 ----
 tag: laser-cutting
 ----
@@ -250,7 +250,7 @@ thumbnail_url: photos/thumbnail/laser-cutting/laser-cutting-11.jpeg
 ----
 url: photos/laser-cutting/laser-cutting-11.jpeg
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: Laser Cutting
 ----
 tag: laser-cutting
 ----
@@ -261,7 +261,34 @@ url: photos/laser-cutting/laser-cutting-12.jpeg
 
 
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: Laser Welding
+----
+tag: laser-welding
+----
+thumbnail_url: photos/thumbnail/laser-welding/laser-welding-04.jpeg
+----
+url: photos/laser-welding/laser-welding-04.jpeg
+#### image ####
+description: Laser Welding
+----
+tag: laser-welding
+----
+thumbnail_url: photos/thumbnail/laser-welding/laser-welding-05.jpeg
+----
+url: photos/laser-welding/laser-welding-05.jpeg
+#### image ####
+description: Laser Welding
+----
+tag: laser-welding
+----
+thumbnail_url: photos/thumbnail/laser-welding/laser-welding-06.jpeg
+----
+url: photos/laser-welding/laser-welding-06.jpeg
+
+
+
+#### image ####
+description: Cleanroom Assembly
 ----
 tag: cleanroom
 ----
@@ -269,7 +296,7 @@ thumbnail_url: photos/thumbnail/cleanroom/cleanroom-01.jpeg
 ----
 url: photos/cleanroom/cleanroom-01.jpeg
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: Cleanroom Assembly
 ----
 tag: cleanroom
 ----
@@ -277,7 +304,7 @@ thumbnail_url: photos/thumbnail/cleanroom/cleanroom-02.jpeg
 ----
 url: photos/cleanroom/cleanroom-02.jpeg
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: Cleanroom Assembly
 ----
 tag: cleanroom
 ----

@@ -9,7 +9,7 @@ body:
 gallery:
 
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: Common Materials
 ----
 tag: common-materials
 ----
@@ -17,7 +17,7 @@ thumbnail_url: photos/thumbnail/common-materials/common-materials-01.jpeg
 ----
 url: photos/common-materials/common-materials-01.jpeg
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: Common Materials
 ----
 tag: common-materials
 ----
@@ -25,7 +25,7 @@ thumbnail_url: photos/thumbnail/common-materials/common-materials-02.jpeg
 ----
 url: photos/common-materials/common-materials-02.jpeg
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: Common Materials
 ----
 tag: common-materials
 ----
@@ -33,7 +33,7 @@ thumbnail_url: photos/thumbnail/common-materials/common-materials-03.jpeg
 ----
 url: photos/common-materials/common-materials-03.jpeg
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: Common Materials
 ----
 tag: common-materials
 ----
@@ -41,7 +41,7 @@ thumbnail_url: photos/thumbnail/common-materials/common-materials-04.jpeg
 ----
 url: photos/common-materials/common-materials-04.jpeg
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: Common Materials
 ----
 tag: common-materials
 ----
@@ -49,7 +49,7 @@ thumbnail_url: photos/thumbnail/common-materials/common-materials-05.jpeg
 ----
 url: photos/common-materials/common-materials-05.jpeg
 #### image ####
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: Common Materials
 ----
 tag: common-materials
 ----

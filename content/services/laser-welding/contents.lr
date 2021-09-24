@@ -3,25 +3,25 @@ _template: service-item.html
 title: Laser Welding
 ---
 body:
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. View our <a href="{{ "/photos"|url }}#laser-welding">photo gallery</a> for more laser welding photos.</p>
+<p>Laser welding can be used to join metal or thermal plastics together. Beam spot size is as small as 0.2mm diameter.  The depth of penetration is proportional to the amount of power supplied.</p><p>The high power density result in small heat-affected zones and high heating and cooling rates.  Depending on the type of joints, filler material is optional. View our <a href="{{ "/photos"|url }}#laser-welding">photo gallery</a> for more laser welding photos.</p>
 ---
 gallery:
 
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
-thumbnail_url: photos/thumbnail/laser-cut/laser-cut-07.jpeg
+thumbnail_url: photos/thumbnail/laser-welding/laser-welding-01.jpeg
 ----
-url: photos/laser-cut/laser-cut-07.jpeg
+url: photos/laser-welding/laser-welding-01.jpeg
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
-thumbnail_url: photos/thumbnail/laser-cut/laser-cut-08.jpeg
+thumbnail_url: photos/thumbnail/laser-welding/laser-welding-02.jpeg
 ----
-url: photos/laser-cut/laser-cut-08.jpeg
+url: photos/laser-welding/laser-welding-02.jpeg
 #### image ####
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 ----
-thumbnail_url: photos/thumbnail/laser-cut/laser-cut-09.jpeg
+thumbnail_url: photos/thumbnail/laser-welding/laser-welding-03.jpeg
 ----
-url: photos/laser-cut/laser-cut-09.jpeg
+url: photos/laser-welding/laser-welding-03.jpeg

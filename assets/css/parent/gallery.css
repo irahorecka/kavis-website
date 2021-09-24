@@ -23,6 +23,10 @@
 	float: left;
 }
 
+.pswp__caption__center {
+	text-align: center;
+}
+
 /*
 NOTE: .multi-gallery is a necessary class defined in js/photoswipe-multi-gallery.js
 DO NOT REMOVE

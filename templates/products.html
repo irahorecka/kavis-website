@@ -24,7 +24,8 @@
             data-med-size="800x600"
             itemprop="contentUrl">
             <!-- Image thumbnail -->
-            <img src="{{ '../images/' + image.thumbnail_url|url }}" class="thumbnail"
+            <img src="{{ '../images/photos/thumbnail/placeholder/white-placeholder.jpeg'|url }}"
+            data-src="{{ '../images/' + image.thumbnail_url|url }}" class="thumbnail lazy"
             itemprop="thumbnail" alt="{{ image.description }}">
         </a>
       <p class="photo-subtext">{{ image.subtext }}</p>
@@ -33,4 +34,7 @@
   </div>
   <div class="copyright-spacing"></div>
   {% include "includes/photoswipe-root.html" %}
+{% endblock %}
+{% block text_js %}
+<script type="text/javascript" src="{{ '/js/lazy-load.js'|url }}"></script>
 {% endblock %}

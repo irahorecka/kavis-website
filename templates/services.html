@@ -132,8 +132,9 @@
               data-med-size="800x600"
               itemprop="contentUrl">
             <!-- Image thumbnail -->
-            <img src="{{ '../images/' + image.thumbnail_url|url }}" class="thumbnail"
-            itemprop="thumbnail" alt="{{ image.description }}" loading="lazy">
+            <img src="{{ '../images/photos/thumbnail/placeholder/white-placeholder.jpeg'|url }}"
+            data-src="{{ '../images/' + image.thumbnail_url|url }}" class="thumbnail lazy"
+            itemprop="thumbnail" alt="{{ image.description }}">
           </a>
       </figure>
     {% endif %}
@@ -141,23 +142,26 @@
     </div>
   </section>
   {% include "includes/photoswipe-root.html" %}
-  <script>
-    var $table = $('#table')
-    $(function() {
-      $('#modalTable').on('shown.bs.modal', function () {
-        $table.bootstrapTable('resetView')
-        $table.bootstrapTable('refreshOptions', {
-          theadClasses: "thead-light"
-        })
+{% endblock %}
+{% block text_js %}
+<script type="text/javascript">
+  var $table = $('#table')
+  $(function() {
+    $('#modalTable').on('shown.bs.modal', function () {
+      $table.bootstrapTable('resetView')
+      $table.bootstrapTable('refreshOptions', {
+        theadClasses: "thead-light"
       })
-      $('body').on('hidden.bs.modal', '.modal', function() {
-        $('.btn').blur();
-      });
     })
-    // Adjust modal table col name and window height for mobile
-    if (/Mobi|Android/i.test(navigator.userAgent)) {
-      document.querySelectorAll('[data-field="specs"]')[0].innerHTML = "Specs";
-      document.getElementsByTagName("TABLE")[0].setAttribute("data-height", "449");
-    }
-  </script>
+    $('body').on('hidden.bs.modal', '.modal', function() {
+      $('.btn').blur();
+    });
+  })
+  // Adjust modal table col name and window height for mobile
+  if (/Mobi|Android/i.test(navigator.userAgent)) {
+    document.querySelectorAll('[data-field="specs"]')[0].innerHTML = "Specs";
+    document.getElementsByTagName("TABLE")[0].setAttribute("data-height", "449");
+  }
+</script>
+<script type="text/javascript" src="{{ '/js/lazy-load.js'|url }}"></script>
 {% endblock %}

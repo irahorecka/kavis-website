@@ -3,7 +3,7 @@ _template: service-item.html
 title: Laser Cutting
 ---
 body:
-<p>Laser cutting works by directing the output of a high-power laser onto the work piece through optics.  Thin metal or plastic parts are perfect candidate for this cutting process.  Typical applications include shims, flexures, apertures, leaf springs. View our <a href="{{ "/photos"|url }}#laser-cuttingting">photo gallery</a> for more laser cutting photos.</p>
+<p>Laser cutting works by directing the output of a high-power laser onto the work piece through optics.  Thin metal or plastic parts are perfect candidate for this cutting process.  Typical applications include shims, flexures, apertures, leaf springs. View our <a href="{{ "/photos"|url }}#laser-cutting">photo gallery</a> for more laser cutting photos.</p>
 ---
 gallery:
 

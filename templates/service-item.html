@@ -18,15 +18,21 @@
   <div class="gallery my-gallery slider-main">
     {%- for image in this.gallery.blocks -%}
       <figure itemprop="associatedMedia" class="main">
-          <!-- Main image when zoomed. Set fixed image dimension to 600x400 for now. -->
+          <!-- Main image when zoomed. -->
           <a href="{{ '../../images/' + image.url|url }}" data-med="{{ '../images/' + image.url|url }}"
               data-caption="{{ image.description }}<br><em class='text-muted'>© Kavis Technology LLC</em>"
               data-size="1200x900"
               data-med-size="800x600"
               itemprop="contentUrl">
           <!-- Image thumbnail -->
+          {% if loop.index == 1 %}
           <img src="{{ '../../images/' + image.thumbnail_url|url }}" class="thumbnail"
-          itemprop="thumbnail" alt="{{ image.description }}">
+            itemprop="thumbnail" alt="{{ image.description }}">
+          {% else %}
+          <img src="{{ '../../images/photos/thumbnail/placeholder/white-placeholder.jpeg'|url }}"
+            data-src="{{ '../../images/' + image.thumbnail_url|url }}" class="thumbnail lazy"
+            itemprop="thumbnail" alt="{{ image.description }}">
+          {% endif %}
           </a>
       </figure>
   {%- endfor -%}
@@ -34,9 +40,9 @@
   <div class="my-gallery slider-nav">
     {%- for image in this.gallery.blocks -%}
       <figure itemprop="associatedMedia" class="nav">
-        <img class="thumbnail" src="{{ '../../images/' + image.thumbnail_url|url }}"
-            itemprop="thumbnail"
-            alt="{{ image.description }}">
+        <img src="{{ '../../images/photos/thumbnail/placeholder/white-placeholder.jpeg'|url }}"
+          data-src="{{ '../../images/' + image.thumbnail_url|url }}" class="thumbnail lazy"
+          itemprop="thumbnail" alt="{{ image.description }}">
       </figure>
     {%- endfor -%}
   </div>
@@ -68,4 +74,5 @@
     });
   });
 </script>
+<script type="text/javascript" src="{{ '/js/lazy-load.js'|url }}"></script>
 {% endblock %}

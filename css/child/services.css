@@ -37,6 +37,50 @@ a {
     width: 50%;
 }
 
+/*===== START table =====*/
+/* Non-modal table */
+p.table-header {
+    color: var(--kavis-blue);
+    font-size: 1.35rem;
+}
+
+.col-fa {
+    font-size: 1.05rem;
+}
+
+/* Modal table */
+#bootstrap-overrides .modal {
+    padding-right: 18px;
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+#bootstrap-overrides .modal::-webkit-scrollbar {
+    display: none;
+}
+
+#bootstrap-overrides .modal.fade .modal-dialog {
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+}
+
+#bootstrap-overrides .zoom-in {
+    transform: scale(0);
+    opacity: 0;
+    -webkit-transition: 0.4s all 0s;
+    -moz-transition: 0.4s all 0s;
+    -ms-transition: 0.4s all 0s;
+    -o-transition: 0.4s all 0s;
+    transition: 0.4s all 0s;
+    display: block;
+}
+#bootstrap-overrides .zoom-in.show {
+    opacity: 1;
+    transform: scale(1)!important;
+    transform:none;
+}
+
 #bootstrap-overrides .btn-close-modal {
     padding: 0.2rem 1rem;
     background-color: var(--grey);
@@ -49,19 +93,6 @@ a {
     color: var(--grey) !important;
 }
 
-/*===== START table =====*/
-
-/* Non-modal table */
-p.table-header {
-    color: var(--kavis-blue);
-    font-size: 1.35rem;
-}
-
-.col-fa {
-    font-size: 1.05rem;
-}
-
-/* Modal table */
 #bootstrap-overrides th {
     /* #0058AC in RGBA */
     background-color: rgba(0, 71, 138, 0.25);

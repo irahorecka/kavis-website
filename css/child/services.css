@@ -67,16 +67,16 @@ p.table-header {
 #bootstrap-overrides .zoom-in {
     transform: scale(0);
     opacity: 0;
-    -webkit-transition: 0.4s all 0s;
-    -moz-transition: 0.4s all 0s;
-    -ms-transition: 0.4s all 0s;
-    -o-transition: 0.4s all 0s;
-    transition: 0.4s all 0s;
+    -webkit-transition: 0.36s all 0s;
+    -moz-transition: 0.36s all 0s;
+    -ms-transition: 0.36s all 0s;
+    -o-transition: 0.36s all 0s;
+    transition: 0.36s all 0s;
     display: block;
 }
 #bootstrap-overrides .zoom-in.show {
     opacity: 1;
-    transform: scale(1)!important;
+    transform: scale(1);
     transform:none;
 }
 

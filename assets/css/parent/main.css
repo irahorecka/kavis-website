@@ -76,21 +76,22 @@ img {
     text-decoration: none;
     transition: all 0.15s ease-out 0s;
 }
-#bootstrap-overrides .btn-main:focus,
-#bootstrap-overrides .btn-main:hover,
-#bootstrap-overrides .btn-main:active {
+/* #kavis-tech is a root body ID to help increase CSS specificity */
+#kavis-tech .btn-main:focus,
+#kavis-tech .btn-main:hover,
+#kavis-tech .btn-main:active {
     box-shadow: none;
 }
 
-#bootstrap-overrides .btn-info {
+#kavis-tech .btn-info {
     background-color: var(--kavis-blue);
     margin: auto;
     padding: 0.2em 1em;
     width: 33.33333%;
 }
-#bootstrap-overrides .btn-info:focus,
-#bootstrap-overrides .btn-info:hover,
-#bootstrap-overrides .btn-info:active {
+#kavis-tech .btn-info:focus,
+#kavis-tech .btn-info:hover,
+#kavis-tech .btn-info:active {
     background-color: transparent;
     border-color: var(--kavis-blue);
     color: var(--kavis-blue);
@@ -129,11 +130,11 @@ p.image {
     background-color: white;
 }
 
-#bootstrap-overrides .navbar-brand {
+#kavis-tech .navbar-brand {
     padding-left: 0.25rem;
 }
 
-#bootstrap-overrides .navbar-toggler {
+#kavis-tech .navbar-toggler {
     border-color: transparent;
     padding-right: 0.25rem;
 }
@@ -158,9 +159,9 @@ p.image {
     padding-left: 16px;
 }
 
-#bootstrap-overrides .navbar-light,
-#bootstrap-overrides .navbar-nav,
-#bootstrap-overrides .nav-link {
+#kavis-tech .navbar-light,
+#kavis-tech .navbar-nav,
+#kavis-tech .nav-link {
     color: white;
 }
 .active>.nav-link,
@@ -313,7 +314,7 @@ footer {
         margin-left: 1rem;
     }
     /* Don't allow two-lined text */
-    #bootstrap-overrides .btn-info{
+    #kavis-tech .btn-info{
         width: 66.66666%;
     }
     .nav-link {

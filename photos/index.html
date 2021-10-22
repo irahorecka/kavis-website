@@ -712,5 +712,13 @@
     </div>
   </footer>
 <script type="text/javascript" src="../js/lazy-load.js"></script>
+<script type="text/javascript">
+    // Fade dropdown display on hover.
+    jQuery('ul.navbar-nav li.dropdown').hover(function() {
+      jQuery(this).find('.dropdown-menu').stop(true, true).fadeIn(100);
+    }, function() {
+      jQuery(this).find('.dropdown-menu').stop(true, true).fadeOut(100);
+    });
+  </script>
 </body>
 </html>

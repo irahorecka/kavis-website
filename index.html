@@ -174,5 +174,13 @@
     <div class="footer-copyright text-center">
         <p class="copyright">&copy; Kavis Technology LLC 2021</p>
     </div>
-  </footer></body>
+  </footer><script type="text/javascript">
+    // Fade dropdown display on hover.
+    jQuery('ul.navbar-nav li.dropdown').hover(function() {
+      jQuery(this).find('.dropdown-menu').stop(true, true).fadeIn(100);
+    }, function() {
+      jQuery(this).find('.dropdown-menu').stop(true, true).fadeOut(100);
+    });
+  </script>
+</body>
 </html>

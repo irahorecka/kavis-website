@@ -206,7 +206,6 @@
     </div>
   </div>
 </div>
-<script src=../../js/photoswipe-multi-gallery.js></script>
 
   </main>
   <footer class="page-footer font-small">
@@ -214,6 +213,14 @@
         <p class="copyright">&copy; Kavis Technology LLC 2021</p>
     </div>
   </footer>
+  <script type="text/javascript">
+    // Fade dropdown display on hover.
+    jQuery('ul.navbar-nav li.dropdown').hover(function() {
+      jQuery(this).find('.dropdown-menu').stop(true, true).fadeIn(100);
+    }, function() {
+      jQuery(this).find('.dropdown-menu').stop(true, true).fadeOut(100);
+    });
+  </script>
 <script type="text/javascript">
   // For gallery slideshow
   $(document).ready(function() {
@@ -238,14 +245,7 @@
     });
   });
 </script>
-<script type="text/javascript" src="../../js/lazy-load.js"></script>
-<script type="text/javascript">
-    // Fade dropdown display on hover.
-    jQuery('ul.navbar-nav li.dropdown').hover(function() {
-      jQuery(this).find('.dropdown-menu').stop(true, true).fadeIn(100);
-    }, function() {
-      jQuery(this).find('.dropdown-menu').stop(true, true).fadeOut(100);
-    });
-  </script>
+<script src=../../js/photoswipe-multi-gallery.js></script>
+<script src="../../js/lazy-load.js"></script>
 </body>
 </html>

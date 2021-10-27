@@ -3,7 +3,7 @@ _template: service-item.html
 title: CNC
 ---
 body:
-<p>Kavis Tech's CNC machining offers multi-axis milling and turning as well as sink and wire EDM, laser engraving, surface grinding, and more. Our facilities house a suite of advanced equipment to achieve our customer's project requirements.</p><p>We ensure complete regulatory compliance of all raw materials, using analytical machines to guarantee high standards of quality. View our <a href="{{ "/photos"|url }}#cnc">photo gallery</a> for more CNC photos.</p><h4>Why CNC?</h4><p>Being a substractive manufacturing process, CNC machining is the ideal candidate for fast prototyping of complex end-use parts with high tolerances. We offer further processing with additional treatments such as plating, anodizing, polishing, and painting.</p>
+<p>Kavis Tech's CNC machining offers multi-axis milling and turning as well as sink and wire EDM, laser engraving, surface grinding, and more. Our facilities house a suite of advanced equipment to achieve our customer's project requirements.</p><p>We ensure complete regulatory compliance of all raw materials, using analytical machines to guarantee high standards of quality.</p><h4>Why CNC?</h4><p>Being a substractive manufacturing process, CNC machining is the ideal candidate for fast prototyping of complex end-use parts with high tolerances. We offer further processing with additional treatments such as plating, anodizing, polishing, and painting. View our <a href="{{ "/photos"|url }}#cnc">photo gallery</a> for more CNC photos.</p>
 ---
 gallery:
 

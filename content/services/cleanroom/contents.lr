@@ -3,7 +3,7 @@ _template: service-item.html
 title: Cleanroom Assembly
 ---
 body:
-<p>We provide cleanroom assembly services in Class 10000 clean room environment.  All the Class 10000 protocol are followed using clean tool.  Finished products are double bagged and vacuum sealed. View our <a href="{{ "/photos"|url }}#cleanroom">photo gallery</a> for more cleanroom assembly photos.</p>
+<p>We provide cleanroom assembly services in Class 10000 clean room environments.  All Class 10000 protocols are followed closely using clean tools, and finished products are double bagged and vacuum sealed. View our <a href="{{ "/photos"|url }}#cleanroom">photo gallery</a> for more cleanroom assembly photos.</p>
 ---
 gallery:
 

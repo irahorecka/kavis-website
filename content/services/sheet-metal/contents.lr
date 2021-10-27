@@ -3,7 +3,7 @@ _template: service-item.html
 title: Sheet Metal
 ---
 body:
-<p>In addition to the conventional sheet metal process like laser cutting / die cutting, folding, welding. We also use a combination of CNC machining and sheet metal machining to create more complex shapes by laser welding of precision CNC parts onto sheet metal parts. View our <a href="{{ "/photos"|url }}#sheet-metal">photo gallery</a> for more sheet metal photos.</p>
+<p>In addition to the conventional sheet metal process like laser / die cutting, folding, and welding, we use a combination of CNC machining and sheet metal machining to create more complex shapes by laser welding precision CNC parts onto sheet metal parts. View our <a href="{{ "/photos"|url }}#sheet-metal">photo gallery</a> for more sheet metal photos.</p>
 ---
 gallery:
 

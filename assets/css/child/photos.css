@@ -24,7 +24,7 @@ main section h1 {
 
 /*===== START desktop =====*/
 
-@media (min-width: 765px) {
+@media (min-width: 768px) {
     /* Hover effect image gallery */
 	.gallery figure:hover {
 		opacity: 0.75 !important;

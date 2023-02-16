@@ -33,4 +33,4 @@ toml==0.10.2
 urllib3==1.26.5
 virtualenv==20.4.6
 watchdog==2.0.2
-Werkzeug==0.16.1
+Werkzeug==2.2.3
